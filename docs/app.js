@@ -565,6 +565,166 @@
     });
     corr.appendChild(body);
     v.appendChild(corr);
+
+    /* 梅花易数 */
+    const HG = window.MG_HEX;
+    const mh = el('div', 'tool');
+    mh.innerHTML = `
+      <h3>梅花易数</h3>
+      <div class="t-sub">报两个数起卦，数数之和定时辰</div>
+      <div class="row2">
+        <input id="mhA" type="number" placeholder="上卦数" value="1" min="1">
+        <input id="mhB" type="number" placeholder="下卦数" value="1" min="1">
+      </div>
+      <button class="btn" id="mhGo">起卦</button>
+      <div id="mhOut"></div>
+    `;
+    v.appendChild(mh);
+    const renderHex = (box, hex, label, moving) => {
+      const lines = hex.bits.map((b, i) => {
+        const mark = moving !== undefined && moving === i ? ' ●' : '';
+        return `<div style="font-family:monospace;font-size:15px;letter-spacing:3px">${b ? '▬▬▬▬▬' : '▬▬ ▬▬'}${mark}</div>`;
+      }).reverse().join('');
+      const yaoText = moving !== undefined && hex.yao[moving] ? `<div class="muted" style="margin-top:8px">动爻：${escapeHTML(hex.yao[moving])}</div>` : '';
+      return `
+        <div style="margin-top:12px;padding:10px;border:1px solid var(--line);border-radius:12px">
+          <div class="muted">${label}</div>
+          <div style="font-size:17px;color:var(--gold-soft);margin:4px 0 8px">${escapeHTML(hex.full)}</div>
+          ${lines}
+          <div style="font-size:12px;line-height:1.7;margin-top:8px;opacity:.85">${escapeHTML((hex.line || '').slice(0, 70))}</div>
+          ${yaoText}
+        </div>`;
+    };
+    mh.querySelector('#mhGo').addEventListener('click', async () => {
+      await HG.load();
+      const a = parseInt(mh.querySelector('#mhA').value || '1', 10);
+      const b = parseInt(mh.querySelector('#mhB').value || '1', 10);
+      const r = HG.meihua(a, b, new Date().getHours());
+      mh.querySelector('#mhOut').innerHTML =
+        `<div class="muted" style="margin-top:10px">动爻：第 ${r.moving + 1} 爻</div>` +
+        renderHex(mh, r.primary, '本卦', r.moving) +
+        renderHex(mh, r.changed, '变卦');
+    });
+
+    /* 六爻 */
+    const ly = el('div', 'tool');
+    ly.innerHTML = `
+      <h3>六爻</h3>
+      <div class="t-sub">三枚钱摇六次，从初爻到上爻</div>
+      <button class="btn" id="lyGo">摇一卦</button>
+      <div id="lyOut"></div>
+    `;
+    v.appendChild(ly);
+    ly.querySelector('#lyGo').addEventListener('click', async () => {
+      await HG.load();
+      const lines = [];
+      for (let i = 0; i < 6; i++) lines.push(HG.tossLine());
+      const r = HG.liuyao(lines);
+      const names = { 6: '老阴', 7: '少阳', 8: '少阴', 9: '老阳' };
+      const list = r.lines.map((v, i) => `<div class="kv" style="font-size:12px"><span class="k">${['初','二','三','四','五','上'][i]}爻</span><span>${names[v]}${v === 6 || v === 9 ? ' ●动' : ''}</span></div>`).join('');
+      ly.querySelector('#lyOut').innerHTML =
+        list +
+        renderHex(ly, r.primary, '本卦', r.moving.length === 1 ? r.moving[0] : undefined) +
+        (r.changed ? renderHex(ly, r.changed, '变卦') : '');
+    });
+
+    /* 万年历 */
+    const T5 = window.MG_TOOLS5;
+    const cal = el('div', 'tool');
+    const now2 = new Date();
+    cal.innerHTML = `
+      <h3>万年历</h3>
+      <div class="t-sub">公历、农历、节气对照</div>
+      <div class="row2">
+        <select id="calY">${Array.from({ length: 21 }, (_, i) => now2.getFullYear() - 10 + i).map((y) => `<option ${y === now2.getFullYear() ? 'selected' : ''}>${y}</option>`).join('')}</select>
+        <select id="calM">${Array.from({ length: 12 }, (_, i) => i + 1).map((m) => `<option ${m === now2.getMonth() + 1 ? 'selected' : ''}>${m}</option>`).join('')}</select>
+      </div>
+      <div id="calOut"></div>
+    `;
+    v.appendChild(cal);
+    const drawCal = () => {
+      const y = +cal.querySelector('#calY').value;
+      const m = +cal.querySelector('#calM').value;
+      const g = T5.monthGrid(y, m);
+      const head = ['日', '一', '二', '三', '四', '五', '六'].map((d) => `<div style="text-align:center;font-size:10px;color:var(--text-dim);padding:4px 0">${d}</div>`).join('');
+      const body = g.cells.map((c) => {
+        if (!c) return '<div></div>';
+        const jq = c.jieqi ? `<div style="font-size:9px;color:var(--gold-soft)">${c.jieqi}</div>` : '';
+        return `<div style="text-align:center;padding:3px 0;border-radius:6px;${c.weekend ? 'background:rgba(201,162,39,.06)' : ''}">
+          <div style="font-size:13px;color:${c.weekend ? 'var(--gold-soft)' : 'var(--text)'}">${c.d}</div>
+          <div style="font-size:9px;color:var(--text-dim)">${c.lunarDay}</div>${jq}</div>`;
+      }).join('');
+      cal.querySelector('#calOut').innerHTML =
+        `<div style="display:grid;grid-template-columns:repeat(7,1fr);gap:2px;margin-top:10px">${head}${body}</div>`;
+    };
+    cal.querySelector('#calY').addEventListener('change', drawCal);
+    cal.querySelector('#calM').addEventListener('change', drawCal);
+    drawCal();
+
+    /* 罗盘 */
+    const cmp = el('div', 'tool');
+    cmp.innerHTML = `
+      <h3>罗盘</h3>
+      <div class="t-sub">手机朝向与二十四山（需要方向传感器）</div>
+      <button class="btn" id="cmpGo">开启罗盘</button>
+      <div id="cmpOut"></div>
+    `;
+    v.appendChild(cmp);
+    cmp.querySelector('#cmpGo').addEventListener('click', () => {
+      const out = cmp.querySelector('#cmpOut');
+      out.innerHTML = '<div class="muted" style="margin-top:10px">正在读方向…</div>';
+      T5.watchCompass((r) => {
+        const deg = r.heading.toFixed(1);
+        out.innerHTML = `
+          <div style="position:relative;width:190px;height:190px;margin:16px auto">
+            <svg viewBox="0 0 200 200" style="width:100%;height:100%;transform:rotate(${-r.heading}deg)">
+              <circle cx="100" cy="100" r="92" fill="none" stroke="#3a3348" stroke-width="1.5"/>
+              <circle cx="100" cy="100" r="70" fill="none" stroke="#3a3348" stroke-width="1"/>
+              ${Array.from({ length: 24 }, (_, i) => {
+                const a = ((i * 15 - 7.5) * Math.PI) / 180;
+                const x1 = 100 + Math.sin(a) * 70, y1 = 100 - Math.cos(a) * 70;
+                const x2 = 100 + Math.sin(a) * 88, y2 = 100 - Math.cos(a) * 88;
+                return `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="#3a3348" stroke-width="1"/>`;
+              }).join('')}
+              <polygon points="100,22 106,100 100,88 94,100" fill="#c9a227"/>
+              <polygon points="100,178 106,100 100,112 94,100" fill="#5a5170"/>
+            </svg>
+          </div>
+          <div style="text-align:center">
+            <div style="font-size:26px;color:var(--gold-soft)">${r.shan} 山</div>
+            <div class="muted">${r.dir} · ${r.bagua}卦 · ${deg}°</div>
+          </div>
+        `;
+      }, (msg) => {
+        out.innerHTML = `<div class="muted" style="margin-top:10px">${escapeHTML(msg)}</div>`;
+      });
+    });
+
+    /* 立极尺 */
+    const lj = el('div', 'tool');
+    lj.innerHTML = `
+      <h3>立极尺</h3>
+      <div class="t-sub">量两处朝向的夹角，判坐向</div>
+      <button class="btn ghost" id="ljA">记第一点</button>
+      <button class="btn ghost" id="ljB" style="margin-top:8px">记第二点</button>
+      <div id="ljOut" class="muted" style="margin-top:10px">还没有读数。站在立极点，分别朝向两处各按一次。</div>
+    `;
+    v.appendChild(lj);
+    let a = null, b = null;
+    const drawLJ = () => {
+      const out = lj.querySelector('#ljOut');
+      if (a == null) return;
+      if (b == null) { out.innerHTML = `第一点：${a.toFixed(1)}°（${T5.shanOf(a)} 山）`; return; }
+      let diff = Math.abs(a - b);
+      if (diff > 180) diff = 360 - diff;
+      out.innerHTML = `
+        <div class="kv"><span class="k">第一点</span><span>${a.toFixed(1)}° · ${T5.shanOf(a)} 山</span></div>
+        <div class="kv"><span class="k">第二点</span><span>${b.toFixed(1)}° · ${T5.shanOf(b)} 山</span></div>
+        <div class="kv"><span class="k">夹角</span><span style="color:var(--gold-soft)">${diff.toFixed(1)}°</span></div>`;
+    };
+    T5.watchCompass((r) => { lj.dataset.cur = r.heading; }, () => {});
+    lj.querySelector('#ljA').addEventListener('click', () => { a = parseFloat(lj.dataset.cur); drawLJ(); });
+    lj.querySelector('#ljB').addEventListener('click', () => { b = parseFloat(lj.dataset.cur); drawLJ(); });
   }
 
   /* ---------------- 视图：我的 ---------------- */
