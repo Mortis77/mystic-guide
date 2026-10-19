@@ -1,0 +1,538 @@
+{
+ "id": "ritual-practice",
+ "name": "日常仪式",
+ "goal": "从零学会一套可独立执行的简单仪式：净化与净手净坛、画圆与定方位、道具圣化、按择时组合成一次完整操作，并留下记录。只做净化、圣化与日常仪式，不含蜡烛魔法与召唤交涉。约束：每周 3-6 小时（与另外三门共享），讲法先流程后原理，验收载体为物理实操清单。",
+ "status": "暂停",
+ "total_units": 10,
+ "units": [
+  {
+   "id": "intro-purify-consecrate",
+   "seq": 1,
+   "title": "两盆水，两件事",
+   "kind": "概念",
+   "goal": "能在《大钥匙》卷二里指出净化与圣化各自的位置，说明两者的对象与先后。",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "第一次翻开《所罗门大钥匙》卷二的人，多半会在同一批词上停住。准备阶段的水要「净」，人也要「净」；到了器具那几章，另一批动作又被写成「圣化」「祝圣」「开光」。中文资料里这些词互相替代，读起来像在说同一件事，落到操作上却分成两处：一处发生在动手之前，一处发生在那件东西做好之后。本节以卷二里两段相邻的条文开场，把这两处的位置定下来，再说明本科往后的每一步挂在哪一处。"
+    },
+    {
+     "type": "h2",
+     "html": "中译本混用的两个词"
+    },
+    {
+     "type": "p",
+     "html": "中文资料与译本里，purification 这一类动作被写成净化、洁净、净手、清场；consecration 这一类被写成圣化、祝圣、开光、奉献。同一段条文，两位译者可能给出两组词；同一本书内，前后两章也可能不统一。读到「先净手」「再开光」这样的短句时，读者很难判断说的人是按哪一组意思在用。"
+    },
+    {
+     "type": "p",
+     "html": "本科把用词固定下来：<strong>净化</strong>（purification）与<strong>圣化</strong>（consecration）。这两个词的意思与边界以「科目术语表」为准；抄写中译原句时原文照抄，自己写正文、记笔记、填操作清单时一律用这两个词。"
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "抄引文与写作业是两件事",
+     "html": "<p>从中译本抄一段原句，照抄它原本的写法；同一句话在自己的记录里复述，换成术语表的两个词。两处写法不一致时，以术语表为准。</p>",
+     "steps": []
+    },
+    {
+     "type": "quiz",
+     "anchor": "中译里两个词的混用",
+     "questions": [
+      {
+       "q": "同一段操作，甲译本写「先净手，再对戒指作奉献」，\n乙译本写「先洁净双手，再给戒环开光」。\n按本科的用词口径，你记笔记时怎么写？",
+       "opts": [
+        "照抄甲译本的用词，因为奉献一词更接近原义",
+        "照抄乙译本的用词，因为开光一词在中文里更常见",
+        "统一写成净化与圣化，抄引文时才照抄原句",
+        "两套词都留着，写到哪里顺手就用哪一套"
+       ],
+       "ans": 2,
+       "why": "本科把用词固定成净化与圣化：自己写正文、记笔记、填操作清单\n一律用这两个词，抄中译原句时才照抄它原本的写法。\n两套词混着用，位置与对象跟着混。"
+      },
+      {
+       "q": "一份中文教程里写着「先把戒指开光，再净手进场」。\n按本课的两条判据拆开这句话。\n\n① 戒指那一步动的是什么，属于哪一件事？\n② 净手属于哪一件事？\n③ 这句话的次序排成了什么，应该改成什么？",
+       "answer": "① 戒指那一步动的是要献出去的那件东西，\n做完之后它要拿到该有的功效。这属于圣化。\n② 净手动的是操作者本身，目的是去掉身上的杂染。\n这属于净化。\n③ 它把圣化排在了净化之前，等于人还没净过、\n东西就已经献了出去。\n应改成先净化（净手、净坛），再对戒指做圣化。",
+       "criteria": "① 与 ② 各自认对对象，并落到正确的两件事上。\n戒指属于圣化，净手属于净化，两条都要对。\n③ 说出「圣化被排在净化之前」这个颠倒，\n并给出正确次序（净化在前、圣化在后）。\n只答「顺序反了」、说不出哪步归哪件事的算部分通过。\n把开光当成净化的加强版、多洗几遍更干净的按不通过。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "两段相邻的规矩"
+    },
+    {
+     "type": "p",
+     "html": "卷二按操作要素分章：第 5 章论沐浴，第 7 章论场地，第 8 章论刀、剑、杖、竿一类器具，第 11 章论水与牛膝草。章的序号与内容对照另有一页速查（链接见文末）。下面两段分别出自水和器具两处，先看它们各自要求做什么。"
+    },
+    {
+     "type": "p",
+     "html": "第一段讲沐浴，动的是水与人（第 5 章）。脱衣时念诗篇；入水时对水说一段话，其中一句是 <em>I exorcise thee, O creature of Water … that thou cast out from thee all the impurities and uncleannesses of the spirits of the World of Phantasm</em>，意思是请这水把灵界那些不洁净的东西排出去。洗到洁净之后出浴，再用处理过的水洒身，同时说 <em>Purge me, O Lord, with hyssop, and I shall be clean</em>，意思是洗净我，我便洁净。"
+    },
+    {
+     "type": "p",
+     "html": "同一卷里，盐也要经过一道处理：第 11 章给的原话是 <em>deign to bless and sanctify this creature of salt, to serve unto us for help, protection, and assistance in this art</em>，意思是请赐福并圣化这受造的盐，让它在这门术里成为我们的帮助、庇护与助力。第 11 章开头还规定，凡要用洒水的场合，都用水器洒（<em>it should be done with a sprinkler</em>）。"
+    },
+    {
+     "type": "p",
+     "html": "第二段动的是器具（第 8 章）。杖与竿按行星日与行星时制作，上面刻字符；做好之后熏香，再念一句话：<em>ADONAI, most holy, EL, most strong, deign to bless and to consecrate this wand, and this staff, that they may obtain the necessary virtue</em>，意思是求你把该有的功效赐给这根杖与竿。念完这句，条文给的下一步是把它收在洁净处备用（<em>put them aside in a pure and clean place for use when required</em>）；器具的包裹与收存另见第 20 章。"
+    },
+    {
+     "type": "p",
+     "html": "两段放在一起，每样东西在条文里都占两格：先做什么，后做什么。"
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th>对象</th><th>先做</th><th>后做</th><th>出处</th></tr></thead><tbody><tr><td>水</td><td>对它说驱邪的话</td><td>用于沐浴、洒身、洒坛</td><td>卷二 ch.5、ch.11</td></tr><tr><td>盐</td><td>对它说祝福并圣化的话</td><td>溶入清水备用</td><td>卷二 ch.11</td></tr><tr><td>操作者</td><td>在流水或备好的温水里洗浴</td><td>用处理过的水洒身，穿上白衣</td><td>卷二 ch.5</td></tr><tr><td>场地</td><td>亲手清扫干净</td><td>熏香，再用水器洒水</td><td>卷二 ch.7</td></tr><tr><td>器具</td><td>按行星日时制作并刻字符，熏香</td><td>念献出的话，收在洁净处备用</td><td>卷二 ch.8</td></tr></tbody></table>"
+    },
+    {
+     "type": "quiz",
+     "anchor": "沐浴与洒水在条文里的先后",
+     "questions": [
+      {
+       "q": "《大钥匙》卷二第 5 章讲沐浴。\n这几步里哪两项与条文一致？",
+       "opts": [
+        "先入水沐浴，洗完再对水说驱邪的话",
+        "对水说驱邪的话在前，入水沐浴在后",
+        "出浴后的洒身属于圣化那一步的动作",
+        "洒身与洒坛都用水器来洒，不用手泼"
+       ],
+       "ans": 1,
+       "why": "入水时先对水说那段话，洗到洁净才出浴；\n洒水一律用水器（原文 it should be done with a sprinkler，\n意思是应当用水器来洒），出浴后的洒身仍属净化。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "除去与献出"
+    },
+    {
+     "type": "p",
+     "html": "把表里两列的动作分别归到一起，两个词的意思就出来了。"
+    },
+    {
+     "type": "p",
+     "html": "<strong>净化</strong>出自拉丁 purificatio，由 purus（纯净）与 facere（使）合成，本义为使某物变纯净。本科的定义：操作前清掉自身与场地上的杂染，常见手段是水净、烟熏、盐或素盐；它发生在操作之前。"
+    },
+    {
+     "type": "p",
+     "html": "<strong>圣化</strong>出自拉丁 consecratio，由 con-（加强）与 sacrare（使神圣，源自 sacer 神圣）合成，本义为使某物归入神圣。本科的定义：把一件物件献给对应行星或神名的流程，含祈祷、熏香、时辰认定等环节；它把已经做好的东西变成能用的东西。"
+    },
+    {
+     "type": "p",
+     "html": "两者的分界可以从两处判断："
+    },
+    {
+     "type": "ul",
+     "html": "<ul><li>动的对象是谁。净化动的是操作者、场地与用具；圣化动的是那件要献出去的东西。</li><li>做完之后得到什么。净化做完，人与场地是干净的；圣化做完，那件东西拿到它该有的功效（条文的说法是 <em>obtain the necessary virtue</em>）。</li></ul>"
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th></th><th>净化 purification</th><th>圣化 consecration</th></tr></thead><tbody><tr><td>位置</td><td>操作之前</td><td>那件东西做好之后、在操作里使用之前</td></tr><tr><td>对象</td><td>操作者、场地、用具</td><td>要献出的那件东西</td></tr><tr><td>手段</td><td>沐浴、清扫、洒水、烟熏、盐</td><td>择定日时、祈祷、熏香</td></tr><tr><td>结果</td><td>杂染被除去，人与场地干净</td><td>物件获得它应有的功效</td></tr></tbody></table>"
+    },
+    {
+     "type": "note",
+     "tone": "warn",
+     "title": "顺序做反的一处",
+     "html": "<p>中文教程里能见到「先把戒指开光，再净手进场」一类写法。把这句话按上面的两处判据拆开：戒指的奉献属于圣化，净手属于净化；两件事各有位置，先做圣化再做净化，就是在人还没净过的状态下做奉献那一步。</p>",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "同一个词也会落到别的对象上",
+     "html": "<p>卷二第 7 章讲场地时写的是 <em>purified and consecrated with the necessary ceremonies</em>，场地既被净化也被圣化；第 8 章的器具在仪式里使用之前又要被洒水与熏香。判断一步属于哪件事，看它动的是什么、要得到什么结果，词本身不足为凭。</p>",
+     "steps": []
+    },
+    {
+     "type": "svg",
+     "svg": "<svg viewBox=\"0 0 700 200\" role=\"img\" aria-hidden=\"true\">\n  <line x1=\"40\" y1=\"90\" x2=\"660\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.35\"/>\n  <circle cx=\"60\" cy=\"90\" r=\"7\" fill=\"currentColor\"/>\n  <circle cx=\"200\" cy=\"90\" r=\"7\" fill=\"currentColor\"/>\n  <circle cx=\"340\" cy=\"90\" r=\"7\" fill=\"currentColor\"/>\n  <circle cx=\"480\" cy=\"90\" r=\"7\" fill=\"currentColor\"/>\n  <circle cx=\"620\" cy=\"90\" r=\"7\" fill=\"currentColor\"/>\n  <text x=\"60\" y=\"64\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">择时</text>\n  <text x=\"200\" y=\"64\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">净化</text>\n  <text x=\"340\" y=\"64\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">画圆</text>\n  <text x=\"480\" y=\"64\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">圣化</text>\n  <text x=\"620\" y=\"64\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">收束</text>\n  <text x=\"60\" y=\"122\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.65\" text-anchor=\"middle\">按规则挑</text>\n  <text x=\"200\" y=\"122\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.65\" text-anchor=\"middle\">净手 · 净坛</text>\n  <text x=\"340\" y=\"122\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.65\" text-anchor=\"middle\">定四个方位</text>\n  <text x=\"480\" y=\"122\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.65\" text-anchor=\"middle\">献出那件东西</text>\n  <text x=\"620\" y=\"122\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.65\" text-anchor=\"middle\">送离 · 记录</text>\n  <text x=\"350\" y=\"172\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">本课定的是第二格与第四格的先后</text>\n</svg>",
+     "alt": "一条从左到右的时间线，依次标出择时、净化、画圆、圣化、收束五个位置"
+    },
+    {
+     "type": "quiz",
+     "anchor": "净化与圣化各管什么",
+     "questions": [
+      {
+       "q": "第 11 章先请神祝福并圣化盐，再把它溶入清水备用。\n（原文 deign to bless and sanctify this creature of salt，\n意思是请赐福并圣化这受造的盐。）\n这一步为什么归圣化？",
+       "opts": [
+        "因为它让盐本身变干净，好拿来做后面的净化",
+        "因为盐先被献给神名取得功效，才拿去洒水净化",
+        "因为盐是操作者要用的东西，属操作前清理杂染",
+        "因为盐溶进清水之后就不再是原来那件东西了"
+       ],
+       "ans": 1,
+       "why": "判据看动的对象与做完得到什么：\n盐被祈祷、被熏香之后获得它该有的功效，这是圣化；\n它随后才被拿去当洒水的手段。\n第一步是盐被献出，不是盐被洗净。"
+      },
+      {
+       "q": "净化与圣化的分界，本课给了两条判据。\n把两条判据各写成一句话，并各配一个例子。",
+       "answer": "判据一 动的对象是谁：净化动的是操作者、场地与用具；\n圣化动的是那件要献出去的东西。\n例：沐浴与洒身动的是人（第 5 章）；\n对杖与竿念那句话动的是那两件器具（第 8 章）。\n\n判据二 做完之后得到什么：\n净化做完，杂染被除去，人与场地干净；\n圣化做完，那件东西拿到它该有的功效。\n例：洒水之后场地干净了；\n杖与竿拿到功效后收在洁净处备用。",
+       "criteria": "两条判据都要写到：对象（人、场地、用具 对 要献出的东西）、\n结果（杂染除去、人与场地干净 对 物件获得该有的功效）。\n每条判据各有一个例子，例子要对得上它说明的那一条。\n只写「一个在前一个在后」当分界的算部分通过，\n那是位置不是分界；把圣化说成更彻底的净化的按不通过。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "次序不能颠倒"
+    },
+    {
+     "type": "p",
+     "html": "把两段规矩按卷二的次序排一遍，得到的是一条链：操作者先沐浴（第 5 章），场地再清扫、熏香、洒水（第 7 章），圆在这个场地上画（第 9 章），器具在按行星日时做好、刻过字符之后被熏香并献出（第 8 章）。"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg viewBox=\"0 0 700 250\" role=\"img\" aria-hidden=\"true\">\n  <text x=\"96\" y=\"85\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"end\">水</text>\n  <rect x=\"110\" y=\"58\" width=\"180\" height=\"44\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.45\"/>\n  <text x=\"200\" y=\"85\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">先驱邪</text>\n  <line x1=\"290\" y1=\"80\" x2=\"304\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/>\n  <polygon points=\"304,75 314,80 304,85\" fill=\"currentColor\" opacity=\"0.5\"/>\n  <rect x=\"310\" y=\"58\" width=\"180\" height=\"44\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.45\"/>\n  <text x=\"400\" y=\"85\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">沐浴净身</text>\n  <line x1=\"490\" y1=\"80\" x2=\"504\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/>\n  <polygon points=\"504,75 514,80 504,85\" fill=\"currentColor\" opacity=\"0.5\"/>\n  <rect x=\"510\" y=\"58\" width=\"180\" height=\"44\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.45\"/>\n  <text x=\"600\" y=\"85\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">洒坛净场</text>\n  <text x=\"96\" y=\"155\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"end\">盐</text>\n  <rect x=\"110\" y=\"128\" width=\"180\" height=\"44\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.45\"/>\n  <text x=\"200\" y=\"155\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">先祝福并圣化</text>\n  <line x1=\"290\" y1=\"150\" x2=\"304\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/>\n  <polygon points=\"304,145 314,150 304,155\" fill=\"currentColor\" opacity=\"0.5\"/>\n  <rect x=\"310\" y=\"128\" width=\"180\" height=\"44\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.45\"/>\n  <text x=\"400\" y=\"155\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">溶入清水</text>\n  <line x1=\"490\" y1=\"150\" x2=\"504\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/>\n  <polygon points=\"504,145 514,150 504,155\" fill=\"currentColor\" opacity=\"0.5\"/>\n  <rect x=\"510\" y=\"128\" width=\"180\" height=\"44\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.45\"/>\n  <text x=\"600\" y=\"155\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">洒坛净场</text>\n  <text x=\"96\" y=\"225\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"end\">器物</text>\n  <rect x=\"110\" y=\"198\" width=\"180\" height=\"44\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.45\"/>\n  <text x=\"200\" y=\"225\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">按日时做好</text>\n  <line x1=\"290\" y1=\"220\" x2=\"304\" y2=\"220\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/>\n  <polygon points=\"304,215 314,220 304,225\" fill=\"currentColor\" opacity=\"0.5\"/>\n  <rect x=\"310\" y=\"198\" width=\"180\" height=\"44\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.45\"/>\n  <text x=\"400\" y=\"225\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">熏香</text>\n  <line x1=\"490\" y1=\"220\" x2=\"504\" y2=\"220\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/>\n  <polygon points=\"504,215 514,220 504,225\" fill=\"currentColor\" opacity=\"0.5\"/>\n  <rect x=\"510\" y=\"198\" width=\"180\" height=\"44\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.45\"/>\n  <text x=\"600\" y=\"225\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">圣化并收存</text>\n</svg>",
+     "alt": "三行处理链，水与盐在用于净化之前先被处理，器物在做好之后才被献出"
+    },
+    {
+     "type": "p",
+     "html": "链上每一处都在做同一类判断：这一步动的是人、场地与用具，还是那件要献出的东西。次序颠倒的后果是具体的——那件东西被献出时，握着它的人与它所在的场地还没净过，卷二把器具条文放在沐浴与场地之后，这一层落空。第 13 章把操作者的行为规矩单列一章（<em>Concerning the precepts of the art</em>），要核这一条时从那里入手。"
+    },
+    {
+     "type": "quiz",
+     "anchor": "顺序做反的一处",
+     "questions": [
+      {
+       "q": "一份中文教程给的流程如下，请找出排错的地方。\n\n```text\n1. 取银戒一枚，念祈祷文把它献出去，收好\n2. 净手，再用处理过的水洒坛\n3. 入场，开始当天的操作\n```\n\n① 哪一步排错了？它违反的是哪一条分界？\n② 按卷二给的两处位置，正确次序是什么？\n③ 下次拿到一份新教程，怎么先自检一遍？",
+       "answer": "① 第 1 步（献戒指）与第 2 步（净手、洒坛）排反了：\n献戒指属于圣化，净手洒坛属于净化。\n违反的是「净化在操作之前、圣化在东西做好之后」。\n人还没净过，东西已经献了出去。\n② 先净化（净手、净坛），再画圆定方位，\n然后对戒指做圣化，最后才入场操作。\n③ 逐步过两条判据：这一步动的是人、场地、用具，\n还是那件要献出的东西；\n做完得到的是干净还是该有的功效。\n对不上位置的那一步就是排错的。",
+       "criteria": "① 指出献戒指与净手洒坛的次序颠倒，\n并把它接到「净化在前、圣化在后」这条分界上；\n只说「步骤反了」、不指出违背哪条分界的算部分通过。\n② 给出正确次序：净化 → 画圆定方位 → 圣化 → 入场。\n③ 说出可复用的自检办法：两条判据加核对出处，\n两样都提到才算通过。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "这门课要交的东西"
+    },
+    {
+     "type": "p",
+     "html": "本科的验收载体是一份物理实操清单：不看教程，独立走完一次操作，交照片、步骤记录与每一步的出处。整条链从净手净坛起，经画圆定方位、对一件道具圣化，到按择时把前面几段组合成一次完整操作、收束并留下可复现的记录，中间两次实验各验一段。"
+    },
+    {
+     "type": "p",
+     "html": "依赖落在另一门课上：行星日、行星时与月相判据在「西方仪式魔法通识」里学，本科只用到结论。"
+    },
+    {
+     "type": "p",
+     "html": "本节是这条链的第一站。两处位置定下来之后，净化才有地方放人、场地与用具三样东西，圣化才有对象可指；下一节把净化拆成净手与净坛两处，按条文走一遍并逐步记依据。"
+    },
+    {
+     "type": "note",
+     "tone": "tip",
+     "title": "本节不用动手",
+     "html": "<p>本节以讲为主。两段条文看明白各自管什么就够了，不必备水，也不必记住祈祷文——那一段留到下一节点再逐句抄。</p>",
+     "steps": []
+    },
+    {
+     "type": "quiz",
+     "anchor": "给自己的操作排一处次序",
+     "questions": [
+      {
+       "q": "本科最后要交的是一次完整操作。为一轮操作排一次次序，\n把择时、净化、画圆、圣化、收束各放一处。\n\n① 写出这条次序，每处标出它动的是什么对象。\n② 用本课的两个词归类：哪一步属于净化、哪一步属于圣化？\n③ 有没有哪一步的对象不止一个？\n说一处，并说明它为什么算那一类。",
+       "answer": "① 择时 → 净化（净手、净坛）→ 画圆定方位 → 圣化 → 收束。\n对象依次是：时辰；操作者与场地；场地；那件道具；场地与用具。\n② 净化那一步归净化，圣化那一步归圣化。\n其余三步不归这两类：择时挑时辰、画圆定界线、收束是结束动作。\n③ 有。净化一步的对象是操作者与场地两样，\n净手动人、净坛动场地。\n圣化那一步表面上动水与盐，其实它们先被献出，\n才拿去洒水，所以归圣化。",
+       "criteria": "① 次序里择时在最前、收束在最后，\n净化在画圆之前、圣化在画圆之后，每步都标了对象。\n② 归类正确：净化一步归净化、圣化一步归圣化，\n并且没把择时、画圆、收束硬塞进这两类。\n③ 指出一处对象不止一个的环节，并说明按哪条判据归的类。\n次序全对但归类只答一半的算部分通过；\n把净手排到圣化之后的按不通过。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "在原文里找出三处动作"
+    },
+    {
+     "type": "note",
+     "tone": "practice",
+     "title": "练习 | 三条条文里的动作词",
+     "html": "<p>打开卷二英译（链接见文末），按下面三步各找一处，每步抄一句原文就够。</p><p>2. 在第 11 章里找出对盐说的那句话，抄下其中两个并列的动词。</p><p>3. 在第 8 章里找出给杖与竿念的那句话，抄下它请求得到什么。</p><p>三句抄完，按对象记一张两列的小表：对象、这句话要它变成什么样。填完对照前面那张对照表，看三句话各自落在净化还是圣化那一栏。</p>",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "resources",
+     "html": "",
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": "purification-steps",
+   "seq": 2,
+   "title": "净手与净坛的次序",
+   "kind": "实操",
+   "goal": "能按文献次序做完一次净手与净坛，并在每一步旁写清它出自哪一章。",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "上一节把净化定在操作之前、动的对象是人与场地。真正动手时，这两处并不是一起做完的：人的部分按沐浴那一章的条目走，场地的部分按场地那一章走，两边各自有自己的步骤序列，用的水也不是同一份。本节先把这两条链拆开摆出来，再交代每一步的文献坐标，最后按这条链走一遍并逐步记依据。"
+    },
+    {
+     "type": "h2",
+     "html": "三条路线，两个部位"
+    },
+    {
+     "type": "p",
+     "html": "净化的手段在文献里不止一种，常见的是三条路线，每条在一卷里各有自己的章号坐标。"
+    },
+    {
+     "type": "ul",
+     "html": "<ul><li>水：以水洗身与洒水。净手的底本在卷二第 5 章（沐浴），净坛用的水在第 11 章（水与牛膝草）。</li><li>盐：盐先经受一道处理，再溶入清水，得到用于洒的水。坐标在卷二第 11 章，同一段祷文在《洪诺留宣誓书》第 137 章第 20 至 22 节被复用。</li><li>烟熏：点燃炭火、投香料生烟。专章是卷二第 10 章；《七天之书》第 5、6 章给了另一套熏香与火的祝词；配方按行星分列在 Agrippa 卷一第 43、44 章。</li></ul>"
+    },
+    {
+     "type": "p",
+     "html": "三条路线要分派到两个部位上。<strong>净手</strong>针对操作者，用浴水洗身、出浴后洒身；<strong>净坛</strong>针对场地，做清扫、熏香、洒水三件事。部位不同，依据的章号也不同。本节要记的落在两样东西上：每条路线在哪几章，以及每一步旁边那一行章号。"
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "净坛与素盐",
+     "html": "<p>「净坛」是对着场地做的净化，文献里写作 places 或 circle 的 cleansed 与 purified，没有与「净坛」一一对应的词，本节用它是为了把部位说清。</p><p>「素盐」指未经处理的普通盐，也是教学用语。文献里的盐要先用一段话处理过、取得功效才拿去用；素盐只是这道工序之前原料的名字，用词以术语表为准。</p>",
+     "steps": []
+    },
+    {
+     "type": "quiz",
+     "anchor": "净化的三条路线与两个部位",
+     "questions": [
+      {
+       "q": "把三条路线各说到两个部位上，下面哪两种说法在文献里站得住？\n\n① 水可以两处都用：净手用一套、净坛另备一套\n② 盐本身就是一条独立的路线，对着素盐念一段话就等于净过\n③ 烟熏只有净坛这一处用它\n④ 净坛按卷二第 7 章做三件事：清扫、熏香、洒水",
+       "opts": [
+        "①与②",
+        "①与④",
+        "②与③",
+        "③与④"
+       ],
+       "ans": 1,
+       "why": "水在两处各有一格坐标：净手那条在卷二第 5 章，\n净坛那条在第 11 章，两章的水不是同一份。\n盐不是独立路线：它先按第 11 章那一段取得功效，\n再溶进水里，用于洒水。\n烟熏不只是净坛那一处：第 10 章也用它处理香品本身。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "净手：沐浴章的六步"
+    },
+    {
+     "type": "p",
+     "html": "第 5 章的开头先给水的来源：到河边或流动的水里去，或者在私室里备一大盆温水。随后是一串动作，次序在原文里是写死的，一步接一步。"
+    },
+    {
+     "type": "ol",
+     "html": "<ol><li>脱衣时念诗篇。原文列出了五首，开头第一首是 <strong>Dominus illuminatio mea</strong>（主是我的亮光）。</li><li>完全脱去衣物后进入水中，对水说那段驱邪的话：<strong>I exorcise thee, O creature of Water,</strong> 一直到 <strong>that thou cast out from thee all the impurities and uncleannesses of the spirits of the World of Phantasm</strong>。这段话要它把杂染从水里排出去。</li><li>在水中彻底洗净，同时重复一串神名（原文标作 <strong>MORBALIA, MUSALIA, DAPHALIA</strong> 等），念两到三遍，直到洗洁净为止。</li><li>洗毕出浴，用处理过的水洒身，说 <strong>Purge me, O Lord, with hyssop, and I shall be clean</strong>（洗净我，我便洁净）。</li><li>按原文的办法取盐并处理它：<strong>The blessing of the Father Almighty be upon this creature of salt</strong>，随后在盐上念 <strong>Benedicite omnia opera Domini Domino</strong>。这一步做完，取香料与处理过的盐投入浴水中，再入水一次，念 <strong>Benedic anima mea Domino</strong> 等两首。</li><li>再次出浴，穿上洁净的白色麻衣，在其上再套上艺术之衣，然后去做后面的事。</li></ol>"
+    },
+    {
+     "type": "p",
+     "html": "这六步里有两处最容易做漏。一是第 4 步的洒身：它跟在出浴之后，是一格独立的动作，用处理过的水洒，位置放在洗浴那一格之后。二是第 5 步的盐与香料：盐要先单独处理，再投入水中，这一次入水是这条链的收尾；顺序反过来，或者干脆洗身时顺带撒一把，盐都拿不到那段话给它要的东西。"
+    },
+    {
+     "type": "note",
+     "tone": "tip",
+     "title": "手上中译的用法",
+     "html": "<p>第 5 章整章的条目在手上中译里都在，逐句抄原文时照它原本的写法抄；自己写步骤记录时把它归到「净手」这一格，用术语表的词。</p>",
+     "steps": []
+    },
+    {
+     "type": "quiz",
+     "anchor": "沐浴章里的两步洒水",
+     "questions": [
+      {
+       "q": "一份手记把沐浴的六步按动作记成下面这七行，漏了两件事。\n\n```text\n1. 脱衣，边脱边念诗篇，第一首 Dominus illuminatio mea\n2. 入水前对水说驱邪的话\n3. 在水中洗净，同时重复一串神名，念两到三遍\n4. 取盐并按原文处理它\n5. 把香料与处理过的盐投入浴水，再入水一次\n6. 再出浴，穿洁净的白色麻衣\n7. 在麻衣外再套上艺术之衣\n```\n\n① 漏掉的一件事是一格独立动作，它应排在第几步之后？\n② 漏掉的另一件事关系到取盐那一步的位置，原序里它紧跟哪个动作？\n③ 两处各说一句：漏掉之后这一步拿不到什么？",
+       "answer": "① 漏掉的是出浴后的洒身：用处理过的水洒身，\n同时说 Purge me, O Lord, with hyssop。\n它是独立一格，位置在洗浴那一格之后、取盐之前，\n也就是这份手记的第 3 行与第 4 行之间。\n② 取盐要单独先处理：先对盐说 The blessing of the Father\nAlmighty，再在盐上念 Benedicite omnia opera Domini Domino；\n料理完才与香料一起投入浴水。\n所以它紧跟洗净那一格之后，不是与洗身合做。\n③ 漏掉洒身：出浴之后那句洗净的宣告没有落下，\n身上也没经过处理过的水。\n把取盐挪位或省掉：盐拿不到那段话给它的东西，\n第二次入水用的水也不是原文要的那一份。",
+       "criteria": "① 指出洒身是与洗浴分开的一格，位置在洗浴之后、取盐之前，\n不是洗身时顺带做的。\n② 指出取盐先单独处理（对盐说话、念诗篇），再与香料一起投入浴水，\n第二次入水是这条链的收尾。\n③ 两处各说一条后果：洒身漏掉则缺那句宣告；\n取盐挪位或省掉则盐与水都拿不到原文要的效力。\n只答对洒身的位置一处、或只说步骤名称不说位置的算部分通过；\n把洒身归成圣化动作、或把盐当成洗身时顺带撒一把的按不通过。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "两种水，各管一处"
+    },
+    {
+     "type": "p",
+     "html": "第 5 章与第 11 章都讲水，两章的水不是同一份，用途也不同。这一处混起来，净坛就会拿洗过身的水去洒。"
+    },
+    {
+     "type": "p",
+     "html": "净手用的水出自第 5 章：进入水中时说那段驱邪的话，水因此把灵界的不洁净排出去，用于洗身。这一段里还没出现盐。"
+    },
+    {
+     "type": "p",
+     "html": "净坛用的水出自第 11 章：先备一个锡制或土制的器皿，装满清澄的泉水，再对盐说 <strong>TZABAOTH, MESSIACH, NGHIMANUEL, ELOYN GIBOR, JEHOVAH</strong> 那一段，请它在这门术里成为帮助、庇护与助力；随后把盐投入盛水的器皿，念四首诗篇——诗篇 101、53、6、50，也就是中文常用的第 102、54、6、51 篇。第 11 章开头还有一句规定：凡要用洒水的场合都用水器洒，不用手泼。"
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th></th><th>净手用的水（ch.5）</th><th>净坛用的水（ch.11）</th></tr></thead><tbody><tr><td>准备</td><td>河水或私室里的温水</td><td>锡制或土制的器皿，装满清澄泉水</td></tr><tr><td>对它说什么</td><td>一段驱邪的话，要它排出杂染</td><td>先对盐说一段，再把盐投入水中</td></tr><tr><td>里面有没有盐</td><td>洗身那一格里没有；第二次入水时另投</td><td>有，投入的就是处理过的盐</td></tr><tr><td>之后念什么</td><td>洗净时重复一串神名</td><td>投入盐之后念四首诗篇</td></tr><tr><td>用在哪一处</td><td>洗身、出浴后洒身</td><td>净坛的洒水，以及器具的洒净</td></tr><tr><td>出处</td><td>卷二 ch.5</td><td>卷二 ch.11</td></tr></tbody></table>"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg viewBox=\"0 0 700 330\" role=\"img\" aria-hidden=\"true\">\n  <rect x=\"40\" y=\"40\" width=\"280\" height=\"250\" rx=\"10\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.45\"/>\n  <text x=\"180\" y=\"70\" font-size=\"17\" fill=\"currentColor\" text-anchor=\"middle\">洗身用的水</text>\n  <text x=\"180\" y=\"94\" font-size=\"16\" fill=\"currentColor\" opacity=\"0.7\" text-anchor=\"middle\">卷二 ch.5</text>\n  <line x1=\"70\" y1=\"110\" x2=\"290\" y2=\"110\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.25\"/>\n  <text x=\"70\" y=\"140\" font-size=\"16\" fill=\"currentColor\">河水或备好的温水</text>\n  <text x=\"70\" y=\"172\" font-size=\"16\" fill=\"currentColor\">入水时说驱邪的话</text>\n  <text x=\"70\" y=\"204\" font-size=\"16\" fill=\"currentColor\">洗净时重复神名</text>\n  <text x=\"70\" y=\"236\" font-size=\"16\" fill=\"currentColor\">出浴后洒身</text>\n  <text x=\"70\" y=\"268\" font-size=\"16\" fill=\"currentColor\" opacity=\"0.7\">用于：洗身</text>\n  <rect x=\"380\" y=\"40\" width=\"280\" height=\"250\" rx=\"10\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.45\"/>\n  <text x=\"520\" y=\"70\" font-size=\"17\" fill=\"currentColor\" text-anchor=\"middle\">净坛用的水</text>\n  <text x=\"520\" y=\"94\" font-size=\"16\" fill=\"currentColor\" opacity=\"0.7\" text-anchor=\"middle\">卷二 ch.11</text>\n  <line x1=\"410\" y1=\"110\" x2=\"630\" y2=\"110\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.25\"/>\n  <text x=\"410\" y=\"140\" font-size=\"16\" fill=\"currentColor\">器皿装满清澄泉水</text>\n  <text x=\"410\" y=\"172\" font-size=\"16\" fill=\"currentColor\">先对盐说话</text>\n  <text x=\"410\" y=\"204\" font-size=\"16\" fill=\"currentColor\">再把盐投入水中</text>\n  <text x=\"410\" y=\"236\" font-size=\"16\" fill=\"currentColor\">念四首诗篇</text>\n  <text x=\"410\" y=\"268\" font-size=\"16\" fill=\"currentColor\" opacity=\"0.7\">用于：净坛洒水</text>\n  <text x=\"350\" y=\"318\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">两份水都叫水，坐标与去处各是一格</text>\n</svg>",
+     "alt": "左右并列的两份水，左侧是洗身用的水，右侧是净坛用的水，各自标出准备方式、加入的东西与用途"
+    },
+    {
+     "type": "quiz",
+     "anchor": "两份水的准备与用途",
+     "questions": [
+      {
+       "q": "一份写在卡片上的净坛流程如下，请找出三处错。\n\n```text\n1. 取洁净器皿，装满清澄泉水\n2. 对素盐念四首诗篇，再把它投入水中\n3. 取新火并点燃，先投香，再对火念两段话\n4. 亲手把场地扫净，同时念三首诗篇\n5. 用手蘸水，向场地四处泼洒\n6. 之后每次走到场地，都在路上洒一次水\n```\n\n① 三处错各是哪一步，错在哪？\n② 修正之后净坛那三件的次序是什么？\n③ 这份卡片最容易反复犯的一条自检办法是什么？",
+       "answer": "① 三处错：\n第 2 步两处都错——四首诗篇是投入盐之后念的，\n而盐要先处理过才投，素盐不能直接进水。\n第 3 步投香与对火说话排反了：原文先对火念两段话，\n再把香料放到火上的香炉里。\n第 5 步洒水的方式错了：原文规定凡洒水都用水器来洒，不用手泼。\n② 净坛三件按第 7 章排：清扫 → 熏香 → 洒水。\n熏香内部是先对火说话、再投香；洒水用水器洒。\n③ 自检办法：每一步回头对一次章号——这一步用的是第 5 章的水\n还是第 11 章的水、念的话出在哪一章、洒水是用手还是用水器。\n写不出章号的那一步就是错的。",
+       "criteria": "① 三处都点到：盐未处理就投（且四首诗篇的位置错）、\n投香与对火说话次序反了、用手泼洒而非用水器。\n② 修正后净坛三件是清扫 → 熏香 → 洒水，\n且熏香内部先对火说话再投香，洒水用水器。\n③ 说出可复用的自检：逐步核章号（水出自第 5 章还是第 11 章、\n洒水一律用水器）。\n三处只找出两处的算部分通过；\n把「用手」当成可行的替换、或把四首诗篇挪到投盐之前的按不通过。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "净坛：清扫、熏香、洒水"
+    },
+    {
+     "type": "p",
+     "html": "第 7 章先讲挑地方：僻静、远离人居的地方最好，湖畔、林边、旧屋、山洞、园子都算，四路交叉的路口与十字路尤其合适；若这些地方都不方便去，自家房间也可以，条件是它已经按必要的仪式被净化过。地方选定之后，那一章的次序是三件："
+    },
+    {
+     "type": "ul",
+     "html": "<ul><li>亲手把它彻底清扫干净，一边扫一边念三首诗篇，第一首是 <strong>Quare fremuerunt gentes</strong>（外邦为什么争闹）。</li><li>用艺术里的香品与烟熏把它薰一遍。</li><li>再用艺术里的水与牛膝草把它洒一遍。</li></ul>"
+    },
+    {
+     "type": "p",
+     "html": "三件做完，原文的措辞是：此后才可以在这个地方做操作所需的各种准备。晚些时候再去这个场地做操作时，去的路上还要用艺术里的水与牛膝草洒路，并低声念那一篇出行前的祈祷。这一句说明洒水要跟着每一次使用重做一遍，做完一次并不能一直免掉。"
+    },
+    {
+     "type": "p",
+     "html": "烟熏这一件事的材料在第 10 章。章首把香品分成两类：气味芳香的是献给善的一类，气味恶劣的是另一类。芳香的一类取乳香、沉香、肉豆蔻、安息香脂、麝香等，对它念 <strong>O God of Abraham, God of Isaac, God of Jacob</strong>（亚伯拉罕的神、以撒的神、雅各的神），随后还有一段驱除不洁之灵的话与一段祝福的话，共三段；念完用水洒过香料、用丝绸包好收在盒里备用。"
+    },
+    {
+     "type": "p",
+     "html": "真要用的时候，那一章的次序是：取新的内壁施釉的陶器，用燧石与钢取新火，火点起来之后先对它念火的两段话，第一段是 <strong>I exorcise thee, O creature of fire</strong>，第二段是 <strong>Bless, O Lord all powerful</strong>；念完再把香料放到火上的香炉里。这里的顺序是先有火、再对火说话、最后投香料，香料不是跟火一起点上去的。"
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "另一套熏香与火的祝词",
+     "html": "<p>《七天之书》第 5 章给的是另一份熏香祝词，请亚伯拉罕、以撒、雅各的神祝福这些香料，让它们的香气与效力得以增长，使敌人与虚妄的想象进不去，随后要用圣水洒过香料。第 6 章给火的驱邪，要求放在新的土制器皿里，用 <strong>I exorcise thee, O thou creature of fire</strong> 这一句驱邪。</p><p>两套与卷二第 10 章并存，用哪一套按手边的材料定。配方层另在 Agrippa 卷一第 43、44 章：第 43 章讲烟熏的用法，第 44 章把香品按行星分列。净化的三条路线里，烟熏这一条的配方是从这里取的。</p>",
+     "steps": []
+    },
+    {
+     "type": "svg",
+     "svg": "<svg viewBox=\"0 0 700 260\" role=\"img\" aria-hidden=\"true\">\n  <line x1=\"50\" y1=\"70\" x2=\"650\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.35\"/>\n  <circle cx=\"90\" cy=\"70\" r=\"8\" fill=\"currentColor\"/>\n  <circle cx=\"350\" cy=\"70\" r=\"8\" fill=\"currentColor\"/>\n  <circle cx=\"610\" cy=\"70\" r=\"8\" fill=\"currentColor\"/>\n  <text x=\"90\" y=\"46\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">清扫</text>\n  <text x=\"350\" y=\"46\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">熏香</text>\n  <text x=\"610\" y=\"46\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">洒水</text>\n  <text x=\"90\" y=\"102\" font-size=\"16\" fill=\"currentColor\" opacity=\"0.7\" text-anchor=\"middle\">亲手扫净</text>\n  <text x=\"90\" y=\"126\" font-size=\"16\" fill=\"currentColor\" opacity=\"0.7\" text-anchor=\"middle\">同时念三首诗篇</text>\n  <text x=\"350\" y=\"102\" font-size=\"16\" fill=\"currentColor\" opacity=\"0.7\" text-anchor=\"middle\">取新火</text>\n  <text x=\"350\" y=\"126\" font-size=\"16\" fill=\"currentColor\" opacity=\"0.7\" text-anchor=\"middle\">先对火说话</text>\n  <text x=\"350\" y=\"150\" font-size=\"16\" fill=\"currentColor\" opacity=\"0.7\" text-anchor=\"middle\">再投香料</text>\n  <text x=\"610\" y=\"102\" font-size=\"16\" fill=\"currentColor\" opacity=\"0.7\" text-anchor=\"middle\">用水器洒</text>\n  <text x=\"610\" y=\"126\" font-size=\"16\" fill=\"currentColor\" opacity=\"0.7\" text-anchor=\"middle\">水与牛膝草</text>\n  <text x=\"350\" y=\"204\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">三件做完，原文才说可以在这里做准备</text>\n  <text x=\"350\" y=\"234\" font-size=\"16\" fill=\"currentColor\" opacity=\"0.7\" text-anchor=\"middle\">此后再去场地，去的路上还要洒一次水</text>\n</svg>",
+     "alt": "净坛内部的三道工序从左到右排列，第三道工序下面另有一行走廊洒水的补充动作"
+    },
+    {
+     "type": "quiz",
+     "anchor": "净坛内部次序做反的一处",
+     "questions": [
+      {
+       "q": "净坛的熏香一步，下面两种做法哪一个符合文献，另一个错在哪？\n\n① 先取新火点燃，对火念两段话，再把香料投进香炉\n② 先把香料投到火上，再对火念那两段话",
+       "opts": [
+        "①对；②反了，先对火说话再投香",
+        "①对；②少念了，投香位置没问题",
+        "②对；①说早了，火点着就该投香",
+        "都对；后一段没写内部次序"
+       ],
+       "ans": 0,
+       "why": "第 10 章的次序是三段：取新火、对火念两段话（第一段 I exorcise thee,\nO creature of fire）、再把香料放到火上的香炉里。\n香料不是跟火一起点上去的；反过来做，火没拿到它的那两段话，\n香料也占不到该占的那一格。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "走一遍，每一步写依据"
+    },
+    {
+     "type": "p",
+     "html": "两条链的次序合起来就是这一节要动手做的东西。净手在前、净坛在后：人的部分没做完，场地净过也不算数。"
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th>步</th><th>动作</th><th>依据</th></tr></thead><tbody><tr><td>1</td><td>备一大盆温水或到活水边，摆好水器</td><td>卷二 ch.5 开头</td></tr><tr><td>2</td><td>脱衣时念诗篇，第一首 Dominus illuminatio mea</td><td>卷二 ch.5</td></tr><tr><td>3</td><td>入水时对水说驱邪的话</td><td>卷二 ch.5</td></tr><tr><td>4</td><td>在水中洗净，重复一串神名</td><td>卷二 ch.5</td></tr><tr><td>5</td><td>出浴，用处理过的水洒身，说 Purge me, O Lord</td><td>卷二 ch.5</td></tr><tr><td>6</td><td>对盐说话：The blessing of the Father Almighty</td><td>卷二 ch.5</td></tr><tr><td>7</td><td>香料与盐投入浴水，再入水一次，念 Benedic anima mea</td><td>卷二 ch.5</td></tr><tr><td>8</td><td>出浴，穿洁净的白色麻衣</td><td>卷二 ch.5、ch.6</td></tr><tr><td>9</td><td>备器皿与清澄泉水，对盐说 TZABAOTH, MESSIACH</td><td>卷二 ch.11</td></tr><tr><td>10</td><td>把盐投入水中，念四首诗篇（101、53、6、50）</td><td>卷二 ch.11</td></tr><tr><td>11</td><td>选场地，亲手清扫，同时念三首诗篇</td><td>卷二 ch.7</td></tr><tr><td>12</td><td>取新火，对火念两段话，投香料薰场地</td><td>卷二 ch.10</td></tr><tr><td>13</td><td>用水器洒水，水与牛膝草</td><td>卷二 ch.7、ch.11</td></tr><tr><td>14</td><td>之后每次进场，去的路上再洒一次水并念祈祷</td><td>卷二 ch.7</td></tr><tr><td>—</td><td>开始已定好的操作</td><td>后续节点</td></tr></tbody></table>"
+    },
+    {
+     "type": "p",
+     "html": "第 6 到第 8 步与第 9 到第 10 步是两条不同的用水线，可以在净手之前一次把两份水都备好，也可以按表里的次序分别备。两种排法都对，区别只在记录里哪一步写了章号。"
+    },
+    {
+     "type": "note",
+     "tone": "practice",
+     "title": "上手做 | 两份水与两次净",
+     "html": "<p>上面三块跟做只把次序走一遍、每步记一行依据。这一节要交的东西在实操任务里：四份任务连起来正好是这条链的全程，四份记录加一份对账表交出去，才算走完。</p><p>卡住时先回[实操总说明](../lab/README.md)看卡壳顺序，不要直接翻参考解。</p>",
+     "steps": [
+      "[实操总说明](../lab/README.md) | 载体、材料、任务表与卡壳顺序",
+      "[任务一：备两份水](../lab/0002-两份水与两次净/task-1-备两份水.md)",
+      "[任务二：净手走一遍](../lab/0002-两份水与两次净/task-2-净手走一遍.md)",
+      "[任务三：净坛走一遍](../lab/0002-两份水与两次净/task-3-净坛走一遍.md)",
+      "[任务四：通行与对账](../lab/0002-两份水与两次净/task-4-通行与对账.md) | 两份水与两次净之间的通行动作，以及四处章号的对账",
+      "[验收标准](../lab/0002-两份水与两次净/验收标准.md) | 什么算做完"
+     ]
+    },
+    {
+     "type": "note",
+     "tone": "practice",
+     "title": "上手做 | 第 1 步 · 把两份水备出来",
+     "html": "<p>用手边的清水、粗盐或素盐、可烧的香。先只做与「备」有关的那几步，做完停下来对一遍表。</p><p>2. 处理盐。取一小撮盐，按第 11 章那一段对它说话。说完记一行：你念的是哪一段、它要这盐变成什么。</p><p>3. 投盐入水。把处理过的盐投入盛水的器皿，念四首诗篇的编号。记一行：四首的篇号各是多少。</p><p>4. 单独留一份没用过的清水。它对应第 5 章的洗身用水，在这一步只摆着，先不动它。</p><p>四行字写完，每行都要能指到章号。指不出来的那一行，回去翻原文，把出处补上再往下走。</p>",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "practice",
+     "title": "上手做 | 第 2 步 · 净手走一遍",
+     "html": "<p>从「备」进到「做」。这一步不需要真的入浴，按动作把次序走一遍即可，重点是次序与洒身那一步的位置。</p><p>2. 对水说那段驱邪的话。说完记一行：这段话要求水做什么。</p><p>3. 洗净结束，用处理过的水洒身一次，说 Purge me, O Lord, with hyssop。记一行：这一步在原文里出现在洗浴之前还是之后。</p><p>4. 换一套干净的衣物，白色最好。记一行：换衣动作在第 5、6 章里各占哪一格。</p><p>第 3 步是这条链上最容易挪错位置的一步。挪错了，回到第 5 章看它前后的两句，看它紧跟在哪个动作后面。</p>",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "practice",
+     "title": "上手做 | 第 3 步 · 净坛走一遍并记依据",
+     "html": "<p>场地就用书桌或房间一角。三件按次序做完，每一步旁边写一行章号，写不出章号的那一步算没做完。</p><p>2. 取新火并点燃，对火念两段话，再把香投上去。记一行：投香是在对火说话之前还是之后。</p><p>3. 用水器把水洒到场地各处。记一行：这一步用的是哪一份水，出自哪一章。</p><p>4. 收尾前，照第 7 章的办法在走到场地的路上洒一次水。记一行：这一句在原文里的位置。</p><p>三件做完，从头到尾对一遍：净手那几步、净坛那几步，两处的章号有没有混。混了就是把两份水的坐标写到了同一格。</p>",
+     "steps": []
+    },
+    {
+     "type": "quiz",
+     "anchor": "为自己的净手净坛排一张次序表",
+     "questions": [
+      {
+       "q": "下面是一份自己排的次序，请改成能照着走的那一版。\n\n```text\nA. 选场地，清扫、熏香、洒水\nB. 净手：洗身、洒身、换衣\nC. 入场，开始操作\n```\n\n① 这份次序错在哪一步上？\n② 修正之后 A 与 B 各占什么位置（顺序写出来）？\n③ 把 B 展开成至少四行，每行标一句依据。",
+       "answer": "① 错在 A 与 B 的先后：净坛被排在净手之前。\n文献的次序是净手在前、净坛在后——人的部分没做完，\n场地净过也不算数。\n② 修正后：先 B（净手），再 A（净坛），然后才 C（入场）。\n③ B 展开（每行一句依据）：\n备水与水器；脱衣念诗篇（ch.5）；\n入水时对水说驱邪的话（ch.5）；\n洗净时重复神名（ch.5）；\n出浴后用处理过的水洒身（ch.5）；\n处理盐（ch.5）；\n香料与盐投入浴水再入水一次（ch.5）；\n换洁净白衣（ch.5、ch.6）。\n其中洒身那一格的位置最容易挪错：它在洗浴之后、取盐之前。",
+       "criteria": "① 指出 A 与 B 排反了，并接到「净手在前、净坛在后」这条次序上。\n② 给出修正后的顺序：净手 → 净坛 → 入场。\n③ B 展开后至少四行，且每行标了依据（章号写成 ch.5 这类形状即可）；\n洒身是独立一格、位置在洗浴之后这一点要出现。\n只说「顺序反了」不指出哪两步反的算部分通过；\n把净手排在净坛之后、或把洒身写进洗身那一格的按不通过。"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "anchor": "一处简化后的风险",
+     "questions": [
+      {
+       "q": "在自家房间做，条件只有清水、素盐、一盏香薰器。\n下面三条简化里，哪两条会破掉操作要求的效力，哪一条只是换条件？\n\n① 备一瓶清水当净坛水，不做投盐那道工序\n② 香薰器通电出香，不做取新火与对火说话\n③ 场地就用自己房间，不去湖畔",
+       "opts": [
+        "①与③成立；②只是换条件",
+        "①与②成立；③只是换条件",
+        "②与③成立；①只是换条件",
+        "三条都成立，都是换条件"
+       ],
+       "ans": 1,
+       "why": "第 11 章的净坛水要先对盐说话、再把盐投入水中，\n跳过这道工序就没有那一份水；\n第 10 章的熏香是三段：取新火、对火念两段话、投香料，\n只通电出香等于省掉两段。\n第 7 章允许用已净化的自家房间，换地方本身不影响效力。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "依据不够时查哪里"
+    },
+    {
+     "type": "p",
+     "html": "第 5、7、10、11 章的原文在文末的英译链接里，逐句抄引文时用它。章号是卷二的章序，与手上中译的章题不完全一致时，按章序定位。"
+    },
+    {
+     "type": "p",
+     "html": "《洪诺留宣誓书》给的是另一条净化路线：它的第一净化在第 51 章，按阴历的日子分配，每月第 4、8、12、16、20、24、28、32 日在清晨三点前后、上午九点前后与傍晚各念一次指定的祈祷，并注明这些祈祷要在贞洁与洁净中念。那条路线的重点在准备期的状态，本节只用到它的一处：第 137 章第 20 至 22 节写到，在别的东西上要复用「投入圣水的那份盐」所用的那段驱邪话。这一句是盐与水的关联被反复引用的证据，也是第 11 章那段祷文在另一本书里的坐标。"
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "related",
+     "html": "",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "resources",
+     "html": "",
+     "steps": []
+    }
+   ]
+  }
+ ]
+}

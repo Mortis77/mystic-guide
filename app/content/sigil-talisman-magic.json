@@ -1,0 +1,670 @@
+{
+ "id": "sigil-talisman-magic",
+ "name": "符咒：符印与护符",
+ "goal": "按《所罗门大钥匙》卷一的行星符印画出一枚合格的木星图版，并独立走完一枚护符的完整链条：出处核对、材料与墨、制作、圣化、归档。择时窗口由「西方仪式魔法通识」提供，本门不重讲算法。文献与版本只到够用：能查到出处、能看出错画。约束：每周 3-6 小时（四门共享），中译为主、英文靠工具，讲法先流程后原理，验收载体为物理实操清单。2026-09-27 由原「符印魔法与行星择时」拆出理论部分改名而来。",
+ "status": "暂停",
+ "total_units": 15,
+ "units": [
+  {
+   "id": "intro-two-pentacles",
+   "seq": 1,
+   "title": "两枚对不上的木星符印",
+   "kind": "概念",
+   "goal": "能指出两枚木星图版在哪三处对不上，并说出要查什么才能判断它们各自画得对不对。",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "手边的西方仪式魔法资料里，木星一系的图版不止一枚。把两枚并排放在一处，对不上的地方立刻显出来：一枚的圈上写着四个词，另一枚写的是一整句拉丁文；中央一处是放射状的线形记号，另一处是交叠的星形与横带。本节以这两枚图版开场，只看三件事：它们哪里不同，「对不上」本身能推出什么，以及往后的每一步要核对什么。"
+    },
+    {
+     "type": "h2",
+     "html": "两枚图版并排看"
+    },
+    {
+     "type": "p",
+     "html": "以下两枚都出自《所罗门大钥匙》卷一木星章，在手边的资料里都能找到。"
+    },
+    {
+     "type": "figure",
+     "src": "../assets/img/pool/符印-木星-第一符印图版-esotericarchives-04.gif"
+    },
+    {
+     "type": "figure",
+     "src": "../assets/img/pool/符印-木星-第五符印图版-esotericarchives-05.gif"
+    },
+    {
+     "type": "p",
+     "html": "看图时只需要盯三处：最外一圈上写的是什么，中央是什么构造，圈内装的是哪一类东西。三处的对照如下。"
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th>看哪里</th><th>木星第一符印</th><th>木星第五符印</th></tr></thead><tbody><tr><td>外圈所写</td><td>四个词，分居四个方向</td><td>一整句拉丁文，沿圆环排一圈</td></tr><tr><td>中央构造</td><td>八条线从圆心分出，把圆分成八个扇形</td><td>一枚长菱形与一条横带交叠</td></tr><tr><td>圈内所装</td><td>每个扇形里一个线形记号</td><td>散布的希伯来字母</td></tr></tbody></table>"
+    },
+    {
+     "type": "p",
+     "html": "三处全对不上。图面到这里能给的信息只有这些。"
+    },
+    {
+     "type": "quiz",
+     "anchor": "两枚木星图版的差异点",
+     "questions": [
+      {
+       "q": "把木星第一符印与第五符印并排逐处对照，三处的结果如何？",
+       "opts": [
+        "外圈写的不一样，中央构造不一样，圈内装的东西也不一样",
+        "外圈写的不一样，中央构造一样，圈内装的东西不一样",
+        "外圈写的一样，中央构造不一样，圈内装的东西不一样",
+        "外圈写的不一样，中央构造不一样，圈内装的东西一样"
+       ],
+       "ans": 0,
+       "why": "外圈一处是四个词，一处是整句拉丁文。\n中央一处是八条放射线，一处是长菱形与横带交叠。\n圈内一处是线形记号，一处是散布的希伯来字母。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "对不上说明什么"
+    },
+    {
+     "type": "p",
+     "html": "图面能回答「这两枚不一样」，回答不了「哪一枚画错了」。同一行星下的图版，画法上的差别有三种来路，各自的核实动作不同。"
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th>差别的来路</th><th>要查什么</th></tr></thead><tbody><tr><td>两枚本来就是不同的符印</td><td>该行星下共有几枚符印，各自叫什么、做什么用</td></tr><tr><td>同一枚符印的两个版本</td><td>它抄自哪一版、哪一页</td></tr><tr><td>其中一枚在传抄中出了错</td><td>按图版该有的规则逐件验核，看错处是否单处不合规则</td></tr></tbody></table>"
+    },
+    {
+     "type": "p",
+     "html": "《大钥匙》卷一按行星分章，木星章下的符印按编号排列，每一号另有名称与用途说明。表里的编号是从卷一目录里读来的；遇到来历不明、没标编号的图版，第一步就是回去查它编在第几号、用途说明写了什么。两枚编号不同，差别就属第一类；编号相同而画法不同，才轮到查版本与错画。"
+    },
+    {
+     "type": "quiz",
+     "anchor": "两枚图版对不上时先查什么",
+     "questions": [
+      {
+       "q": "两枚木星图版三处都对不上，下一步先查什么？",
+       "opts": [
+        "查两枚各编在木星章第几号，用途说明写了什么",
+        "按图版该有的规则逐件验核，找出画错的那一处",
+        "比较两枚的线条精度，把更工整的那枚当权威版本",
+        "照其中一枚重画一份，画完再与另一枚对照差异"
+       ],
+       "ans": 0,
+       "why": "编号不同就是两枚不同的符印；编号相同才轮到查版本与错画。"
+      },
+      {
+       "q": "两枚图版三处都对不上，为什么还不能说其中一枚画错了？",
+       "answer": "图面只能说明这两枚不一样，说明不了谁画错了。\n差别有三种来路：两枚本就是不同的符印、同一枚的两个版本、其中一枚传抄出错。\n三种来路要核的东西不同，所以第一步是查这两枚各编在第几号、用途说明写了什么。",
+       "criteria": "过：说出「图面只证明两枚不同，不证明谁错」。\n再点出至少两条来路（本就不同／版本不同／传抄出错），算齐。\n或说出先查编号与用途说明，也算齐。\n只答「再找别的资料看看」不算过。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "符印与护符"
+    },
+    {
+     "type": "p",
+     "html": "判断之前，先把两个名字定下来。本课一律用这两个词。"
+    },
+    {
+     "type": "p",
+     "html": "<strong>符印</strong>（pentacle）指画在纸、皮或金属上的行星图版，一圈文字加中央构造就是它的大致样子。中译资料里常把这个词译成「五角星」，本课不取这个译法。"
+    },
+    {
+     "type": "p",
+     "html": "<strong>护符</strong>（talisman）指按挑定的时辰制作、再经过一道奉献流程的物件，用来承载某颗行星的影响；符印是它的一个部件。"
+    },
+    {
+     "type": "p",
+     "html": "画好一枚符印，得到的是图；同一枚图按照时辰做出来、走完那道流程，才成为护符。本课最后要交出来的东西是护符——自己挑时辰、备料、画图、走完流程，再把每一步的记录归档。这条链路的第一站，就是眼前这两枚对不上的图版。"
+    },
+    {
+     "type": "quiz",
+     "anchor": "符印与护符的区别",
+     "questions": [
+      {
+       "q": "本节把符印（pentacle）与护符（talisman）定成什么关系？",
+       "opts": [
+        "符印是纸、皮或金属上的行星图版；护符是择时做成并走完奉献流程的物件，符印是它的一个部件。",
+        "符印是各种符号的总称；护符是刻在金属上的符号，两者的差别只在材质，指向的其实是同一类东西。",
+        "符印是画好的图版；护符是同一张图版另画一份的副本，差别只在有没有走完择时与奉献这两道工序。",
+        "符印是择时做成的物件；护符是画在纸上的图版，护符经奉献之后被放进符印里，两者合成同一件东西。"
+       ],
+       "ans": 0,
+       "why": "画好一张图得到的是符印；符印经择时与奉献两道工序，才成为护符。"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "tone": "tip",
+     "title": "本节不用动手",
+     "html": "<p>本节以讲为主。这两枚图版看明白哪里不一样就够，不必临摹，也不必记住各个部件的叫法——拆部件排在下一节点「拆卸一枚图版」。动手画图版排在接下来几节之内，是后面每一步都要用到的底子。</p>",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "resources",
+     "html": "",
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": "pentacle-anatomy",
+   "seq": 2,
+   "title": "拆卸一枚图版",
+   "kind": "概念",
+   "goal": "能把一枚符印拆成圆环文字、方阵、行星字符、神名四类部件，并各说出它们取自哪里。",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "上一节课把木星第一符印与第五符印并排摆开，看的是它们哪里对不上。要判断对不上是出于什么原因，先得能看出一枚图版由哪些部件拼起来。本节拆的就是这两枚：一件一件卸下来，看每一件取自哪里，出处落在卷一的哪一章、卷二方阵表的哪一格。"
+    },
+    {
+     "type": "p",
+     "html": "拆件顺序从外往里走：最外一圈的字，圈内装的东西，以及藏在字形背后的两类来源。拆完再回到下一节点要构的木星方阵——四类部件里有一类专门从它里面取。"
+    },
+    {
+     "type": "h2",
+     "html": "一枚图版分四层看"
+    },
+    {
+     "type": "p",
+     "html": "《大钥匙》卷一里，图版是按行星分章、再按编号逐枚讲的，每一枚都先写明用途，再在图旁的编者注里点出它由哪几件组成。本节的两枚样本都出自木星章，按编号是木星第一符印与木星第五符印。"
+    },
+    {
+     "type": "figure",
+     "src": "../assets/img/pool/符印-木星-第一符印图版-esotericarchives-04.gif"
+    },
+    {
+     "type": "p",
+     "html": "这四件部件的位置与来路如下，图版上的每一处笔画都能归到其中一件："
+    },
+    {
+     "type": "ul",
+     "html": "<ul><li>圆环上的字：写在内外两个圆之间的环带上，可以是一个名字，也可以是一整句经文</li><li>方阵：写在圈内的方格阵列，木星是四阶，本节先认它的数值特征</li><li>行星字符：从方阵里按固定走法压出的线形标记</li><li>神名：从方阵或经文里取出的名字</li></ul>"
+    },
+    {
+     "type": "p",
+     "html": "节内的样本只用到其中两三层，本节要拆的两枚都没有装方阵，这件事后面会说明。"
+    },
+    {
+     "type": "quiz",
+     "anchor": "符印的四类部件",
+     "questions": [
+      {
+       "q": "一枚符印的图面拆到底，会拆出哪四类部件？",
+       "opts": [
+        "圆环上的字、方阵、行星字符、神名",
+        "圆环上的字、外圈刀线、圆心与落款",
+        "圆环上的字、方阵、经文、符文纸",
+        "圆环上的字、方阵、行星字符、行星日"
+       ],
+       "ans": 0,
+       "why": "四类部件：圆环文字、方阵、行星字符与神名。\n图版每一处笔画都能归到其中一件。\n行星日是择时用的概念，不在图面上。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "圆环上的字"
+    },
+    {
+     "type": "p",
+     "html": "上一节课看图时，圆环上那圈字最容易一带而过，当成边框花纹。卷一对圆环有明文约定：制作时先用刀画出外圈，再在内侧画一个同心圆，两个圆之间的环带留出来写名字——《大钥匙》卷一第 18 章（Mathers 英译编号）写的是「要在两者之间写上你认为合适的神名」。"
+    },
+    {
+     "type": "p",
+     "html": "木星第一符印把这个位置留给四个名，分居圆环的上下左右；木星第五符印留给一整句经文，沿圆环排满一圈。两枚用的是同一条规则，只是填进去的内容不同。"
+    },
+    {
+     "type": "figure",
+     "src": "../assets/img/pool/符印-木星-第五符印图版-esotericarchives-05.gif"
+    },
+    {
+     "type": "p",
+     "html": "环带里写的是哪种字，看这一枚的用途就分得出来。第一符印用来召唤木星一系的灵体，圆环上的四个名就是该枚符印所针对的那几个灵体的名字，其中 Parasiel 是其中最要紧的一个；第五符印求的是异象，环上因此写的是那句经文本身。"
+    },
+    {
+     "type": "note",
+     "tone": "tip",
+     "title": "圆环上的字要抄对",
+     "html": "<p>圆环上的字决定这一枚符印指向谁、凭什么生效；抄图时把环上的字抄错或漏掉，整枚就不成立了。</p>",
+     "steps": []
+    },
+    {
+     "type": "quiz",
+     "anchor": "圆环文字的作用与位置",
+     "questions": [
+      {
+       "q": "画符印时先画外圈，下一步是补一个同心圆。\n按卷一第 18 章的约定，补内圈做什么用？",
+       "opts": [
+        "和内圈围出环带，环带用来写神名",
+        "只是后补的装饰加圈，写完名再画",
+        "当作定方的基准线，方便对齐方阵",
+        "当作择时刻度，按十二等分加一圈"
+       ],
+       "ans": 0,
+       "why": "卷一约定先画外圈，再在内侧画一个同心圆。\n两圆之间的环带留出来写名字。\n环带上的字不是装饰，它决定这一枚指向谁。"
+      },
+      {
+       "q": "木星第一符印的圆环上写了四个名。\n这四个名的来源是什么？",
+       "opts": [
+        "该枚符印针对的灵体之名",
+        "木星方阵数值对应的神名",
+        "环绕经文的末五词重组字",
+        "从木星方阵压出的三字符"
+       ],
+       "ans": 0,
+       "why": "第一符印用于召唤木星一系的灵体。\n环上四个名就是所针对的灵体之名。\n其中 Parasiel 最要紧。\n第五符印环上是经文本身，圈内字母才是重组的。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "数字方阵"
+    },
+    {
+     "type": "p",
+     "html": "第二件是数字方阵（kamea）。方阵是 $n \\times n$ 的方格阵列，把自然数填进去，要求每行、每列、两条对角线上的数字之和都相等。木星归四阶：$4 \\times 4$ 十六个格子，每一行、每一列、每条对角线都等于 34，全阵之和为 136。"
+    },
+    {
+     "type": "p",
+     "html": "这些数字出自 Agrippa《神秘哲学三书》卷二第 22 章。该章逐个行星给出方阵，木星方阵后面紧接着三类字符，分别属于木星本身、木星的灵智与木星的灵体——这一节的第三件部件就是从这里来的。方阵上另有一组与数字对应的神名：与 4 对应的是 Abab，与 34 对应的是 El Ab，与 136 对应的是 Johphiel 与 Hismael。"
+    },
+    {
+     "type": "p",
+     "html": "本节拆的两枚都没有在图上画出方阵："
+    },
+    {
+     "type": "ul",
+     "html": "<ul><li>木星第一符印的圆内装的是行星字符</li><li>木星第五符印的圆内装的是从经文里重组的字母</li></ul>"
+    },
+    {
+     "type": "p",
+     "html": "木星章另几号图版上出现过方阵一类的部件。它占的位置在圈内，落在中央或某个角落。"
+    },
+    {
+     "type": "quiz",
+     "anchor": "木星方阵的规格与出处",
+     "questions": [
+      {
+       "q": "木星归四阶方阵。行和与全阵和各是多少？",
+       "opts": [
+        "行和 34，全阵总和 136",
+        "行和 136，全阵总和 34",
+        "行和 34，全阵总和 34",
+        "行和 65，全阵总和 136"
+       ],
+       "ans": 0,
+       "why": "木星方阵是 $4 \\times 4$ 十六格。\n每行、每列、每条对角线都是 34。\n全阵之和 136。\n这些数字出自 Agrippa 卷二第 22 章。"
+      },
+      {
+       "q": "一份 $4 \\times 4$ 的填数方阵，自称木星方阵。\n按数字验，验哪几项？",
+       "opts": [
+        "每行每列与两条对角线的和都等于 34",
+        "每行与每列的和是 34，对角线不必查",
+        "全阵总和是 136，其余各项都不必查",
+        "每格数字从 1 到 16 不重不漏即可"
+       ],
+       "ans": 0,
+       "why": "方阵要求每行、每列、两条对角线的和相等。\n木星这一档的这个和是 34。\n只验行列会漏掉把对角线画错的版本。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "行星字符与神名"
+    },
+    {
+     "type": "p",
+     "html": "圈内装的两类东西最容易混，差别在取法上。"
+    },
+    {
+     "type": "p",
+     "html": "行星字符（planetary character）是从方阵或灵名压缩出的线形标记。Agrippa 卷二第 22 章在每颗行星的方阵后面给出三枚字符，依次属于该行星本身、该行星的灵智与该行星的灵体；同书卷二第 51、52 两章另收了按各行星的性质与「按相似性」画出的字符，同一颗行星的字符因此在文献里又多出几批变体，木星的就在这两章里。木星第一符印的圆内，八条射线从圆心分出，把圆分成八个扇形，每个扇形里置一个线形记号，这些记号是木星一系的字符。SLM 在卷一的编者注里对这一枚给的原话是「本符印由木星的神秘字符构成」。"
+    },
+    {
+     "type": "p",
+     "html": "神名（divine name）是刻在符印上的名字本身，字形照写。第一符印圆环上的四个天使名属这一类；第五符印圈内的希伯来字母也属这一类，取法另有一套：编者注写明，圈内字母取自环绕该符印的那句经文的最后五个词，每个词各含五个字母，把字母重新组合之后拼成若干神秘名字。经文的出处标在注释里——《以西结书》一章一节。"
+    },
+    {
+     "type": "p",
+     "html": "四件部件与两枚样本合在一起看："
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th>部件</th><th>木星第一符印</th><th>木星第五符印</th><th>取法出处</th></tr></thead><tbody><tr><td>圆环文字</td><td>四个天使名，分居四个方向</td><td>一整句经文，沿圆环排一圈</td><td>卷一第 18 章：内外圆之间的环带留出来写名</td></tr><tr><td>方阵</td><td>圈内未画</td><td>圈内未画</td><td>Agrippa 卷二第 22 章：木星方阵为四阶，行和 34，全阵和 136</td></tr><tr><td>行星字符</td><td>八个扇形里各一个线形记号</td><td>圈内未画</td><td>Agrippa 卷二第 22 章的字符图版；卷一旁注称其为木星的字符</td></tr><tr><td>神名</td><td>即圆环上那四个名</td><td>由圆环经文末五词重组</td><td>名字取自方阵对应的神名表，或由环绕经文重组</td></tr></tbody></table>"
+    },
+    {
+     "type": "p",
+     "html": "四件部件与图面位置的对应如下。虚线框标出的那一件，本节拆的两枚都没有装。"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg viewBox=\"0 0 900 400\" role=\"img\" aria-hidden=\"true\">\n  <g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n    <circle cx=\"230\" cy=\"185\" r=\"128\"></circle>\n    <circle cx=\"230\" cy=\"185\" r=\"92\"></circle>\n    <path d=\"M230 185 L230 100 M230 185 L315 185 M230 185 L230 270 M230 185 L145 185\"></path>\n    <path d=\"M230 78 A30 30 0 0 1 260 96\" stroke-width=\"1.6\"></path>\n    <rect x=\"168\" y=\"139\" width=\"22\" height=\"12\" rx=\"2\" stroke-width=\"1.6\"></rect>\n    <rect x=\"248\" y=\"168\" width=\"22\" height=\"12\" rx=\"2\" stroke-width=\"1.6\"></rect>\n    <rect x=\"178\" y=\"252\" width=\"22\" height=\"12\" rx=\"2\" stroke-width=\"1.6\"></rect>\n    <rect x=\"296\" y=\"222\" width=\"22\" height=\"12\" rx=\"2\" stroke-width=\"1.6\"></rect>\n    <circle cx=\"230\" cy=\"185\" r=\"4\" stroke-width=\"1.6\"></circle>\n  </g>\n  <g stroke=\"currentColor\" stroke-width=\"1.2\" stroke-dasharray=\"5 5\" fill=\"none\">\n    <line x1=\"330\" y1=\"84\" x2=\"690\" y2=\"70\"></line>\n    <line x1=\"242\" y1=\"177\" x2=\"690\" y2=\"160\"></line>\n    <line x1=\"230\" y1=\"304\" x2=\"690\" y2=\"250\"></line>\n    <line x1=\"286\" y1=\"256\" x2=\"690\" y2=\"340\"></line>\n  </g>\n  <g fill=\"currentColor\" font-family=\"sans-serif\">\n    <rect x=\"690\" y=\"52\" width=\"188\" height=\"36\" rx=\"6\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"1\"></rect>\n    <text x=\"700\" y=\"76\" font-size=\"21\">圆环文字</text>\n    <rect x=\"690\" y=\"140\" width=\"188\" height=\"38\" rx=\"6\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"1\"></rect>\n    <text x=\"700\" y=\"165\" font-size=\"21\">行星字符</text>\n    <rect x=\"690\" y=\"228\" width=\"188\" height=\"38\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"></rect>\n    <text x=\"700\" y=\"253\" font-size=\"19\">数字方阵（未装）</text>\n    <rect x=\"690\" y=\"318\" width=\"188\" height=\"38\" rx=\"6\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"1\"></rect>\n    <text x=\"700\" y=\"343\" font-size=\"21\">神名</text>\n  </g>\n</svg>",
+     "alt": "拆件示意图，四类部件标在符印图面的对应位置"
+    },
+    {
+     "type": "quiz",
+     "anchor": "字符与神名两类部件的取法",
+     "questions": [
+      {
+       "q": "行星字符与神名最容易混。\n这两类在取法上的差别是什么？",
+       "answer": "行星字符是从方阵或灵名压出来的。\n笔画被压成线形标记，原字形不保留。\n神名是刻在符印上的名字本身，字形照写。\n例：第一符印环上四个天使名，属神名。\n第五符印圈内字母也属神名，取法却不同。\n它取自经文末五词、每词五字母。\n把字母重组，就拼出神秘名字。",
+       "criteria": "过：说出行星字符是压出的线形标记。\n并说出神名是照写的名字本身。\n再补第五符印圈内字母的取法，算齐。\n只说「一在圈内、一在圈外」不算过，那只是位置。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "拆完之后"
+    },
+    {
+     "type": "p",
+     "html": "四层分开看，两枚图版的样子就不再是一团线条。它们各自少了一层：方阵在图上没有出现，所以验核时不能拿方阵的行和去要求它们。这一件事在下一节点会反过来用——木星方阵要自己构一个出来，构完按行、按列、按两条对角线逐条验核。"
+    },
+    {
+     "type": "p",
+     "html": "拿到一张来历不明的木星图版，拆件是最快的一步检查：圆环上写的什么、圈内装的是字符还是字母、有没有方阵，三眼就能定位它属于哪一类；对不上的地方也才有得比。"
+    },
+    {
+     "type": "quiz",
+     "anchor": "两枚样本的差异来自哪一层",
+     "questions": [
+      {
+       "q": "木星第一与第五符印的差别来自哪一层？",
+       "opts": [
+        "两枚都未装方阵，差别在环上文字和圈内物",
+        "两枚的行星字符来源不同，一取卷二、一取卷一",
+        "两枚的方阵行和不同，一处 34、一处是 136",
+        "两枚的阶数不同，一枚四阶、另一枚八阶格子"
+       ],
+       "ans": 0,
+       "why": "两枚都没画方阵，验核时不能拿行和去要它们。\n第一枚圈内装行星字符，第二枚装重组的字母。\n差别在这两层上，不在方阵。"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "tone": "practice",
+     "title": "练习 | 第一步 · 指出每件部件的位置",
+     "html": "<p>拆件的动作落在这两枚图上，一步对应一件部件。</p><p>2. 打开木星第五符印那张图，先看圆环上写的是一整句经文还是几个名，再看圈内中央那枚长菱形与横带交叠的结构里装着哪一类字形。</p><p>3. 回到第五符印的图，找一圈方阵：十六个格子、每行每列都是 34 的那种。图上找得到就指出来；找不到，就在纸上记下「该枚未装方阵」，并写下这个结论是按哪一段编者注得出的。</p><p>4. 把三处结果与本节那张四层部件表逐条对上：两枚样本各装了哪几件、缺了哪一件、缺的那件出处在哪里。</p>",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "resources",
+     "html": "",
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": "kamea-construction",
+   "seq": 3,
+   "title": "木星方阵的构造与验核",
+   "kind": "实操",
+   "goal": "能自己构出一张 4×4 木星方阵，并按四条行、四条列与两条对角线逐条验核。",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "上一节拆开的两枚木星图版，方阵那一件始终没有在图上出现过：第一符印的圈内装的是行星字符，第五符印的圈内装的是从经文重组的字母。本节把这一件补上。先看清木星归哪一阶、哪一天，再按一条能复现的规则把十六格自己填出来，最后按十条线逐条核一遍。"
+    },
+    {
+     "type": "p",
+     "html": "网上流传的木星方阵不止一份，摆在一起并不都一样。判据立起来之后，哪一份少了一格、哪一格抄错，不必再靠比对图像。"
+    },
+    {
+     "type": "h2",
+     "html": "木星归四阶"
+    },
+    {
+     "type": "p",
+     "html": "《神秘哲学三书》卷二第 22 章按行星逐颗给出方阵，次序从土星排到月亮，阶数从 3 阶排到 9 阶。这条次序与各行星的轨道周期吻合，周期越长排得越前。"
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th>行星</th><th>方阵阶数</th><th>行星日</th></tr></thead><tbody><tr><td>土星</td><td>3×3</td><td>星期六</td></tr><tr><td>木星</td><td>4×4</td><td>星期四</td></tr><tr><td>火星</td><td>5×5</td><td>星期二</td></tr><tr><td>太阳</td><td>6×6</td><td>星期日</td></tr><tr><td>金星</td><td>7×7</td><td>星期五</td></tr><tr><td>水星</td><td>8×8</td><td>星期三</td></tr><tr><td>月亮</td><td>9×9</td><td>星期一</td></tr></tbody></table>"
+    },
+    {
+     "type": "p",
+     "html": "第三列是行星日（planetary day）：一周七天各归一颗行星主掌的日单位，与行星时配合使用。木星落在星期四，拉丁文写作 dies Jovis，英文 Thursday 里的 Thor 是这条对应在日耳曼语里的改写。行星时的算法在「西方仪式魔法通识」里讲，本节点只记到「木星归星期四」这一行为止。"
+    },
+    {
+     "type": "p",
+     "html": "木星方阵因此是四阶：四行四列，十六格，格子里填 1 到 16 各一次。"
+    },
+    {
+     "type": "figure",
+     "src": "../assets/img/pool/数字方阵-木星-方阵与背面图-esotericarchives-02.jpg"
+    },
+    {
+     "type": "p",
+     "html": "这张图出自《The Magical Calendar》，方阵本体与它背面的图形画在一起。本节点只处理方阵那一半：把它读成四行四列，圆外的名字与右侧的人物形记号留到后面的节点。"
+    },
+    {
+     "type": "quiz",
+     "anchor": "木星方阵的阶数与行星日",
+     "questions": [
+      {
+       "q": "Agrippa 卷二把七颗行星的方阵排成 3 阶到 9 阶。\n木星排在四阶，行星日落在星期四。\n这套次序按什么定？",
+       "opts": [
+        "按轨道周期长短，周期长的排在前",
+        "按轨道周期长短，周期短的排在前",
+        "按距地远近，距地近的排在前",
+        "按亮度大小，亮度高的排在前"
+       ],
+       "ans": 0,
+       "why": "次序与轨道周期吻合，周期越长排得越前。\n土星周期最长，排在三阶，木星排到四阶。\n星期四拉丁文作 dies Jovis，木星归这一日。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "每线 34 从哪来"
+    },
+    {
+     "type": "p",
+     "html": "判据里那条「每行、每列、两条对角线的数字和相同」，对四阶来说这个和只能是 34。推法只用一次求和：十六格里填的是 1 到 16，全阵之和是"
+    },
+    {
+     "type": "p",
+     "html": "$$1+2+\\cdots+16=\\frac{16\\times 17}{2}=136$$"
+    },
+    {
+     "type": "p",
+     "html": "四行各行的和相加就是这 136，而判据要求四行相等，所以每行是 $136 \\div 4 = 34$。"
+    },
+    {
+     "type": "p",
+     "html": "同样的算法对任何阶都成立。$n$ 阶方阵从 1 填到 $n^2$，全阵之和是 $\\frac{n^2(n^2+1)}{2}$，除以 $n$ 行，每线的和是"
+    },
+    {
+     "type": "p",
+     "html": "$$\\frac{n(n^2+1)}{2}$$"
+    },
+    {
+     "type": "p",
+     "html": "四阶代入得 $\\frac{4 \\times 17}{2} = 34$，八阶（水星）代入得 260，九阶（月亮）代入得 369。这个由阶数算出来的和又叫和常数。"
+    },
+    {
+     "type": "note",
+     "tone": "warn",
+     "title": "「全阵之和为 136」判不了错",
+     "html": "<p>把 1 到 16 任意打乱填进十六格，全阵之和都是 136，这一条对任何排列都成立。能用来判错的是那十条线各自的和。</p>",
+     "steps": []
+    },
+    {
+     "type": "quiz",
+     "anchor": "每线 34 的来历",
+     "questions": [
+      {
+       "q": "四阶木星方阵十六格填 1 到 16，十条线各自的和相同。\n① 不逐格相加，用一条式子说明这个和为什么是 34。\n② 同一算法用到火星五阶与金星七阶，两阶的和常数各是多少？",
+       "answer": "全阵之和是 $1+2+\\cdots+16=136$。\n四条行相加就等于这 136，而判据要求四行相等，\n所以每行是 $136 \\div 4 = 34$。\n$n$ 阶的通式是 $\\frac{n(n^2+1)}{2}$。\n五阶 $\\frac{5 \\times 26}{2}=65$，\n七阶 $\\frac{7 \\times 50}{2}=175$。\n这个和只由阶数定，与哪颗行星无关。",
+       "criteria": "过：写出全阵之和 136，并接上「四行相等所以每行 34」这一步。\n并给出通式 $\\frac{n(n^2+1)}{2}$，\n算出五阶 65、七阶 175。\n只报 34 或只报 65、175 而不给推法的，按不通过。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "对角互补法"
+    },
+    {
+     "type": "p",
+     "html": "卷二把这些表直接列出来，没有附构造步骤。下面这条规则是从表本身的性质整理出来的，本课叫它对角互补法，它只用到 1 到 16 与补数两个概念。两个数相加等于 17 时互为补数：1 与 16、2 与 15、3 与 14、4 与 13、5 与 12、6 与 11、7 与 10、8 与 9，一共八对。"
+    },
+    {
+     "type": "p",
+     "html": "三步："
+    },
+    {
+     "type": "ol",
+     "html": "<ol><li>顺序填入：把 1 到 16 按从左到右、从上到下的次序填进十六格。</li><li>标出两条对角线：一条从左上到右下（下称主对角线），一条从右上到左下（下称副对角线）。两条线合起来经过 8 个格子——四个角各一格，加上中央 2×2 的四个格子。</li><li>换成补数：把这 8 个格子里的数逐个换成它的补数，也就是用 17 减去它；其余 8 格不动。</li></ol>"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg viewBox=\"0 0 900 310\" role=\"img\" aria-hidden=\"true\">\n  <g font-family=\"sans-serif\">\n    <rect x=\"24\" y=\"120\" width=\"160\" height=\"136\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/>\n    <line x1=\"64\" y1=\"120\" x2=\"64\" y2=\"256\" stroke=\"currentColor\" stroke-width=\"1\"/>\n    <line x1=\"24\" y1=\"154\" x2=\"184\" y2=\"154\" stroke=\"currentColor\" stroke-width=\"1\"/>\n    <line x1=\"104\" y1=\"120\" x2=\"104\" y2=\"256\" stroke=\"currentColor\" stroke-width=\"1\"/>\n    <line x1=\"24\" y1=\"188\" x2=\"184\" y2=\"188\" stroke=\"currentColor\" stroke-width=\"1\"/>\n    <line x1=\"144\" y1=\"120\" x2=\"144\" y2=\"256\" stroke=\"currentColor\" stroke-width=\"1\"/>\n    <line x1=\"24\" y1=\"222\" x2=\"184\" y2=\"222\" stroke=\"currentColor\" stroke-width=\"1\"/>\n    <text x=\"44\" y=\"144\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">1</text>\n    <text x=\"84\" y=\"144\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">2</text>\n    <text x=\"124\" y=\"144\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">3</text>\n    <text x=\"164\" y=\"144\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">4</text>\n    <text x=\"44\" y=\"178\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">5</text>\n    <text x=\"84\" y=\"178\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">6</text>\n    <text x=\"124\" y=\"178\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">7</text>\n    <text x=\"164\" y=\"178\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">8</text>\n    <text x=\"44\" y=\"212\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">9</text>\n    <text x=\"84\" y=\"212\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">10</text>\n    <text x=\"124\" y=\"212\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">11</text>\n    <text x=\"164\" y=\"212\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">12</text>\n    <text x=\"44\" y=\"246\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">13</text>\n    <text x=\"84\" y=\"246\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">14</text>\n    <text x=\"124\" y=\"246\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">15</text>\n    <text x=\"164\" y=\"246\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">16</text>\n    <path d=\"M200 188 H296\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/>\n    <path d=\"M288 182 L300 188 L288 194\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/>\n    <rect x=\"316\" y=\"120\" width=\"40\" height=\"34\" fill=\"currentColor\" fill-opacity=\"0.14\"/>\n    <rect x=\"436\" y=\"120\" width=\"40\" height=\"34\" fill=\"currentColor\" fill-opacity=\"0.14\"/>\n    <rect x=\"356\" y=\"154\" width=\"40\" height=\"34\" fill=\"currentColor\" fill-opacity=\"0.14\"/>\n    <rect x=\"396\" y=\"154\" width=\"40\" height=\"34\" fill=\"currentColor\" fill-opacity=\"0.14\"/>\n    <rect x=\"356\" y=\"188\" width=\"40\" height=\"34\" fill=\"currentColor\" fill-opacity=\"0.14\"/>\n    <rect x=\"396\" y=\"188\" width=\"40\" height=\"34\" fill=\"currentColor\" fill-opacity=\"0.14\"/>\n    <rect x=\"316\" y=\"222\" width=\"40\" height=\"34\" fill=\"currentColor\" fill-opacity=\"0.14\"/>\n    <rect x=\"436\" y=\"222\" width=\"40\" height=\"34\" fill=\"currentColor\" fill-opacity=\"0.14\"/>\n    <rect x=\"316\" y=\"120\" width=\"160\" height=\"136\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/>\n    <line x1=\"356\" y1=\"120\" x2=\"356\" y2=\"256\" stroke=\"currentColor\" stroke-width=\"1\"/>\n    <line x1=\"316\" y1=\"154\" x2=\"476\" y2=\"154\" stroke=\"currentColor\" stroke-width=\"1\"/>\n    <line x1=\"396\" y1=\"120\" x2=\"396\" y2=\"256\" stroke=\"currentColor\" stroke-width=\"1\"/>\n    <line x1=\"316\" y1=\"188\" x2=\"476\" y2=\"188\" stroke=\"currentColor\" stroke-width=\"1\"/>\n    <line x1=\"436\" y1=\"120\" x2=\"436\" y2=\"256\" stroke=\"currentColor\" stroke-width=\"1\"/>\n    <line x1=\"316\" y1=\"222\" x2=\"476\" y2=\"222\" stroke=\"currentColor\" stroke-width=\"1\"/>\n    <path d=\"M492 188 H588\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/>\n    <path d=\"M580 182 L592 188 L580 194\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/>\n    <rect x=\"608\" y=\"120\" width=\"160\" height=\"136\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/>\n    <line x1=\"648\" y1=\"120\" x2=\"648\" y2=\"256\" stroke=\"currentColor\" stroke-width=\"1\"/>\n    <line x1=\"608\" y1=\"154\" x2=\"768\" y2=\"154\" stroke=\"currentColor\" stroke-width=\"1\"/>\n    <line x1=\"688\" y1=\"120\" x2=\"688\" y2=\"256\" stroke=\"currentColor\" stroke-width=\"1\"/>\n    <line x1=\"608\" y1=\"188\" x2=\"768\" y2=\"188\" stroke=\"currentColor\" stroke-width=\"1\"/>\n    <line x1=\"728\" y1=\"120\" x2=\"728\" y2=\"256\" stroke=\"currentColor\" stroke-width=\"1\"/>\n    <line x1=\"608\" y1=\"222\" x2=\"768\" y2=\"222\" stroke=\"currentColor\" stroke-width=\"1\"/>\n    <text x=\"628\" y=\"144\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">16</text>\n    <text x=\"668\" y=\"144\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">2</text>\n    <text x=\"708\" y=\"144\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">3</text>\n    <text x=\"748\" y=\"144\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">13</text>\n    <text x=\"628\" y=\"178\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">5</text>\n    <text x=\"668\" y=\"178\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">11</text>\n    <text x=\"708\" y=\"178\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">10</text>\n    <text x=\"748\" y=\"178\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">8</text>\n    <text x=\"628\" y=\"212\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">9</text>\n    <text x=\"668\" y=\"212\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">7</text>\n    <text x=\"708\" y=\"212\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">6</text>\n    <text x=\"748\" y=\"212\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">12</text>\n    <text x=\"628\" y=\"246\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">4</text>\n    <text x=\"668\" y=\"246\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">14</text>\n    <text x=\"708\" y=\"246\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">15</text>\n    <text x=\"748\" y=\"246\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\">1</text>\n    <text x=\"24\" y=\"96\" font-size=\"20\">① 顺序填入 1–16</text>\n    <text x=\"316\" y=\"96\" font-size=\"20\">② 标出两条对角线</text>\n    <text x=\"608\" y=\"96\" font-size=\"20\">③ 对角线八格换成补数</text>\n    <text x=\"24\" y=\"292\" font-size=\"19\">补数：两数相加等于 17，如 1 与 16、6 与 11、8 与 9</text>\n  </g>\n</svg>",
+     "alt": "三张并排的 4×4 网格示意图：第一张顺序填入 1 到 16，第二张把两条对角线经过的 8 个格子涂灰，第三张显示这 8 格换成补数后的结果"
+    },
+    {
+     "type": "p",
+     "html": "三步走完，得到的表如下。"
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th>第一列</th><th>第二列</th><th>第三列</th><th>第四列</th></tr></thead><tbody><tr><td>16</td><td>2</td><td>3</td><td>13</td></tr><tr><td>5</td><td>11</td><td>10</td><td>8</td></tr><tr><td>9</td><td>7</td><td>6</td><td>12</td></tr><tr><td>4</td><td>14</td><td>15</td><td>1</td></tr></tbody></table>"
+    },
+    {
+     "type": "p",
+     "html": "两条对角线在换数前后都成立。顺序填入时它们已经各是 34（主对角线 $1+6+11+16$，副对角线 $4+7+10+13$）；两条线上的八个数原本就构成四对互补数，逐个换成补数之后，一条线上出现的仍是同一批数，和不变。第 3 步让四条行与四条列也变成 34。"
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "朝向不同不算错画",
+     "html": "<p>文献里的木星方阵是 4、14、15、1 起头的那一张：4 14 15 1 / 9 7 6 12 / 5 11 10 8 / 16 2 3 13。把上表整个上下翻转，得到的正是这一张。方阵旋转、翻转之后仍然满足同一套判据，各文献抄录的朝向不一致多由此而来；核对方阵时对的是十条线，朝向换过一批，判据不动。</p>",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "practice",
+     "title": "跟做 | 第一步 · 在纸上填一遍",
+     "html": "<p>2. 用铅笔点出两条对角线经过的 8 个格子。</p><p>3. 把这 8 格里的数逐个换成 17 减去它的结果，其余 8 格保持原数。</p><p>4. 收尾自查：核一遍十六格里是不是仍然是 1 到 16 各一次。</p>",
+     "steps": []
+    },
+    {
+     "type": "quiz",
+     "anchor": "对角互补法的换数规则",
+     "questions": [
+      {
+       "q": "顺序填入 1 到 16 后，把两条对角线经过的 8 格换成补数，得到木星方阵。\n若改成只换四个角这 4 格，其余 12 格不动：\n① 得到的表还成立吗？\n② 哪几条线不再是 34？写出其中一条的求和式。",
+       "answer": "不成立。四角 1、4、13、16 换成 16、13、4、1，得到：\n\n```text\n16  2  3 13\n 5  6  7  8\n 9 10 11 12\n 4 14 15  1\n```\n\n第一行、第四行与第一列、第四列仍是 34，\n两条对角线也仍是 34。\n破的是第二行 $5+6+7+8=26$、第三行 $9+10+11+12=42$、\n第二列 $2+6+10+14=32$、第三列 $3+7+11+15=36$。\n中央 2×2 的四格不换，它们所在的行与列就凑不够 34。",
+       "criteria": "过：① 明确答「不成立」。\n② 指出破的四条线：第二行、第三行、第二列、第三列。\n并至少写出一条正确的求和式（如 $5+6+7+8=26$）。\n只答「不成立」而指不出破哪几条线的，按部分通过。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "十条线逐条验核"
+    },
+    {
+     "type": "p",
+     "html": "方阵构完要核的是十条线：四条行、四条列，加两条对角线。核法是各自求和，十条全部等于 34 才算通过。以上面那张表为例，逐条算出来是："
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th>线</th><th>算式</th><th>和</th></tr></thead><tbody><tr><td>第一行</td><td>16 + 2 + 3 + 13</td><td>34</td></tr><tr><td>第二行</td><td>5 + 11 + 10 + 8</td><td>34</td></tr><tr><td>第三行</td><td>9 + 7 + 6 + 12</td><td>34</td></tr><tr><td>第四行</td><td>4 + 14 + 15 + 1</td><td>34</td></tr><tr><td>第一列</td><td>16 + 5 + 9 + 4</td><td>34</td></tr><tr><td>第二列</td><td>2 + 11 + 7 + 14</td><td>34</td></tr><tr><td>第三列</td><td>3 + 10 + 6 + 15</td><td>34</td></tr><tr><td>第四列</td><td>13 + 8 + 12 + 1</td><td>34</td></tr><tr><td>主对角线</td><td>16 + 11 + 6 + 1</td><td>34</td></tr><tr><td>副对角线</td><td>13 + 10 + 7 + 4</td><td>34</td></tr></tbody></table>"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg viewBox=\"0 0 900 290\" role=\"img\" aria-hidden=\"true\">\n<g font-family=\"sans-serif\">\n  <rect x=\"24\" y=\"90\" width=\"160\" height=\"136\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/>\n  <line x1=\"64\" y1=\"90\" x2=\"64\" y2=\"226\" stroke=\"currentColor\" stroke-width=\"1\"/>\n  <line x1=\"24\" y1=\"124\" x2=\"184\" y2=\"124\" stroke=\"currentColor\" stroke-width=\"1\"/>\n  <line x1=\"104\" y1=\"90\" x2=\"104\" y2=\"226\" stroke=\"currentColor\" stroke-width=\"1\"/>\n  <line x1=\"24\" y1=\"158\" x2=\"184\" y2=\"158\" stroke=\"currentColor\" stroke-width=\"1\"/>\n  <line x1=\"144\" y1=\"90\" x2=\"144\" y2=\"226\" stroke=\"currentColor\" stroke-width=\"1\"/>\n  <line x1=\"24\" y1=\"192\" x2=\"184\" y2=\"192\" stroke=\"currentColor\" stroke-width=\"1\"/>\n  <line x1=\"27\" y1=\"107\" x2=\"181\" y2=\"107\" stroke=\"currentColor\" stroke-width=\"3\" stroke-opacity=\"0.55\"/>\n  <line x1=\"27\" y1=\"141\" x2=\"181\" y2=\"141\" stroke=\"currentColor\" stroke-width=\"3\" stroke-opacity=\"0.55\"/>\n  <line x1=\"27\" y1=\"175\" x2=\"181\" y2=\"175\" stroke=\"currentColor\" stroke-width=\"3\" stroke-opacity=\"0.55\"/>\n  <line x1=\"27\" y1=\"209\" x2=\"181\" y2=\"209\" stroke=\"currentColor\" stroke-width=\"3\" stroke-opacity=\"0.55\"/>\n  <rect x=\"316\" y=\"90\" width=\"160\" height=\"136\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/>\n  <line x1=\"356\" y1=\"90\" x2=\"356\" y2=\"226\" stroke=\"currentColor\" stroke-width=\"1\"/>\n  <line x1=\"316\" y1=\"124\" x2=\"476\" y2=\"124\" stroke=\"currentColor\" stroke-width=\"1\"/>\n  <line x1=\"396\" y1=\"90\" x2=\"396\" y2=\"226\" stroke=\"currentColor\" stroke-width=\"1\"/>\n  <line x1=\"316\" y1=\"158\" x2=\"476\" y2=\"158\" stroke=\"currentColor\" stroke-width=\"1\"/>\n  <line x1=\"436\" y1=\"90\" x2=\"436\" y2=\"226\" stroke=\"currentColor\" stroke-width=\"1\"/>\n  <line x1=\"316\" y1=\"192\" x2=\"476\" y2=\"192\" stroke=\"currentColor\" stroke-width=\"1\"/>\n  <line x1=\"336\" y1=\"93\" x2=\"336\" y2=\"223\" stroke=\"currentColor\" stroke-width=\"3\" stroke-opacity=\"0.55\"/>\n  <line x1=\"376\" y1=\"93\" x2=\"376\" y2=\"223\" stroke=\"currentColor\" stroke-width=\"3\" stroke-opacity=\"0.55\"/>\n  <line x1=\"416\" y1=\"93\" x2=\"416\" y2=\"223\" stroke=\"currentColor\" stroke-width=\"3\" stroke-opacity=\"0.55\"/>\n  <line x1=\"456\" y1=\"93\" x2=\"456\" y2=\"223\" stroke=\"currentColor\" stroke-width=\"3\" stroke-opacity=\"0.55\"/>\n  <rect x=\"608\" y=\"90\" width=\"160\" height=\"136\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/>\n  <line x1=\"648\" y1=\"90\" x2=\"648\" y2=\"226\" stroke=\"currentColor\" stroke-width=\"1\"/>\n  <line x1=\"608\" y1=\"124\" x2=\"768\" y2=\"124\" stroke=\"currentColor\" stroke-width=\"1\"/>\n  <line x1=\"688\" y1=\"90\" x2=\"688\" y2=\"226\" stroke=\"currentColor\" stroke-width=\"1\"/>\n  <line x1=\"608\" y1=\"158\" x2=\"768\" y2=\"158\" stroke=\"currentColor\" stroke-width=\"1\"/>\n  <line x1=\"728\" y1=\"90\" x2=\"728\" y2=\"226\" stroke=\"currentColor\" stroke-width=\"1\"/>\n  <line x1=\"608\" y1=\"192\" x2=\"768\" y2=\"192\" stroke=\"currentColor\" stroke-width=\"1\"/>\n  <line x1=\"628\" y1=\"107\" x2=\"748\" y2=\"209\" stroke=\"currentColor\" stroke-width=\"3\" stroke-opacity=\"0.55\"/>\n  <line x1=\"748\" y1=\"107\" x2=\"628\" y2=\"209\" stroke=\"currentColor\" stroke-width=\"3\" stroke-opacity=\"0.55\"/>\n  <text x=\"24\" y=\"70\" font-size=\"20\">四条行，各 34</text>\n  <text x=\"316\" y=\"70\" font-size=\"20\">四条列，各 34</text>\n  <text x=\"608\" y=\"70\" font-size=\"20\">两条对角线，各 34</text>\n  <text x=\"24\" y=\"258\" font-size=\"19\">十条线逐条求和，全部等于 34 才算通过</text>\n  <text x=\"608\" y=\"258\" font-size=\"19\">两条对角线各经过 4 格</text>\n</g>\n</svg>",
+     "alt": "三张并排的 4×4 网格示意图，分别用粗线标出四条行、四条列、两条对角线的位置"
+    },
+    {
+     "type": "note",
+     "tone": "warn",
+     "title": "只核四条行会漏掉一半",
+     "html": "<p>把文献那一版（4 14 15 1 起头的那张）的第二行前两格对调，得到 4 14 15 1 / 7 9 6 12 / 5 11 10 8 / 16 2 3 13。四行仍然各是 34，但第一列成了 32，主对角线成了 36。只对行求和这一条，挡不住这种错。</p>",
+     "steps": []
+    },
+    {
+     "type": "quiz",
+     "anchor": "十条验核线",
+     "questions": [
+      {
+       "q": "一份流传版的木星方阵逐格抄录如下：\n\n```text\n 4 14 15  1\n 9  7  6 12\n 5 11 10  8\n16  3  2 13\n```\n\n① 十条线里哪几条不等于 34？各写出求和式。\n② 只核四条行与两条对角线，能不能挡下这份表？",
+       "answer": "四条行与两条对角线都是 34，破的是两条列。\n第二列 $14+7+11+3=35$，第三列 $15+6+10+2=33$。\n十六格仍是 1 到 16 各一次，只是 2 与 3 换了位置。\n所以只核行与对角线挡不下这一份，四条列必须逐个核。",
+       "criteria": "过：指出破的是第二列 35 与第三列 33。\n并写出这两列的求和式。\n再答「只核行与对角线挡不下」。\n只写「有一列错了」而不点出是哪一列的，按不通过。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "十条线全对也不够"
+    },
+    {
+     "type": "p",
+     "html": "核完十条线，还有一条最容易漏的：十六格里的数必须是 1 到 16 各一次。这一条能单独失效，看下面的表。"
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th>第一列</th><th>第二列</th><th>第三列</th><th>第四列</th></tr></thead><tbody><tr><td>8</td><td>8</td><td>9</td><td>9</td></tr><tr><td>9</td><td>9</td><td>8</td><td>8</td></tr><tr><td>9</td><td>9</td><td>8</td><td>8</td></tr><tr><td>8</td><td>8</td><td>9</td><td>9</td></tr></tbody></table>"
+    },
+    {
+     "type": "p",
+     "html": "四条行各 34，四条列各 34，两条对角线也各 34，十条线全部通过。但全表只有 8 和 9 两个数，1 到 16 里其余十四个数一个也没有，缺号与重号同时存在。判据需要补上这一条，完整的判据因此有三项："
+    },
+    {
+     "type": "ol",
+     "html": "<ol><li>十六格逐格读出来，1 到 16 各出现一次，没有缺号，没有重号；</li><li>四条行、四条列、两条对角线各为 34；</li><li>十六格之和为 136——第一条成立时它自动成立，列为对账用。</li></ol>"
+    },
+    {
+     "type": "quiz",
+     "anchor": "十条线全 34 仍不合格的情形",
+     "questions": [
+      {
+       "q": "下面这份木星方阵，十条线全是 34：\n\n```text\n8 8 9 9\n9 9 8 8\n9 9 8 8\n8 8 9 9\n```\n\n① 它为什么仍不能算木星方阵？\n② 要挡下它，判据里得补上哪一条？",
+       "answer": "十六格里只有 8 与 9 两个数。\n1 到 7 与 10 到 16 一个都没出现，缺号十四个；\n8 与 9 各出现八次，重号两个。\n每条线都是 $8+8+9+9=34$，所以十条线挡不下它。\n要补的那一条是：十六格逐格读出，1 到 16 各出现一次。\n它与「十条线各 34」互相不能替代，两项都要核。",
+       "criteria": "过：答出只有 8 与 9、缺号与重号同时存在，并点名缺哪些、重哪些。\n并给出要补的判据：十六格里 1 到 16 各出现一次。\n再说明这条与「十条线各 34」不能互相替代。\n只答「数字不对」不算过。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "找错在哪一格"
+    },
+    {
+     "type": "p",
+     "html": "流传的方阵出错，多数只错在一格上：某个数写成了别的数，或者某一格抄漏。定位按下面的顺序走。"
+    },
+    {
+     "type": "ol",
+     "html": "<ol><li>点名：把图上十六格读成十六个数，找出 1 到 16 里缺了哪个号、哪个号出现了两次。这一步只点名，不求和。</li><li>求线：逐条算十条线，记下和不等于 34 的那几条。一格的数属于一条行、一条列，落在对角线上时还属于那一条对角线；两条算错的线相交的那个格子，就是候选错格。</li><li>验证：把候选格换成第 1 步查出来的缺号，重算相交的那两条线，看能否同时回到 34。</li><li>兜底：算错的线超过两条且没有共同交点时，错处不止一格。这时用第 1 步的缺号与重号压范围——缺的那个号只可能落在少数几格里，把这几格所在的行与列标出来，再逐格试。</li></ol>"
+    },
+    {
+     "type": "p",
+     "html": "现成的方阵生成工具交出来的也只是一份候选，过一遍点名与十条线，才算核过。"
+    },
+    {
+     "type": "note",
+     "tone": "practice",
+     "title": "上手做 | 第二步 · 构一张，再把错格找出来",
+     "html": "<p>本节点的实操任务落在 lab 下本节点的目录里（[lab/README.md](../lab/README.md)）：自己构一张 4×4 木星方阵、按十条线逐条验核，再把一份流传版里的错格找出来。两个留白任务分别是[自己构一张方阵](../lab/0003-kamea-construction/02-任务一-自己构一张方阵.md)与[三份流传版的错格定位](../lab/0003-kamea-construction/03-任务二-三份流传版的错格定位.md)；要交什么、按什么算过，写在任务表里。动手时把上面四步摆在手边。</p>",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "resources",
+     "html": "",
+     "steps": []
+    }
+   ]
+  }
+ ]
+}
