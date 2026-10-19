@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "app/**"
+      - "docs/**"
       - "android/**"
       - ".github/workflows/android.yml"
   workflow_dispatch:
@@ -23,7 +23,7 @@ jobs:
       - name: 把 PWA 放进安卓 assets
         run: |
           mkdir -p android/app/src/main/assets/www
-          cp -r app/. android/app/src/main/assets/www/
+          cp -r docs/. android/app/src/main/assets/www/
 
       - uses: gradle/actions/setup-gradle@v4
         with:
