@@ -1,82 +1,153 @@
 {
  "ok": [
-  "《平衡之书》(Liber Librae).pdf",
-  "《化学婚礼》(Waite版).pdf",
-  "《所罗门的小钥匙》(Goetia).pdf",
-  "《赫尔墨斯文集》(Corpus Hermeticum-Gnosis.org).pdf",
-  "魔法师的自我入门_.pdf (魔法师的自我入门_.pdf) (Z-Library).pdf",
-  "《翠玉录》.pdf",
-  "简便魔法.pdf (简便魔法.pdf) (Z-Library).pdf",
-  "《贤者之书》(Picatrix).pdf",
-  "《象形一元》(Monas Hieroglyphica).pdf",
-  "《所罗门的遗嘱》(Testament of Solomon).pdf",
-  "《天使拉结尔之书》(Book of Raziel).pdf",
-  "《七天之书》(Heptameron).pdf",
-  "《所罗门大钥匙》(Greater Key of Solomon).pdf",
-  "《摩西六七书》(Sixth and Seventh Books of Moses).pdf",
-  "《黑母鸡》(The Black Pullet).pdf",
-  "《洪诺留宣誓书》(Liber Juratus).pdf",
-  "《奥伯龙之书》(Book of Oberon).pdf",
-  "希腊罗马神话和《圣经》小辞典 附英法西俄名称索引 -- 梁德润编著 -- 1982 -- 北京市_外语教学与研究出版社 -- 22702a7f11e7301c426bb268137acceb -- Anna’s Archive.pdf",
-  "金色黎明 (约翰.m.格里尔) (Z-Library).pdf",
-  "希腊罗马神话辞典 -- (美)J·E·齐默尔曼著;张霖欣编译 -- 1987 -- 西安_陕西人民出版社 -- dfe8043d505f4a29cd0e1e45e5030bce -- Anna’s Archive.pdf",
-  "古代社会 巫术、科学、宗教与神化_ (美)路易斯·摩尔根著;刘峰译;(英)马林诺夫斯基著;李安宅译_ 北京_中国社会出版社, Kuang shi ming dian.pdf",
-  "中华道教大辞典 6.pdf",
-  "MS43埃罗译【所罗门的大钥匙】简体黑白扫描.pdf",
-  "金枝 (弗雷泽, 培基·汪 (翻译), 泽石·张) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
- ],
- "fail": [
   {
-   "name": "《神秘哲学三书》卷一(自然魔法).pdf",
-   "error": "HTTP Error 422: Unprocessable Entity"
+   "asset": "book-001.pdf",
+   "title": "《平衡之书》(Liber Librae).pdf"
   },
   {
-   "name": "《神秘哲学三书》卷二(天体魔法).pdf",
-   "error": "HTTP Error 422: Unprocessable Entity"
+   "asset": "book-002.pdf",
+   "title": "《化学婚礼》(Waite版).pdf"
   },
   {
-   "name": "《神秘哲学三书》卷三(仪式魔法).pdf",
-   "error": "HTTP Error 422: Unprocessable Entity"
+   "asset": "book-003.pdf",
+   "title": "《所罗门的小钥匙》(Goetia).pdf"
   },
   {
-   "name": "《浮士德》(德文第一部).pdf",
-   "error": "HTTP Error 422: Unprocessable Entity"
+   "asset": "book-004.pdf",
+   "title": "《赫尔墨斯文集》(Corpus Hermeticum-Gnosis.org).pdf"
   },
   {
-   "name": "《浮士德》(德文第二部).pdf",
-   "error": "HTTP Error 422: Unprocessable Entity"
+   "asset": "book-005.pdf",
+   "title": "魔法师的自我入门_.pdf (魔法师的自我入门_.pdf) (Z-Library).pdf"
   },
   {
-   "name": "《浮士德》(英文诗体译版).pdf",
-   "error": "HTTP Error 422: Unprocessable Entity"
+   "asset": "book-006.pdf",
+   "title": "《翠玉录》.pdf"
   },
   {
-   "name": "法之书（神秘主义文本）克劳利作.pdf",
-   "error": "HTTP Error 422: Unprocessable Entity"
+   "asset": "book-007.pdf",
+   "title": "简便魔法.pdf (简便魔法.pdf) (Z-Library).pdf"
   },
   {
-   "name": "《神秘神学》(伪狄奥尼修斯全集).pdf",
-   "error": "HTTP Error 422: Unprocessable Entity"
+   "asset": "book-008.pdf",
+   "title": "《贤者之书》(Picatrix).pdf"
   },
   {
-   "name": "赫尔墨斯主义魔法.pdf",
-   "error": "HTTP Error 422: Unprocessable Entity"
+   "asset": "book-009.pdf",
+   "title": "《象形一元》(Monas Hieroglyphica).pdf"
   },
   {
-   "name": "《泰勒玛大辞典》.pdf",
-   "error": "HTTP Error 422: Unprocessable Entity"
+   "asset": "book-010.pdf",
+   "title": "《神秘哲学三书》卷一(自然魔法).pdf"
   },
   {
-   "name": "所罗门的小钥匙(简体).pdf",
-   "error": "HTTP Error 422: Unprocessable Entity"
+   "asset": "book-011.pdf",
+   "title": "《所罗门的遗嘱》(Testament of Solomon).pdf"
   },
   {
-   "name": "黑乌鸦：浮士德博士地狱三重胁迫魔法书（机翻）.pdf",
-   "error": "HTTP Error 422: Unprocessable Entity"
+   "asset": "book-012.pdf",
+   "title": "《神秘哲学三书》卷二(天体魔法).pdf"
   },
   {
-   "name": "中国神话人物辞典.pdf",
-   "error": "HTTP Error 422: Unprocessable Entity"
+   "asset": "book-013.pdf",
+   "title": "《神秘哲学三书》卷三(仪式魔法).pdf"
+  },
+  {
+   "asset": "book-014.pdf",
+   "title": "《天使拉结尔之书》(Book of Raziel).pdf"
+  },
+  {
+   "asset": "book-015.pdf",
+   "title": "《七天之书》(Heptameron).pdf"
+  },
+  {
+   "asset": "book-016.pdf",
+   "title": "《浮士德》(德文第一部).pdf"
+  },
+  {
+   "asset": "book-017.pdf",
+   "title": "《浮士德》(德文第二部).pdf"
+  },
+  {
+   "asset": "book-018.pdf",
+   "title": "《所罗门大钥匙》(Greater Key of Solomon).pdf"
+  },
+  {
+   "asset": "book-019.pdf",
+   "title": "《摩西六七书》(Sixth and Seventh Books of Moses).pdf"
+  },
+  {
+   "asset": "book-020.pdf",
+   "title": "《浮士德》(英文诗体译版).pdf"
+  },
+  {
+   "asset": "book-021.pdf",
+   "title": "《黑母鸡》(The Black Pullet).pdf"
+  },
+  {
+   "asset": "book-022.pdf",
+   "title": "《洪诺留宣誓书》(Liber Juratus).pdf"
+  },
+  {
+   "asset": "book-023.pdf",
+   "title": "法之书（神秘主义文本）克劳利作.pdf"
+  },
+  {
+   "asset": "book-024.pdf",
+   "title": "《神秘神学》(伪狄奥尼修斯全集).pdf"
+  },
+  {
+   "asset": "book-025.pdf",
+   "title": "赫尔墨斯主义魔法.pdf"
+  },
+  {
+   "asset": "book-026.pdf",
+   "title": "《奥伯龙之书》(Book of Oberon).pdf"
+  },
+  {
+   "asset": "book-027.pdf",
+   "title": "《泰勒玛大辞典》.pdf"
+  },
+  {
+   "asset": "book-028.pdf",
+   "title": "所罗门的小钥匙(简体).pdf"
+  },
+  {
+   "asset": "book-029.pdf",
+   "title": "希腊罗马神话和《圣经》小辞典 附英法西俄名称索引 -- 梁德润编著 -- 1982 -- 北京市_外语教学与研究出版社 -- 22702a7f11e7301c426bb268137acceb -- Anna’s Archive.pdf"
+  },
+  {
+   "asset": "book-030.pdf",
+   "title": "黑乌鸦：浮士德博士地狱三重胁迫魔法书（机翻）.pdf"
+  },
+  {
+   "asset": "book-031.pdf",
+   "title": "金色黎明 (约翰.m.格里尔) (Z-Library).pdf"
+  },
+  {
+   "asset": "book-032.pdf",
+   "title": "希腊罗马神话辞典 -- (美)J·E·齐默尔曼著;张霖欣编译 -- 1987 -- 西安_陕西人民出版社 -- dfe8043d505f4a29cd0e1e45e5030bce -- Anna’s Archive.pdf"
+  },
+  {
+   "asset": "book-033.pdf",
+   "title": "古代社会 巫术、科学、宗教与神化_ (美)路易斯·摩尔根著;刘峰译;(英)马林诺夫斯基著;李安宅译_ 北京_中国社会出版社, Kuang shi ming dian.pdf"
+  },
+  {
+   "asset": "book-034.pdf",
+   "title": "中华道教大辞典 6.pdf"
+  },
+  {
+   "asset": "book-035.pdf",
+   "title": "MS43埃罗译【所罗门的大钥匙】简体黑白扫描.pdf"
+  },
+  {
+   "asset": "book-036.pdf",
+   "title": "中国神话人物辞典.pdf"
+  },
+  {
+   "asset": "book-037.pdf",
+   "title": "金枝 (弗雷泽, 培基·汪 (翻译), 泽石·张) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
   }
- ]
+ ],
+ "fail": []
 }
