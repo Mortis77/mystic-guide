@@ -1,0 +1,364 @@
+{
+ "total": 46,
+ "total_mb": 834.9,
+ "categories": [
+  {
+   "name": "中国方术",
+   "count": 1,
+   "books": [
+    {
+     "id": "ec1e8b13b1",
+     "title": "《中国方术大辞典》陈永正主编",
+     "category": "中国方术",
+     "size_mb": 42.9,
+     "file": "《中国方术大辞典》陈永正主编.pdf"
+    }
+   ]
+  },
+  {
+   "name": "其他",
+   "count": 13,
+   "books": [
+    {
+     "id": "963641671d",
+     "title": "《化学婚礼》(Waite版)",
+     "category": "其他",
+     "size_mb": 0.1,
+     "file": "《化学婚礼》(Waite版).pdf"
+    },
+    {
+     "id": "771a43d5fe",
+     "title": "《天使拉结尔之书》(Book of Raziel)",
+     "category": "其他",
+     "size_mb": 0.2,
+     "file": "《天使拉结尔之书》(Book of Raziel).pdf"
+    },
+    {
+     "id": "cd9b6b8fd3",
+     "title": "《奥伯龙之书》(Book of Oberon)",
+     "category": "其他",
+     "size_mb": 3.0,
+     "file": "《奥伯龙之书》(Book of Oberon).pdf"
+    },
+    {
+     "id": "7c13e015e8",
+     "title": "《平衡之书》(Liber Librae)",
+     "category": "其他",
+     "size_mb": 0.0,
+     "file": "《平衡之书》(Liber Librae).pdf"
+    },
+    {
+     "id": "cddd03319b",
+     "title": "《神秘神学》(伪狄奥尼修斯全集)",
+     "category": "其他",
+     "size_mb": 1.8,
+     "file": "《神秘神学》(伪狄奥尼修斯全集).pdf"
+    },
+    {
+     "id": "f296688f3b",
+     "title": "《翠玉录》",
+     "category": "其他",
+     "size_mb": 0.1,
+     "file": "《翠玉录》.pdf"
+    },
+    {
+     "id": "8700984ae9",
+     "title": "《象形一元》(Monas Hieroglyphica)",
+     "category": "其他",
+     "size_mb": 0.1,
+     "file": "《象形一元》(Monas Hieroglyphica).pdf"
+    },
+    {
+     "id": "d140729321",
+     "title": "《赫尔墨斯文集》(Corpus Hermeticum-Gnosis.org)",
+     "category": "其他",
+     "size_mb": 0.1,
+     "file": "《赫尔墨斯文集》(Corpus Hermeticum-Gnosis.org).pdf"
+    },
+    {
+     "id": "2757523671",
+     "title": "古代社会 巫术、科学、宗教与神化_ (美)路易斯·摩尔根著;刘峰译;(英)马林诺夫斯基著;李安宅译_ 北京_中国社会出版社, Kuang shi ming dian",
+     "category": "其他",
+     "size_mb": 20.9,
+     "file": "古代社会 巫术、科学、宗教与神化_ (美)路易斯·摩尔根著;刘峰译;(英)马林诺夫斯基著;李安宅译_ 北京_中国社会出版社, Kuang shi ming dian.pdf"
+    },
+    {
+     "id": "6274409661",
+     "title": "法之书（神秘主义文本）克劳利作",
+     "category": "其他",
+     "size_mb": 0.6,
+     "file": "法之书（神秘主义文本）克劳利作.pdf"
+    },
+    {
+     "id": "a92f1866bd",
+     "title": "简便魔法.pdf (简便魔法.pdf)",
+     "category": "其他",
+     "size_mb": 0.1,
+     "file": "简便魔法.pdf (简便魔法.pdf) (Z-Library).pdf"
+    },
+    {
+     "id": "5dfed70ac6",
+     "title": "赫尔墨斯主义魔法",
+     "category": "其他",
+     "size_mb": 2.4,
+     "file": "赫尔墨斯主义魔法.pdf"
+    },
+    {
+     "id": "f25cb7e7eb",
+     "title": "金色黎明 (约翰.m.格里尔)",
+     "category": "其他",
+     "size_mb": 10.6,
+     "file": "金色黎明 (约翰.m.格里尔) (Z-Library).pdf"
+    }
+   ]
+  },
+  {
+   "name": "卡巴拉与秘传",
+   "count": 1,
+   "books": [
+    {
+     "id": "1932d37f26",
+     "title": "秘法卡巴拉 (荻恩·佛琼 著 邱峻铭 译)",
+     "category": "卡巴拉与秘传",
+     "size_mb": 80.6,
+     "file": "秘法卡巴拉 (荻恩·佛琼 著 邱峻铭 译) (Z-Library)-1.pdf"
+    }
+   ]
+  },
+  {
+   "name": "所罗门与仪式魔法",
+   "count": 20,
+   "books": [
+    {
+     "id": "8b73bbbda9",
+     "title": "MS43埃罗译【所罗门的大钥匙】简体黑白扫描",
+     "category": "所罗门与仪式魔法",
+     "size_mb": 21.1,
+     "file": "MS43埃罗译【所罗门的大钥匙】简体黑白扫描.pdf"
+    },
+    {
+     "id": "88199686c6",
+     "title": "《七天之书》(Heptameron)",
+     "category": "所罗门与仪式魔法",
+     "size_mb": 0.2,
+     "file": "《七天之书》(Heptameron).pdf"
+    },
+    {
+     "id": "bfb4bb6353",
+     "title": "《所罗门大钥匙》(Greater Key of Solomon)",
+     "category": "所罗门与仪式魔法",
+     "size_mb": 0.2,
+     "file": "《所罗门大钥匙》(Greater Key of Solomon).pdf"
+    },
+    {
+     "id": "3fb4023b0b",
+     "title": "《所罗门的小钥匙》(Goetia)",
+     "category": "所罗门与仪式魔法",
+     "size_mb": 0.1,
+     "file": "《所罗门的小钥匙》(Goetia).pdf"
+    },
+    {
+     "id": "99fb3a89fa",
+     "title": "《所罗门的遗嘱》(Testament of Solomon)",
+     "category": "所罗门与仪式魔法",
+     "size_mb": 0.1,
+     "file": "《所罗门的遗嘱》(Testament of Solomon).pdf"
+    },
+    {
+     "id": "c9da3e9db5",
+     "title": "《摩西六七书》(Sixth and Seventh Books of Moses)",
+     "category": "所罗门与仪式魔法",
+     "size_mb": 0.3,
+     "file": "《摩西六七书》(Sixth and Seventh Books of Moses).pdf"
+    },
+    {
+     "id": "077a72f6d3",
+     "title": "《洪诺留宣誓书》(Liber Juratus)",
+     "category": "所罗门与仪式魔法",
+     "size_mb": 0.5,
+     "file": "《洪诺留宣誓书》(Liber Juratus).pdf"
+    },
+    {
+     "id": "7b02164621",
+     "title": "《浮士德》(德文第一部)",
+     "category": "所罗门与仪式魔法",
+     "size_mb": 0.2,
+     "file": "《浮士德》(德文第一部).pdf"
+    },
+    {
+     "id": "97487c650d",
+     "title": "《浮士德》(德文第二部)",
+     "category": "所罗门与仪式魔法",
+     "size_mb": 0.2,
+     "file": "《浮士德》(德文第二部).pdf"
+    },
+    {
+     "id": "ee78afaa05",
+     "title": "《浮士德》(英文诗体译版)",
+     "category": "所罗门与仪式魔法",
+     "size_mb": 0.3,
+     "file": "《浮士德》(英文诗体译版).pdf"
+    },
+    {
+     "id": "e75e222bf1",
+     "title": "《神秘哲学三书》卷一(自然魔法)",
+     "category": "所罗门与仪式魔法",
+     "size_mb": 0.1,
+     "file": "《神秘哲学三书》卷一(自然魔法).pdf"
+    },
+    {
+     "id": "813604c13c",
+     "title": "《神秘哲学三书》卷三(仪式魔法)",
+     "category": "所罗门与仪式魔法",
+     "size_mb": 0.2,
+     "file": "《神秘哲学三书》卷三(仪式魔法).pdf"
+    },
+    {
+     "id": "97b6b27da9",
+     "title": "《神秘哲学三书》卷二(天体魔法)",
+     "category": "所罗门与仪式魔法",
+     "size_mb": 0.1,
+     "file": "《神秘哲学三书》卷二(天体魔法).pdf"
+    },
+    {
+     "id": "23fb0d8472",
+     "title": "《贤者之书》(Picatrix)",
+     "category": "所罗门与仪式魔法",
+     "size_mb": 0.1,
+     "file": "《贤者之书》(Picatrix).pdf"
+    },
+    {
+     "id": "0c4ae86cd4",
+     "title": "《黑母鸡》(The Black Pullet)",
+     "category": "所罗门与仪式魔法",
+     "size_mb": 0.3,
+     "file": "《黑母鸡》(The Black Pullet).pdf"
+    },
+    {
+     "id": "9f0e345473",
+     "title": "威卡魔法 (史考特．康寧罕)",
+     "category": "所罗门与仪式魔法",
+     "size_mb": 82.5,
+     "file": "威卡魔法 (史考特．康寧罕) (Z-Library).pdf"
+    },
+    {
+     "id": "710f9c17b8",
+     "title": "所罗门的小钥匙(简体)",
+     "category": "所罗门与仪式魔法",
+     "size_mb": 3.5,
+     "file": "所罗门的小钥匙(简体).pdf"
+    },
+    {
+     "id": "63e968a5bd",
+     "title": "魔法师学徒的伴侣书：如何施展魔法？从蓝魔法到黑魔法的16堂魔法实践课（全2册） (奥伯伦·泽尔-雷文哈特)",
+     "category": "所罗门与仪式魔法",
+     "size_mb": 169.6,
+     "file": "魔法师学徒的伴侣书：如何施展魔法？从蓝魔法到黑魔法的16堂魔法实践课（全2册） (奥伯伦·泽尔-雷文哈特) (Z-Library).pdf"
+    },
+    {
+     "id": "cca2241fd1",
+     "title": "魔法师的自我入门_.pdf (魔法师的自我入门_.pdf)",
+     "category": "所罗门与仪式魔法",
+     "size_mb": 0.1,
+     "file": "魔法师的自我入门_.pdf (魔法师的自我入门_.pdf) (Z-Library).pdf"
+    },
+    {
+     "id": "ab05917e1a",
+     "title": "黑乌鸦：浮士德博士地狱三重胁迫魔法书（机翻）",
+     "category": "所罗门与仪式魔法",
+     "size_mb": 6.5,
+     "file": "黑乌鸦：浮士德博士地狱三重胁迫魔法书（机翻）.pdf"
+    }
+   ]
+  },
+  {
+   "name": "神话与人类学",
+   "count": 7,
+   "books": [
+    {
+     "id": "32cf8be425",
+     "title": "[世界神话辞典]",
+     "category": "神话与人类学",
+     "size_mb": 57.4,
+     "file": "[世界神话辞典].pdf"
+    },
+    {
+     "id": "612e2cd17c",
+     "title": "中国神话人物辞典",
+     "category": "神话与人类学",
+     "size_mb": 24.1,
+     "file": "中国神话人物辞典.pdf"
+    },
+    {
+     "id": "3196bd41d8",
+     "title": "中国鬼文化大辞典",
+     "category": "神话与人类学",
+     "size_mb": 38.5,
+     "file": "中国鬼文化大辞典.pdf"
+    },
+    {
+     "id": "dd7cbd7e88",
+     "title": "古希腊罗马神话鉴赏辞典 (晏立农 马淑琴编著)",
+     "category": "神话与人类学",
+     "size_mb": 69.4,
+     "file": "古希腊罗马神话鉴赏辞典 (晏立农  马淑琴编著) (Z-Library).pdf"
+    },
+    {
+     "id": "34c6bbd93d",
+     "title": "希腊罗马神话和《圣经》小辞典 附英法西俄名称索引 -- 梁德润编著 -- 1982 -- 北京市_外语教学与研究出版社 -- 22702a7f11e7301c426bb268137acceb -- Anna’s Archive",
+     "category": "神话与人类学",
+     "size_mb": 5.8,
+     "file": "希腊罗马神话和《圣经》小辞典 附英法西俄名称索引 -- 梁德润编著 -- 1982 -- 北京市_外语教学与研究出版社 -- 22702a7f11e7301c426bb268137acceb -- Anna’s Archive.pdf"
+    },
+    {
+     "id": "c59edf6121",
+     "title": "希腊罗马神话辞典 -- (美)J·E·齐默尔曼著;张霖欣编译 -- 1987 -- 西安_陕西人民出版社 -- dfe8043d505f4a29cd0e1e45e5030bce -- Anna’s Archive",
+     "category": "神话与人类学",
+     "size_mb": 15.6,
+     "file": "希腊罗马神话辞典 -- (美)J·E·齐默尔曼著;张霖欣编译 -- 1987 -- 西安_陕西人民出版社 -- dfe8043d505f4a29cd0e1e45e5030bce -- Anna’s Archive.pdf"
+    },
+    {
+     "id": "7ac89c80ef",
+     "title": "金枝 (弗雷泽, 培基·汪 (翻译), 泽石·张)",
+     "category": "神话与人类学",
+     "size_mb": 26.4,
+     "file": "金枝 (弗雷泽, 培基·汪 (翻译), 泽石·张) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+    }
+   ]
+  },
+  {
+   "name": "辞典与工具书",
+   "count": 4,
+   "books": [
+    {
+     "id": "85310bdb39",
+     "title": "《泰勒玛大辞典》",
+     "category": "辞典与工具书",
+     "size_mb": 3.2,
+     "file": "《泰勒玛大辞典》.pdf"
+    },
+    {
+     "id": "5d2ef8bab6",
+     "title": "中华道教大辞典 6",
+     "category": "辞典与工具书",
+     "size_mb": 21.0,
+     "file": "中华道教大辞典 6.pdf"
+    },
+    {
+     "id": "6e99fd3703",
+     "title": "城市伏都教：非洲加勒比魔术入门指南Urban Voodoo A Beginners Guide to Afro-Caribbean Magic by S. Jason Black, Christopher S. Hyatt (z-lib_【文档翻译_译文_英译中】(1)",
+     "category": "辞典与工具书",
+     "size_mb": 50.4,
+     "file": "城市伏都教：非洲加勒比魔术入门指南Urban Voodoo A Beginners Guide to Afro-Caribbean Magic by S. Jason Black, Christopher S. Hyatt (z-lib_【文档翻译_译文_英译中】(1).pdf"
+    },
+    {
+     "id": "9a72e12dd0",
+     "title": "超级《世界文化辞典》",
+     "category": "辞典与工具书",
+     "size_mb": 73.4,
+     "file": "超级《世界文化辞典》.pdf"
+    }
+   ]
+  }
+ ]
+}

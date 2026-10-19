@@ -9,6 +9,7 @@
 <link rel="icon" type="image/png" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="tools.css">
 <title>神秘指南</title>
 </head>
 <body>
@@ -31,7 +32,9 @@
 
 <nav class="tabbar" id="tabbar">
   <button data-tab="today" class="tab active"><span class="tab-ico">◎</span>今天</button>
-  <button data-tab="library" class="tab"><span class="tab-ico">▤</span>书库</button>
+  <button data-tab="courses" class="tab"><span class="tab-ico">▤</span>课程</button>
+  <button data-tab="books" class="tab"><span class="tab-ico">▥</span>书库</button>
+  <button data-tab="tools" class="tab"><span class="tab-ico">✦</span>工具</button>
   <button data-tab="me" class="tab"><span class="tab-ico">◇</span>我的</button>
 </nav>
 
@@ -39,6 +42,8 @@
 <div class="sheet" id="sheet" hidden></div>
 <div class="toast" id="toast" hidden></div>
 
+<script src="vendor/lunar.js"></script>
+<script src="tools.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
