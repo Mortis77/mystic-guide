@@ -47,15 +47,15 @@ def main():
     ok, fail = [], []
     for i, f in enumerate(todo, 1):
         name = os.path.basename(f)
-        if name in existing:
+        if f"book-{i:03d}.pdf" in existing:
             print(f"[{i}/{len(todo)}] skip {name}")
-            ok.append(name)
+            ok.append({"asset": f"book-{i:03d}.pdf", "title": name})
             continue
         size = os.path.getsize(f) / 1048576
         t0 = time.time()
         url = (
             f"https://uploads.github.com/repos/{REPO}/releases/{rid}/assets"
-            f"?name={urllib.parse.quote(name)}"
+            f"?name=book-{i:03d}.pdf"
         )
         try:
             with open(f, "rb") as fh:
@@ -63,10 +63,10 @@ def main():
             res = api(url, token, method="POST", data=data, content_type="application/pdf")
             dt = time.time() - t0
             print(f"[{i}/{len(todo)}] ok {size:6.1f}MB {dt:5.1f}s {name[:40]}")
-            ok.append(name)
+            ok.append({"asset": f"book-{i:03d}.pdf", "title": name})
         except Exception as exc:  # noqa: BLE001
             print(f"[{i}/{len(todo)}] FAIL {name[:40]}: {str(exc)[:80]}")
-            fail.append({"name": name, "error": str(exc)[:200]})
+            fail.append({"asset": f"book-{i:03d}.pdf", "title": name, "error": str(exc)[:200]})
 
     if out_json:
         json.dump({"ok": ok, "fail": fail}, open(out_json, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
