@@ -1,31 +1,20 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-theme="dark">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#15121c">
-<meta name="description" content="神秘指南 —— 每天两三分钟的神秘学微课">
+<meta name="description" content="神秘指南">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/png" href="icons/icon-192.png">
-<link rel="apple-touch-icon" href="icons/icon-192.png">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="tools.css">
+<link rel="stylesheet" href="theme.css">
 <title>神秘指南</title>
 </head>
 <body>
 
-<header class="topbar">
-  <button class="icon-btn" id="backBtn" aria-label="返回" hidden>‹</button>
-  <div class="brand">
-    <span class="brand-mark"></span>
-    <span class="brand-text">神秘指南</span>
-  </div>
-  <div class="top-right">
-    <div class="streak" id="streakChip" title="连续天数">
-      <span class="flame">◆</span><span id="streakNum">0</span>
-    </div>
-    <button class="icon-btn" id="settingsBtn" aria-label="设置">⚙</button>
-  </div>
+<header class="topbar" id="topbar" hidden>
+  <button class="nav-back" id="backBtn" aria-label="返回">‹</button>
+  <div class="nav-title" id="navTitle"></div>
 </header>
 
 <main id="view" class="view"></main>
@@ -38,20 +27,20 @@
   <button data-tab="me" class="tab"><span class="tab-ico">◇</span>我的</button>
 </nav>
 
-<div class="sheet-backdrop" id="sheetBackdrop" hidden></div>
-<div class="sheet" id="sheet" hidden></div>
 <div class="toast" id="toast" hidden></div>
+<div class="dl-bar" id="dlBar" hidden><div class="dl-fill" id="dlFill"></div><span id="dlText"></span></div>
 
 <script src="vendor/lunar.js"></script>
 <script src="tools.js"></script>
 <script src="tools2.js"></script>
 <script src="tools3.js"></script>
-<script src="local-books.js"></script>
-<script src="hex.js"></script>
 <script src="tools5.js"></script>
-<script src="version.js"></script>
+<script src="hex.js"></script>
+<script src="local-books.js"></script>
 <script src="updater.js"></script>
 <script src="syncer.js"></script>
-<script src="app.js"></script>
+<script src="version.js"></script>
+<script src="app2.js"></script>
+<script src="tools-views.js"></script>
 </body>
 </html>
