@@ -8,10 +8,16 @@ on:
       - "android/**"
       - ".github/workflows/android.yml"
   workflow_dispatch:
+    inputs:
+      version:
+        description: "版本号（如 1.0.1），留空则用 docs/version.js 里的"
+        required: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -19,6 +25,16 @@ jobs:
         with:
           distribution: temurin
           java-version: "17"
+
+      - name: 定版本号
+        id: ver
+        run: |
+          V="${{ github.event.inputs.version }}"
+          if [ -z "$V" ]; then
+            V=$(python3 -c "import re;print(re.search(r'\"([0-9.]+)\"', open('docs/version.js').read()).group(1))")
+          fi
+          echo "version=$V" >> $GITHUB_OUTPUT
+          python3 scripts/stamp_version.py "$V"
 
       - name: 把 PWA 放进安卓 assets
         run: |
@@ -33,8 +49,24 @@ jobs:
         working-directory: android
         run: gradle assembleDebug --no-daemon
 
+      - name: 重命名
+        run: |
+          mkdir -p out
+          cp android/app/build/outputs/apk/debug/app-debug.apk "out/mystic-guide-${{ steps.ver.outputs.version }}.apk"
+
+      - name: 发布 Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.ver.outputs.version }}
+          name: 神秘指南 v${{ steps.ver.outputs.version }}
+          body: |
+            交感巫术 25 个微单元 · 46 本书 · 12 个工具。
+            安装前请允许「未知来源」。
+          files: out/*.apk
+          make_latest: true
+
       - uses: actions/upload-artifact@v4
         with:
           name: mystic-guide-apk
-          path: android/app/build/outputs/apk/debug/*.apk
+          path: out/*.apk
           if-no-files-found: error
