@@ -72,6 +72,25 @@
     state.days[t] = (state.days[t] || 0) + 1;
     touchStreak();
     saveState();
+    autoSync();
+  }
+
+  /* 学完自动上传（只在配好同步时动作，悄悄进行，不打断学习） */
+  let syncing = false;
+  async function autoSync() {
+    const S = window.MG_SYNC;
+    if (!S || syncing) return;
+    const c = S.cfg();
+    if (!c.token || !c.gist) return;
+    syncing = true;
+    try {
+      await S.push(c.token, c.gist, state);
+      console.log('[sync] 进度已上传');
+    } catch (e) {
+      console.warn('[sync] 上传失败：' + e.message);
+    } finally {
+      syncing = false;
+    }
   }
   const isDone = (subjectId, unitId) => !!state.done[`${subjectId}/${unitId}`];
 
