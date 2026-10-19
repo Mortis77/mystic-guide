@@ -312,13 +312,14 @@
       const card = el('div', 'subject');
       cat.books.forEach((b) => {
         const row = el('div', 'book');
-        const url = b.url || (base ? base + encodeURIComponent(b.file) : '');
+        const url = b.kind === 'html' ? (b.file || '') : (b.url || (base ? base + encodeURIComponent(b.file) : ''));
+        const tag = b.kind === 'html' ? '内置' : 'PDF';
         row.innerHTML = `
           <div class="b-main">
             <div class="b-title">${escapeHTML(b.title)}</div>
-            <div class="b-meta">${b.size_mb} MB</div>
+            <div class="b-meta">${b.size_mb} MB · ${tag}</div>
           </div>
-          ${url ? `<a class="b-btn" href="${escapeAttr(url)}" target="_blank" rel="noopener">获取</a>` : `<span class="b-meta">待上架</span>`}
+          ${url ? `<a class="b-btn" href="${escapeAttr(url)}" target="_blank" rel="noopener">${b.kind === 'html' ? '阅读' : '获取'}</a>` : `<span class="b-meta">待上架</span>`}
         `;
         card.appendChild(row);
       });
