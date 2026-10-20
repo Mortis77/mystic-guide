@@ -317,9 +317,9 @@
           open.addEventListener('click', () => window.open('books/' + b.file, '_blank'));
           row.appendChild(open);
         } else {
-          const tag = el('span', 'k2', '待下载');
-          tag.style.cssText = 'font-size:12px;color:var(--text-dim)';
-          row.appendChild(tag);
+          const open = el('button', 'b-btn ghost', '在线读');
+          open.addEventListener('click', () => window.open('books-remote/' + b.file, '_blank'));
+          row.appendChild(open);
         }
         card.appendChild(row);
       });
