@@ -2,7 +2,7 @@
  "id": "ritual-practice",
  "name": "日常仪式",
  "goal": "从零学会一套可独立执行的简单仪式：净化与净手净坛、画圆与定方位、道具圣化、按择时组合成一次完整操作，并留下记录。只做净化、圣化与日常仪式，不含蜡烛魔法与召唤交涉。约束：每周 3-6 小时（与另外三门共享），讲法先流程后原理，验收载体为物理实操清单。",
- "status": "暂停",
+ "status": "进行中",
  "total_units": 10,
  "units": [
   {
@@ -517,6 +517,1314 @@
     {
      "type": "p",
      "html": "《洪诺留宣誓书》给的是另一条净化路线：它的第一净化在第 51 章，按阴历的日子分配，每月第 4、8、12、16、20、24、28、32 日在清晨三点前后、上午九点前后与傍晚各念一次指定的祈祷，并注明这些祈祷要在贞洁与洁净中念。那条路线的重点在准备期的状态，本节只用到它的一处：第 137 章第 20 至 22 节写到，在别的东西上要复用「投入圣水的那份盐」所用的那段驱邪话。这一句是盐与水的关联被反复引用的证据，也是第 11 章那段祷文在另一本书里的坐标。"
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "related",
+     "html": "",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "resources",
+     "html": "",
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": "ritual-timing",
+   "seq": 3,
+   "title": "挑一个可用时辰",
+   "kind": "实操",
+   "goal": "能按行星日、行星时与月相三项判据为本周三天各排一张时表，并说清自己挑的时辰凭哪一条站住。",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "择时在中文教程里常被写成一句话：挑个吉时。文献给的判据分两层，一层落在日上，一层落在时上，另有一条月相条件横着管住两者。日与时选对而月相不合，条文要求推迟；月相合而日时选错，动作落在该行星管辖之外。本节把三层判据分开摆清，再用它们为本周三天排表、挑一个时辰。"
+    },
+    {
+     "type": "h2",
+     "html": "日归行星，时也归行星"
+    },
+    {
+     "type": "p",
+     "html": "七日各归一颗行星，两本书一致：周日太阳、周一月亮、周二火星、周三水星、周四木星、周五金星、周六土星。《七天之书》第十八至二十四章逐日给出该日的天使与行星，《大钥匙》卷二第 1 章按操作性质分派日时，用的是同一套日名。"
+    },
+    {
+     "type": "p",
+     "html": "时这一层的定义是：以日出与日落为界，白昼平分十二份、夜间平分十二份，每份称一个行星时；当日第一时归当日行星，其后按迦勒底顺序轮转，七颗转完回到当日那颗（Agrippa 卷二第 34 章）。一日之内的走向是太阳、金星、水星、月亮、土星、木星、火星，再回到太阳。《七天之书》第 2 章的说法相同，第 25 章把十二日时与十二夜时的掌时天使逐个列出。"
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th>日</th><th>行星</th><th>当日天使</th><th>第一时之后依次</th></tr></thead><tbody><tr><td>周日</td><td>太阳</td><td>Michael</td><td>金星、水星、月亮、土星、木星、火星</td></tr><tr><td>周一</td><td>月亮</td><td>Gabriel</td><td>土星、木星、火星、太阳、金星、水星</td></tr><tr><td>周二</td><td>火星</td><td>Samael</td><td>太阳、金星、水星、月亮、土星、木星</td></tr><tr><td>周三</td><td>水星</td><td>Raphael</td><td>月亮、土星、木星、火星、太阳、金星</td></tr><tr><td>周四</td><td>木星</td><td>Sachiel</td><td>火星、太阳、金星、水星、月亮、土星</td></tr><tr><td>周五</td><td>金星</td><td>Anael</td><td>水星、月亮、土星、木星、火星、太阳</td></tr><tr><td>周六</td><td>土星</td><td>Cassiel</td><td>木星、火星、太阳、金星、水星、月亮</td></tr></tbody></table>"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg viewBox=\"0 0 700 200\" role=\"img\" aria-hidden=\"true\">\n  <text x=\"40\" y=\"34\" font-size=\"16\" fill=\"currentColor\">日间十二时</text>\n  <text x=\"390\" y=\"34\" font-size=\"16\" fill=\"currentColor\">夜间十二时</text>\n  <rect x=\"40\" y=\"50\" width=\"290\" height=\"40\" rx=\"4\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <rect x=\"380\" y=\"50\" width=\"290\" height=\"40\" rx=\"4\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <text x=\"185\" y=\"76\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">第 1 时 太阳 … 第 12 时 土星</text>\n  <text x=\"525\" y=\"76\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">第 1 时 木星 … 第 12 时 水星</text>\n  <line x1=\"40\" y1=\"112\" x2=\"670\" y2=\"112\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.35\"/>\n  <text x=\"40\" y=\"136\" font-size=\"15\" fill=\"currentColor\">日出</text>\n  <text x=\"330\" y=\"136\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">日落</text>\n  <text x=\"670\" y=\"136\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"end\">次日日出</text>\n  <text x=\"40\" y=\"168\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.7\">第一格归当日行星，其后按迦勒底顺序，七格一轮</text>\n  <text x=\"40\" y=\"192\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.7\">每格长度随日出日落变化，逐日不同</text>\n</svg>",
+     "alt": "一条二十四格的横条，前十二格是周日的日间行星时，后十二格是夜间行星时，首格标为太阳"
+    },
+    {
+     "type": "quiz",
+     "anchor": "行星日与行星时的两层判据",
+     "questions": [
+      {
+       "q": "两份教程都写着「挑个吉时」。\n按卷二第 1 章与 Agrippa 卷二第 34 章，\n「日」与「时」这两层各由什么定？",
+       "opts": [
+        "日与时同归一颗行星，一层错了另一层跟着错",
+        "日看七日的行星归属，时按日出日落各分十二份",
+        "日由磁偏角定，时按日出钟点定成六十分钟一格",
+        "日由当日天使定，时由当日掌气的王与臣属定"
+       ],
+       "ans": 1,
+       "why": "七日各归一颗行星，两书一致。时以日出日落为界，\n白昼与夜间各平分十二份，当日第一时归当日行星，\n其后按迦勒底顺序轮转。两层各自成立，不是一件事。\n当日天使与掌气的王另是一层，管的是名，不管时的划分。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "每格多长，由日出日落定"
+    },
+    {
+     "type": "p",
+     "html": "行星时的长度逐日不同，冬夏两至的同一格能相差半小时以上。设日出为 $T_r$、日落为 $T_s$，则"
+    },
+    {
+     "type": "p",
+     "html": "$$ h_{day} = \\frac{T_s - T_r}{12}, \\qquad h_{night} = \\frac{(T_r + 24) - T_s}{12}. $$"
+    },
+    {
+     "type": "p",
+     "html": "某日日出 06:12、日落 18:04，白昼共 712 分钟，一个日间时约 59 分 20 秒；第一时从 06:12 起，第二时从 07:11 起，第十二时从 17:04 起。夜长 12 小时 08 分，一个夜间时约 60 分 40 秒。"
+    },
+    {
+     "type": "note",
+     "tone": "warn",
+     "title": "把行星时当成固定六十分钟",
+     "html": "<p>按六十分钟一格排表，二分点附近误差尚小，冬夏至能把整张表挪开半小时以上，第三时之后的归属就可能落到相邻行星上。第 34 章还记下另一派：不把昼夜平分十二份，改用黄道十五度的上升度数定一个时。本节用平分法，因为它在两本书里都有明文；另一法要查当地的斜升表。</p>",
+     "steps": []
+    },
+    {
+     "type": "quiz",
+     "anchor": "用日出日落算一个行星时的长度",
+     "questions": [
+      {
+       "q": "排表用 h =（日落 − 日出）÷ 12。\n某日日出 06:12、日落 18:04，白昼 712 分钟，\n第十二时从 17:04 起。\n把日落改成 20:04、日出不动，会怎么变？",
+       "opts": [
+        "第十二时推到 18:55，一格变约 69 分",
+        "第十二时推到 19:04，一格仍是约 59 分",
+        "第十二时推到 08:11，一格变约 60 分",
+        "第十二时不动，起点只看日出 06:12"
+       ],
+       "ans": 0,
+       "why": "白昼从 712 分钟变成 832 分钟，一格从约 59 分 20 秒\n变成约 69 分 20 秒。第十二时是日出之后第十一格，\n起点从 17:04 推到 18:55。改日落不改日出，\n动的是一格的长度与后面每一格，第一时不动。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "月相与月亮所在的位置"
+    },
+    {
+     "type": "p",
+     "html": "《七天之书》第 9 章开宗明义：月要增光、要「相等」、不可燃尽（<em>Sit Luna crescens, & par, … & non sit combusta</em>）。校注拆成两条：月与太阳相距十二度以内称燃尽，那时月不可见；「相等」指光暗各半，即上弦前后。《大钥匙》卷二第 1 章更细：月要增光、与太阳度数相等，从上弦到冲更好；月宜在火象，尤其白羊与狮子；天要晴静无风。"
+    },
+    {
+     "type": "p",
+     "html": "两处是同一层意思的两种说法。先看月是否增光，望之后到晦之前不做；再看月是否落进太阳十二度以内，落进就等它离开；最后看星座，火象算加分项，不落也不否决。"
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "「相等」的两种读法",
+     "html": "<p>《七天之书》的 par 被读成光暗相等，《大钥匙》写成与太阳度数相等，两处都指月与太阳成九十度上下的位置，在上弦附近重合。两者不重合时，按第 9 章的字面取光暗相等。</p>",
+     "steps": []
+    },
+    {
+     "type": "quiz",
+     "anchor": "月相条件里被漏掉的一项",
+     "questions": [
+      {
+       "q": "一张排表只用了两条月相条件：\n\n```text\n日期      月相        星座\n五月三日  增光第五日  白羊\n```\n\n照《七天之书》第 9 章查，这张表漏了一项。\n① 漏的是哪一项，判据怎么算？\n② 漏了它会把哪一种日子放进可用格？\n③ 补进表里要加一栏什么？",
+       "answer": "① 漏的是燃尽：月与太阳相距十二度以内时月不可见，\n第 9 章要求月不可燃尽。\n② 增光第五日、星座又在白羊，两条都过，\n但月可能正落在太阳十二度内，那格其实不可用。\n③ 加一栏「月与太阳的黄经差」，落进十二度的标燃尽。\n星座只是加分项，燃尽这一条不让步。",
+       "criteria": "① 说出燃尽与十二度这个判据，并能指到第 9 章。\n② 指出缺这一项会让「增光且星座合」的假合格格被选上。\n③ 补的是一栏黄经差，不是再补星座或天气。\n只答「还要看月相」而说不出燃尽与度数的算部分通过。\n把星座当否决项、或把天气当第三项补进来的按不通过。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "几条判据撞在一起时听谁的"
+    },
+    {
+     "type": "p",
+     "html": "三项判据常不能同时满足：某个操作只在水星日做得，那天的月恰好燃尽；某天月上弦、星座也对，当日行星却与操作无关。层级的依据在 Agrippa 卷二第 29、30 两章：凡属某行星的工作，先把该行星置于它掌管的日、时与天图；月必须配合；水星要一并观察。土星与火星的对分与刑克算不利相位，避开。"
+    },
+    {
+     "type": "p",
+     "html": "据此排出裁定顺序："
+    },
+    {
+     "type": "ul",
+     "html": "<ul><li>主行星的日与时。日不给，这一日整体让开。</li><li>月的增光与燃尽。月不合，先挪时辰，挪时辰比换日容易。</li><li>月所在的星座。加分项，压在最后。</li><li>天气。晴静无风写在卷二第 1 章末，大风雷雨顺延。</li><li>四项都不全时，取满足前两项的那一格，并在记录里写明让掉哪一条。</li></ul>"
+    },
+    {
+     "type": "p",
+     "html": "卷二第 1 章另给了一组现成偏好，可当第一顺位用：未指明日时的操作放在水星日的水星时，第十六或第二十三时，夜间第八时更好；求爱一类从太阳第一时到当日第八时；破坏一类放在土星日第一时，或日间第八、第十五时；非凡的实验放在木星第一时与夜间第八时。"
+    },
+    {
+     "type": "quiz",
+     "anchor": "三条判据冲突时的一次取舍",
+     "questions": [
+      {
+       "q": "某操作只在水星时里做。那天是水星日，\n但月已燃尽，要等上弦还得两天。\n按本课的裁定顺序，先动哪一项？",
+       "opts": [
+        "换到别的日子，找一个增光与星座都合的时",
+        "先挪时辰到月离开十二度的那一格，日不动",
+        "仍按水星日的水星时做，把月相写进记录即可",
+        "星象不合就整场取消，等下一个水星日再来"
+       ],
+       "ans": 1,
+       "why": "裁定顺序先主行星的日与时，再月的增光与燃尽。\n日给了这一日就不让，月不合先挪时辰——挪时辰比换日容易。\n燃尽只消等月离开十二度，不必换日；\n真要整条让掉，就在记录里写明让了哪一条。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "排表、挑时辰、写理由"
+    },
+    {
+     "type": "p",
+     "html": "动手部分是排三天的表，再从三格里挑一格，写出它凭哪一条站住、让掉了哪一条。表排完再看下一节：圆上的名字含时之名与日之名，日时先定，圆才有内容可写。"
+    },
+    {
+     "type": "note",
+     "tone": "practice",
+     "title": "上手做 | 第 1 步 · 排三天的行星时",
+     "html": "<p>取本周任意三天，含一天与自己的操作性质相合的日子。</p><p>2. 用上头的公式算出日间时与夜间时的长度。</p><p>3. 从日出起逐格加十二格，夜间从日落起再排十二格。</p><p>4. 每格旁填行星名，首格是当日行星，之后按迦勒底顺序轮转。</p>",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "practice",
+     "title": "上手做 | 第 2 步 · 标月相与月位",
+     "html": "<p>2. 查月与太阳的黄经差，落进十二度的标「燃尽」，这一条不让步。</p><p>3. 查月所在星座，标出是否火象。</p><p>4. 并成一张表：日期、月相、黄经差、星座。</p>",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "practice",
+     "title": "上手做 | 第 3 步 · 挑一格并写理由",
+     "html": "<p>2. 写清那天的月相与月位合格与否，不合格写让掉了哪一条。</p><p>3. 三天里没有全格合格时，写清让掉了什么、为什么不选另外两格。</p>",
+     "steps": []
+    },
+    {
+     "type": "quiz",
+     "anchor": "为自己的操作排一张择时结论",
+     "questions": [
+      {
+       "q": "为你自己那次操作写一条择时结论，四行：\n① 哪一天第几时、归哪颗行星；\n② 凭第一顺位哪一条站住；\n③ 月相与月位合格与否；\n④ 让掉了哪一条、为什么不选另外两格。",
+       "answer": "示例：取周四第一时，木星日的第一时归木星。\n② 凭主行星的日与时站住：这件道具按卷二第 8 章\n随木星日时制作，圣化跟着同一颗行星走。\n③ 月在上弦后第三日、增光，离太阳四十余度，不燃尽；\n月在射手，火象，加分项也满足。\n④ 让掉天气：那天有风，卷二第 1 章要求晴静无风，\n顺延到次周同一格；不选另两格，是因为那两天月已减光。",
+       "criteria": "四行齐：哪一个日时、凭哪一条、月相月位、让掉什么。\n②要指到具体一条判据（主行星的日与时、月的增光与燃尽、\n星座、天气），不能只写「查表挑的」。\n④要让掉的那一条与另两格被否的理由都写出来。\n只写结论、不写让掉哪一条的算部分通过。\n把「星象吉利」当理由的按不通过。"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "related",
+     "html": "",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "resources",
+     "html": "",
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": "circle-and-quarters",
+   "seq": 4,
+   "title": "魔法圆与四方位",
+   "kind": "实操",
+   "goal": "能按卷二第 9 章的规则在地面画出圆，用手上能给依据的办法定出四个方位，并把各方该归的东西逐条写下来。",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "场地与人净过之后，下一件事是在场地上画出界线。文献对这条界线给得很细：用什么划、划几重、圆里写什么、圆外还有什么，逐条都有名目。与画圆同时发生的是定方位：四个方向必须在圆上标出来，后面摆在圆里的东西、念的名字、朝哪个方向说，全都挂在这四个方向上。本节按卷二第 9 章的次序把圆画出来，再交代定方位的办法，最后把各方该归的东西按依据填进表里。"
+    },
+    {
+     "type": "h2",
+     "html": "画圆先要一个中心和一条绳"
+    },
+    {
+     "type": "p",
+     "html": "第 9 章的开头给的是工具与起手式：选好地方、备齐物品之后，取工艺刀（<em>artavus</em>）插进这块地方的正中，再取一条绳，一端系在刀上，另一端拉直绕一圈，圆周就出来了；圆周可用剑划，也可用黑柄刀划。圆画成的第一步只解决两件事：中心在哪，半径几尺。"
+    },
+    {
+     "type": "p",
+     "html": "半径的数目在两处不一致。第 9 章正文写九尺，同一段在校注里另有一种读法：绳长四尺半，使圆的直径为九尺。两读差一倍，抄本之间也不统一。这一处没有更早的校勘材料可以裁决，本课取「直径九尺」这一读，理由是《七天之书》第 1 章的三重圆也按九尺定宽，两书在尺寸上因此对得上。"
+    },
+    {
+     "type": "h2",
+     "html": "圆里写什么，圆外还有什么"
+    },
+    {
+     "type": "p",
+     "html": "圆心定下之后，第 9 章按由内向外排开一串动作。"
+    },
+    {
+     "type": "ul",
+     "html": "<ul><li>在圆内标出四个区域，朝东、西、南、北，区域里放符号。</li><li>圆外一尺再划一圈，朝北留一个开口，供人进出。</li><li>再隔一尺划第三圈，开口与内圈的开口对齐。</li><li>在这两圈之间画五角星，星里写造物主的符号与名字，让它们围住内圈。</li><li>圆外再画方框，第二个方框的角对着前一个方框的边心，外方框的角指四方；每角画小圆，圆里安放点了炭火的香炉与香料。</li></ul>"
+    },
+    {
+     "type": "p",
+     "html": "《七天之书》第 1 章给的是另一套排布：三重圆，宽九尺，彼此相距一掌；中圈由内向外写时之名、时之天使、天使的印记、当日天使与其臣属、季节之名、该季掌权的天使与星座之首、该季的地名、该季的日名与月名；最外圈的四角写当日掌气之王与他的三位臣属；圆外四角画五角形；内圈写四个神名，十字相间；圆中东写 Alpha、西写 Omega，一道十字把圆心分开。"
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th></th><th>卷二第 9 章</th><th>《七天之书》第 1 章</th></tr></thead><tbody><tr><td>重数</td><td>内圆加外两圈，共三重</td><td>三重，相距一掌</td></tr><tr><td>尺寸</td><td>九尺（正文与校注两读）</td><td>宽九尺</td></tr><tr><td>开口</td><td>朝北，内外两圈开口对齐</td><td>未写明方向，抄本补注留出入口</td></tr><tr><td>圆内文字</td><td>四方区域内放符号</td><td>中圈九项，内圈四个神名</td></tr><tr><td>圆外</td><td>两个方框，四角小圆内置香炉</td><td>四角五角形</td></tr><tr><td>祝圣</td><td>未有专句</td><td>第 4 章：洒圣水，念 Asperges me Domine</td></tr></tbody></table>"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg viewBox=\"0 0 620 560\" role=\"img\" aria-hidden=\"true\">\n  <rect x=\"130\" y=\"90\" width=\"360\" height=\"360\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.35\"/>\n  <circle cx=\"310\" cy=\"270\" r=\"140\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <circle cx=\"310\" cy=\"270\" r=\"115\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <circle cx=\"310\" cy=\"270\" r=\"90\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <line x1=\"310\" y1=\"130\" x2=\"310\" y2=\"410\" stroke=\"currentColor\" opacity=\"0.3\"/>\n  <line x1=\"170\" y1=\"270\" x2=\"450\" y2=\"270\" stroke=\"currentColor\" opacity=\"0.3\"/>\n  <line x1=\"300\" y1=\"130\" x2=\"300\" y2=\"112\" stroke=\"currentColor\" stroke-width=\"2\"/>\n  <line x1=\"320\" y1=\"130\" x2=\"320\" y2=\"112\" stroke=\"currentColor\" stroke-width=\"2\"/>\n  <circle cx=\"130\" cy=\"90\" r=\"14\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <circle cx=\"490\" cy=\"90\" r=\"14\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <circle cx=\"130\" cy=\"450\" r=\"14\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <circle cx=\"490\" cy=\"450\" r=\"14\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <text x=\"310\" y=\"80\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"middle\">北 · 开口</text>\n  <text x=\"310\" y=\"500\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"middle\">南</text>\n  <text x=\"540\" y=\"276\" font-size=\"18\" fill=\"currentColor\">东</text>\n  <text x=\"80\" y=\"276\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"end\">西</text>\n  <text x=\"310\" y=\"196\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">四神名 · 十字相间</text>\n  <text x=\"310\" y=\"150\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">中圈九项</text>\n  <text x=\"392\" y=\"276\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">Alpha</text>\n  <text x=\"228\" y=\"276\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">Omega</text>\n  <text x=\"310\" y=\"400\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">五角星与造物主之名</text>\n  <text x=\"310\" y=\"532\" font-size=\"16\" fill=\"currentColor\" opacity=\"0.7\" text-anchor=\"middle\">四角小圆内安放香炉与香料</text>\n</svg>",
+     "alt": "俯视的圆，三重同心圆外接方框，方框四角各有小圆，四条方向线标出东南西北，顶部标出朝北的开口"
+    },
+    {
+     "type": "quiz",
+     "anchor": "圆的三重界线与圆内写什么",
+     "questions": [
+      {
+       "q": "照卷二第 9 章由内向外排：内圆、外一圈、再外一圈。\n圆里的四个区域放什么，那两圈之间放什么？",
+       "opts": [
+        "四个区域放符号，两圈之间画五角星与造物主之名",
+        "四个区域放五角星，两圈之间写时之名与时之天使",
+        "四个区域放香炉，两圈之间写四个神名与十字相间",
+        "四个区域放神名，两圈之间放四角的香炉与香料"
+       ],
+       "ans": 0,
+       "why": "第 9 章在圆内标出朝四方的四个区域、区域里放符号；\n圆外一尺划一圈、再隔一尺划第三圈，\n这两圈之间画五角星，星里写造物主的符号与名字。\n香炉在圆外方框四角的小圆里，不在两圈之间。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "先定真北，再定四个方位"
+    },
+    {
+     "type": "p",
+     "html": "四个方向里只有一个是能独立找到的：北。定出北，其余三个由垂线得到。可用的办法有三种，各自的可靠程度不同。"
+    },
+    {
+     "type": "ul",
+     "html": "<ul><li>正午影子法：在地面立一根直杆，从上午到下午量影子，最短的那一影指向真北。这一法只依赖太阳，不需器材，误差在几分钟的量级。</li><li>日出日落法：记下日出与日落时太阳在地平线上的方位，两方位的中点即正南，反方向为正北。</li><li>指南针加磁偏角：指南针指磁北，与真北差一个磁偏角，按当地数值修正。直接读针上刻度就把磁北当真北，是这一节最常见的错。</li></ul>"
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th>办法</th><th>要记录的东西</th><th>什么时候不能用</th></tr></thead><tbody><tr><td>正午影子法</td><td>杆高、最短影的时刻与方向</td><td>阴天见不到太阳</td></tr><tr><td>日出日落法</td><td>两地平方位的时刻与读数</td><td>地平线被挡住</td></tr><tr><td>指南针加磁偏角</td><td>针读数、当地磁偏角、修正后的方向</td><td>室内有钢铁与电器干扰</td></tr></tbody></table>"
+    },
+    {
+     "type": "p",
+     "html": "北定下来之后，东西南三向由过圆心的垂线得到。圆画在哪个方向上都行，四个方向必须与圆的实际朝向一致；圆上写的名字、站的位置、念的方向全靠这四个刻度对齐。"
+    },
+    {
+     "type": "h2",
+     "html": "各方归什么，要一条条写出依据"
+    },
+    {
+     "type": "p",
+     "html": "卷二第 9 章只要求把四个区域标出来、放符号，没有给四个方向配元素；配元素这件事在《七天之书》与《Almadel》里各有各的做法，两书彼此不合。本节只要求把「方位、元素、守望者、依据」四栏填齐，取哪一套放在下一节裁定。"
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th>方位</th><th>元素</th><th>守望者</th><th>依据</th></tr></thead><tbody><tr><td>东</td><td></td><td></td><td></td></tr><tr><td>南</td><td></td><td></td><td></td></tr><tr><td>西</td><td></td><td></td><td></td></tr><tr><td>北</td><td></td><td></td><td></td></tr></tbody></table>"
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "方位表先空着是对的",
+     "html": "<p>四栏里两栏在文献中不止一种答案。此刻把凭据写清比填满更要紧：填不出依据的一栏，说明取的那一套还没定下来。</p>",
+     "steps": []
+    },
+    {
+     "type": "quiz",
+     "anchor": "拿指南针随手定方位的一处错",
+     "questions": [
+      {
+       "q": "有人这样定北：正午把指南针放地上，\n把针指的 N 那一端画一条线，这条线就当真北，\n其余三向由垂线得到，全程没记读数。\n① 错在哪？\n② 怎么改，要记什么？\n③ 下次怎么避免同类错？",
+       "answer": "① 指南针指磁北，与真北差一个磁偏角。\n直接读针上刻度就把磁北当真北，是这一节最常见的错；\n室内钢铁与电器还会干扰读数。\n② 按当地磁偏角修正，或改用正午影子法：\n立杆量最短的那一影，它指向真北。\n要记针读数、当地磁偏角、修正后的方向与量影的时刻。\n③ 每次定北在记录里写「用哪种办法、误差大概多少」，\n再核对开口是否真的朝北、四个刻度是否两两成直角。",
+       "criteria": "① 说出磁北与真北差一个磁偏角，并点出「没修正就当结果」。\n② 给出至少一条可用的改法（修正磁偏角、影子法、\n日出日落法）与要记的三样（读数、偏角、修正后的方向）。\n③ 落到可执行的复核：记办法与误差、核对开口与直角。\n只答「指南针不准」而说不出偏差来源的算部分通过。\n把磁偏角说成仪器误差、靠换个好针解决的按不通过。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "画一遍，把方位钉住"
+    },
+    {
+     "type": "p",
+     "html": "动手的顺序与第 9 章一致：先定中心与半径，再画三重界线，然后定四个方向，最后把各方该归的东西填表。"
+    },
+    {
+     "type": "note",
+     "tone": "practice",
+     "title": "上手做 | 第 1 步 · 在地面画出三重界线",
+     "html": "<p>场地用房间空地或院子。纸面草图也可以，尺寸按比例缩。</p><p>2. 半径加一掌宽再划一圈，加第二掌宽划第三圈。</p><p>3. 朝北留出开口，内外两圈的开口对齐。</p><p>4. 记一行：实际用的半径、三圈之间的间距、开口朝哪个方向。</p>",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "practice",
+     "title": "上手做 | 第 2 步 · 定四个方位并核对",
+     "html": "<p>2. 过圆心画垂线，得到东西南三向，在圆上做出刻度。</p><p>3. 核对一次：开口是否真的朝北，四个刻度是否两两成直角。</p><p>4. 记一行：用的是哪一种办法、误差大概多少。</p>",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "practice",
+     "title": "上手做 | 第 3 步 · 把对应关系填齐",
+     "html": "<p>2. 每一栏旁边写一句依据，写到章。</p><p>3. 填不出的那一栏留空，写清为什么填不出。</p>",
+     "steps": []
+    },
+    {
+     "type": "quiz",
+     "anchor": "为自己的圆写一份方位与依据",
+     "questions": [
+      {
+       "q": "按你实际画的那个圆写四行：\n① 用多长的半径、三圈之间各隔多少；\n② 定北用的办法与误差；\n③ 开口朝哪、四个刻度是否成直角；\n④ 四方区域里放什么，依据到章。",
+       "answer": "示例：内圆半径一尺五，两圈各距一掌。\n② 定北用正午影子法，杆高六十公分，\n最短影出现在 12:06，误差约三五分钟。\n③ 开口朝北；东西刻度与南北刻度两两成直角，用直角尺核过。\n④ 四方区域里放符号，依据卷二第 9 章；\n元素与守望者那两栏本次留空，因为取哪一套还没裁定。",
+       "criteria": "四行齐，④ 的依据要指到章（第 9 章）或写「自定」加理由。\n② 要给办法与误差，不能只写「用指南针定的」。\n③ 必须有核对动作（成不成直角、开口朝向）。\n四方区域写成「放元素／放天使名」的算部分通过——\n第 9 章只要求放符号。\n填不出依据却把四栏填满的按不通过。"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "related",
+     "html": "",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "resources",
+     "html": "",
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": "exp-1-standing-ritual",
+   "seq": 5,
+   "title": "实验一：独立走完一次净与画圆",
+   "kind": "实验",
+   "goal": "不看教程，独立走完择时认定、净手、净坛、画圆与定方位四个环节，交出一份能对上时刻与出处的操作记录。",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "前四节各拆开练过一段：净化的两条链、择时的三层判据、圆与方位。这一场把其中三段接起来做一遍，中间不翻教程。验收看的是这份记录能不能说明白三件事：每一步按什么次序做的、每一步出自哪一章、哪几步是自己判断的。道具圣化与收束不在这一场里，留到后面的节点。"
+    },
+    {
+     "type": "h2",
+     "html": "四个环节与固定次序"
+    },
+    {
+     "type": "p",
+     "html": "次序在文献里是定死的，接起来做的时候最容易乱在这里。"
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th>环节</th><th>做什么</th><th>依据</th><th>卡住的迹象</th></tr></thead><tbody><tr><td>一、择时认定</td><td>挑一个时辰，写下日、时、月相三项判据</td><td>卷二 ch.1；《七天之书》ch.II、ch.IX</td><td>时辰挑好了，说不出凭哪一条</td></tr><tr><td>二、净手</td><td>洗身、出浴洒身、换洁净衣物</td><td>卷二 ch.5、ch.6</td><td>洒身挪进洗浴那一格里</td></tr><tr><td>三、净坛</td><td>清扫、熏香、洒水</td><td>卷二 ch.7、ch.10、ch.11</td><td>三件的次序做反</td></tr><tr><td>四、画圆与定方位</td><td>定中心与半径、画三重界线、定四向</td><td>卷二 ch.9；《七天之书》ch.I</td><td>方位靠直觉得到，没有读数</td></tr></tbody></table>"
+    },
+    {
+     "type": "p",
+     "html": "四段之间不能插入别的动作：净手没做完就进场地，场地净过也不算数；圆画在没净过的场地上，后面写在圆里的名字等于写在脏地上。"
+    },
+    {
+     "type": "p",
+     "html": "四段连成一场，还有一层时间上的要求。择时认定的那一刻只定下了「在哪个时辰里做」，真正动手的钟点还要落在那一格之内：日间时随日出日落变长变短，一格可能只有五十五分钟。认定与动手之间隔得久了，选定的一格会滑到下一格去，记录里就会出现「认定的时」与「动手的时」对不上的情形。可行的做法是把认定放在动手当天、当格之前，认定完立刻动手。"
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th>环节</th><th>与前后环节的接缝</th></tr></thead><tbody><tr><td>一 → 二</td><td>认定完立刻开始净手；净手的起止时刻要落在选定的那一格里</td></tr><tr><td>二 → 三</td><td>人净完才动场地；换衣是二与三之间的动作，不并进净坛</td></tr><tr><td>三 → 四</td><td>场地洒水做完才落笔定中心；圆的开口朝向要与场地实际朝向一致</td></tr></tbody></table>"
+    },
+    {
+     "type": "h2",
+     "html": "允许的替代与不能省的动作"
+    },
+    {
+     "type": "p",
+     "html": "实验在家里做，材料按手边条件替换，替换的每一项都在记录里注明，并写清替换发生在哪一章。"
+    },
+    {
+     "type": "ul",
+     "html": "<ul><li>场地用房间一角，不必去四路交叉或林边（卷二第 7 章允许自家房间，条件是先净化）。</li><li>洗身用淋浴或水盆，代替入浴那一格；洒身另用水器，不省。</li><li>熏香的燃料用炭片或电热熏香器，代替新取的炭火；先对火说话、再投香的次序不省。</li><li>画圆用粉笔、绳与地垫，代替剑与黑柄刀；中心与半径的关系不省。</li><li>方位只在室内能用指南针，读针时按当地磁偏角修正，读数记进记录。</li></ul>"
+    },
+    {
+     "type": "p",
+     "html": "省掉的动作只有一类：整段跳过的。跳了就不再是同一场实验，记录里写成「这一格没做」也比写成「做过」有用。"
+    },
+    {
+     "type": "h2",
+     "html": "记录怎么写"
+    },
+    {
+     "type": "p",
+     "html": "记录按行写，一行一个动作，四栏不能缺。"
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th>栏</th><th>写什么</th><th>要求</th></tr></thead><tbody><tr><td>时刻</td><td>这个动作开始的钟点</td><td>精确到分钟；择时认定那一行写你选定的时辰，不写认定它的时刻</td></tr><tr><td>动作</td><td>做了什么</td><td>一句话，动词开头</td></tr><tr><td>依据</td><td>出自哪一章</td><td>写到章号；自己判断的写「自定」并附一句理由</td></tr><tr><td>证据</td><td>照片或读数</td><td>照片编号，或量出来的数值</td></tr></tbody></table>"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg viewBox=\"0 0 700 270\" role=\"img\" aria-hidden=\"true\">\n  <rect x=\"30\" y=\"50\" width=\"130\" height=\"52\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <rect x=\"195\" y=\"50\" width=\"130\" height=\"52\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <rect x=\"360\" y=\"50\" width=\"130\" height=\"52\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <rect x=\"525\" y=\"50\" width=\"145\" height=\"52\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <text x=\"95\" y=\"82\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">择时认定</text>\n  <text x=\"260\" y=\"82\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">净手</text>\n  <text x=\"425\" y=\"82\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">净坛</text>\n  <text x=\"597\" y=\"82\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">画圆与定方位</text>\n  <polygon points=\"165,72 180,76 165,80\" fill=\"currentColor\" opacity=\"0.6\"/>\n  <polygon points=\"330,72 345,76 330,80\" fill=\"currentColor\" opacity=\"0.6\"/>\n  <polygon points=\"495,72 510,76 495,80\" fill=\"currentColor\" opacity=\"0.6\"/>\n  <text x=\"95\" y=\"130\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.7\" text-anchor=\"middle\">卷二 ch.1</text>\n  <text x=\"260\" y=\"130\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.7\" text-anchor=\"middle\">卷二 ch.5、ch.6</text>\n  <text x=\"425\" y=\"130\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.7\" text-anchor=\"middle\">ch.7、ch.10、ch.11</text>\n  <text x=\"597\" y=\"126\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.7\" text-anchor=\"middle\">卷二 ch.9</text>\n  <text x=\"597\" y=\"148\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.7\" text-anchor=\"middle\">Heptameron ch.I</text>\n  <line x1=\"30\" y1=\"176\" x2=\"670\" y2=\"176\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.3\"/>\n  <text x=\"30\" y=\"206\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.7\">记录四栏贯穿全场：时刻 · 动作 · 依据 · 证据</text>\n  <text x=\"30\" y=\"236\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.7\">认定的时辰与实际动手的钟点分两处写，都落在选定的一格之内</text>\n</svg>",
+     "alt": "四个环节从左到右串成一行，每个环节下方标出它的依据与对应的记录栏"
+    },
+    {
+     "type": "note",
+     "tone": "warn",
+     "title": "两处最容易翻车的地方",
+     "html": "<p>第一处是择时。记录里「我选的时辰」与「我实际动手的时刻」是两回事：前者是认定出来的那一格，后者是真正开始动手的钟点。两处混成一行，验收时看不出你到底在哪个时辰里做的。第二处是出处。次序做对了但每行写不出章号，等于照着一个记不清的流程走了一遍，下次复现不出来。</p>",
+     "steps": []
+    },
+    {
+     "type": "h2",
+     "html": "交什么"
+    },
+    {
+     "type": "p",
+     "html": "四份任务按次序做，每做完一份先自己核一遍再往下。"
+    },
+    {
+     "type": "ul",
+     "html": "<ul><li>[实验说明与卡壳顺序](../lab/0005-exp-1-standing-ritual/README.md) | 载体、材料、允许的替代与卡壳顺序</li><li>[任务一：把时辰认定下来](../lab/0005-exp-1-standing-ritual/task-1-择时认定.md)</li><li>[任务二：净手与净坛](../lab/0005-exp-1-standing-ritual/task-2-净手净坛.md)</li><li>[任务三：画圆与定方位](../lab/0005-exp-1-standing-ritual/task-3-画圆定方位.md)</li><li>[任务四：合成记录与自评](../lab/0005-exp-1-standing-ritual/task-4-记录与自评.md)</li><li>[验收标准](../lab/0005-exp-1-standing-ritual/验收标准.md) | 四条，逐条能指到具体的东西</li></ul>"
+    },
+    {
+     "type": "h2",
+     "html": "卡住时回哪一节"
+    },
+    {
+     "type": "ul",
+     "html": "<ul><li>时辰挑不出来：回《挑一个可用时辰》的「几条判据撞在一起时听谁的」，按那个顺序逐条过。</li><li>两份水分不清：回《净手与净坛的次序》的两水对照表。</li><li>圆画完方位对不上：回《魔法圆与四方位》的「先定真北」，把读数补上重定一次。</li><li>各方该归什么填不出来：那一栏留空并写明依据缺在哪，下一节裁定之后补。</li></ul>"
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "related",
+     "html": "",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "resources",
+     "html": "",
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": "quarters-and-elements",
+   "seq": 6,
+   "title": "方位与元素的对应",
+   "kind": "概念",
+   "goal": "能并排说出四方位对应关系的两种来源，标出它们不一致的地方，并取其中一套写下理由。",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "同一个方位，一份文献归它一群天使，另一份归它三个神名，第三份把四元素也排进同一张表。这处不一致在任何一本单独的书里都看不见：每一本自成一套，读一本只会觉得那一套就是全部。把三本摆在一起，问题才浮出来——而你画的那个圆只能取其中一套。本节并排看三处原文，把不一致点逐条标出，最后定下用哪一套。"
+    },
+    {
+     "type": "h2",
+     "html": "《七天之书》：四方的天使群"
+    },
+    {
+     "type": "p",
+     "html": "第 9 章讲人入圆之后做什么：从世界的四个部分召唤管辖七颗行星、七日、颜色与金属的天使，屈膝逐个称名，然后念一句「前述的天使们，请在这些请求上做我的助力」。抄本补注还记下四人的站位：一人朝东、一人朝西、第三人朝南、第四人朝北，都站在圆内。"
+    },
+    {
+     "type": "p",
+     "html": "第 11 章是朝四方说的那篇祈祷，开头一串名字 <em>Amorule, Taneha, Latisten, Rabur, … Alpha & Omega, … Adonay</em>，随后请求让被召的灵受约束、不伤人、如实作答。补注写明念法：先朝东念一遍，念完起身转向南、跪念，再转向西、再转向北，各念一遍。"
+    },
+    {
+     "type": "p",
+     "html": "具体名字按日分列。第 18 章给周日的那一日，四方各是一群："
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th>方位</th><th>周日的天使群（首名在前）</th></tr></thead><tbody><tr><td>东</td><td>Samael、Baciel、Atel、Fabriel、Vionatraba</td></tr><tr><td>西</td><td>Anael、Pabel、Ustael、Burchat、Suceratos、Capabali</td></tr><tr><td>北</td><td>Aiel、Aniel、Masgabriel、Sapiel、Matuyel</td></tr><tr><td>南</td><td>Haludiel、Machasiel、Charsiel、Uriel、Naromiel</td></tr></tbody></table>"
+    },
+    {
+     "type": "p",
+     "html": "同章还写明当日的风向北，由当日掌气的王与他的三位臣属管着。这一套里，方位对应的是「谁站在那里」，与火、水、土、风四样没有直接关系。"
+    },
+    {
+     "type": "h2",
+     "html": "《Almadel》：四位高处与三个神名"
+    },
+    {
+     "type": "p",
+     "html": "《Almadel》把世界的四个角称四个「高处」（<em>altitudo</em>，抄本写作 chora），每个高处再分三份，共十二份，各有天使。四方的神名刻在蜡板上，写在各角："
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th>方位</th><th>板上的三个神名</th><th>该处操作落在什么日时</th></tr></thead><tbody><tr><td>东</td><td>Adonai、Helomi、Pine</td><td>太阳日与太阳时</td></tr><tr><td>南</td><td>Helion、Heloi、Heli</td><td>与该处天使相应之日</td></tr><tr><td>西</td><td>Jod、Hod、Agla</td><td>与该处天使相应之日</td></tr><tr><td>北</td><td>Tetragrammaton、Shadai、Jah</td><td>与该处天使相应之日</td></tr></tbody></table>"
+    },
+    {
+     "type": "p",
+     "html": "东方这一处在抄本里被写得最细：功能是使万物丰产、使牲畜与植物繁衍、使不孕者得子；祈文里的称呼是「东方的伟大君王」之下的首席天使，那位君王的名字在这一段里没有写出，抄本到此为止。这一套里，方位对应的是「向谁说话」，与元素也没有直接关系。"
+    },
+    {
+     "type": "h2",
+     "html": "第三处：Agrippa 的四重表"
+    },
+    {
+     "type": "p",
+     "html": "Agrippa 卷二第 7 章有一张按数目四排下来的表，同一行里并排放着四天使、四元素、四方、四季。表里出现四个天使名 Michael、Raphael、Gabriel、Uriel，四个元素统治者 Seraph、Cherub、Tharsis、Ariel，四个方向 East、West、North、South，四元素 Fire、Air、Water、Earth。表的末行另给四个「在世界四角的灵之王」：Oriens、Paymon、Egyn、Amaymon。"
+    },
+    {
+     "type": "p",
+     "html": "这张表是把四样东西并列着排，四列各自成序，没有逐行配对；抄本之间列的先后也不一致。把它读成「东归风、南归火」这样的逐格对应，是把并列读成了配对。这一点在术语表里已经写定：现代常见的土水风火四方位配法，在中世纪文本里不是原样存在的。"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg viewBox=\"0 0 700 600\" role=\"img\" aria-hidden=\"true\">\n  <line x1=\"350\" y1=\"122\" x2=\"350\" y2=\"478\" stroke=\"currentColor\" opacity=\"0.3\"/>\n  <line x1=\"190\" y1=\"300\" x2=\"500\" y2=\"300\" stroke=\"currentColor\" opacity=\"0.3\"/>\n  <circle cx=\"350\" cy=\"300\" r=\"58\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <text x=\"350\" y=\"296\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">四方位</text>\n  <text x=\"350\" y=\"320\" font-size=\"16\" fill=\"currentColor\" opacity=\"0.7\" text-anchor=\"middle\">各取一套</text>\n  <text x=\"350\" y=\"60\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"middle\">北</text>\n  <text x=\"350\" y=\"88\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">Almadel：Tetragrammaton · Shadai · Jah</text>\n  <text x=\"350\" y=\"112\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.75\" text-anchor=\"middle\">Heptameron：Aiel 等五人</text>\n  <text x=\"350\" y=\"540\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"middle\">南</text>\n  <text x=\"350\" y=\"512\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">Almadel：Helion · Heloi · Heli</text>\n  <text x=\"350\" y=\"488\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.75\" text-anchor=\"middle\">Heptameron：Haludiel 等五人</text>\n  <text x=\"690\" y=\"264\" font-size=\"18\" fill=\"currentColor\" text-anchor=\"end\">东</text>\n  <text x=\"690\" y=\"290\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"end\">Almadel</text>\n  <text x=\"690\" y=\"312\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"end\">Adonai · Helomi · Pine</text>\n  <text x=\"690\" y=\"336\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.75\" text-anchor=\"end\">Heptameron：Samael</text>\n  <text x=\"10\" y=\"264\" font-size=\"18\" fill=\"currentColor\">西</text>\n  <text x=\"10\" y=\"290\" font-size=\"15\" fill=\"currentColor\">Almadel</text>\n  <text x=\"10\" y=\"312\" font-size=\"15\" fill=\"currentColor\">Jod · Hod · Agla</text>\n  <text x=\"10\" y=\"336\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.75\">Heptameron：Anael</text>\n  <text x=\"350\" y=\"580\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.7\" text-anchor=\"middle\">两本书都把方位填满了，谁也没有把元素填进去</text>\n</svg>",
+     "alt": "一个十字分出的四个方向，东、南、西、北四块各列出《Almadel》的三个神名与《七天之书》周日的天使群首名"
+    },
+    {
+     "type": "quiz",
+     "anchor": "四方位在两种文献里各归什么",
+     "questions": [
+      {
+       "q": "把《七天之书》第 18 章与《Almadel》并排看，\n同一个方位上，两书各填了什么？",
+       "opts": [
+        "一书写按日更换的天使群，一书写板上固定的三个神名",
+        "一书写四个元素里的一个，一书写各方位的守望者的名字",
+        "一书写该季掌权的天使，一书写四个灵之王的名字",
+        "一书写当日之天使，一书写与元素统治者并列的四天使"
+       ],
+       "ans": 0,
+       "why": "第 18 章按日给四方天使群，周日东方是 Samael 等五人；\n《Almadel》四方各刻三个神名在蜡板上。\n两套都不配元素：元素只在 Agrippa 卷二第 7 章与四方并列，\n四列各自成序，没有逐格配对。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "三处并排，不一致点逐条标出"
+    },
+    {
+     "type": "p",
+     "html": "把上面三处并成一张对照表，不一致落在四行上。"
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th>项</th><th>《七天之书》</th><th>《Almadel》</th><th>Agrippa 卷二</th></tr></thead><tbody><tr><td>四方的名字</td><td>东、西、北、南，按日更换天使群</td><td>东、南、西、北，固定</td><td>East、West、North、South，与四元素并列</td></tr><tr><td>守望者是什么</td><td>天使群，按日更换</td><td>每位高处一位君王，名多不传</td><td>四天使与四元素统治者，另有四王</td></tr><tr><td>元素怎么配</td><td>不配</td><td>不配</td><td>并列成列，未逐格配对</td></tr><tr><td>操作日</td><td>按当日行星与当日天使群</td><td>东方落太阳日时，其余按各处天使</td><td>未给日时</td></tr></tbody></table>"
+    },
+    {
+     "type": "p",
+     "html": "四行里前三行是实质冲突，第四行只是详略不同。冲突的根源在于三本书要回答的问题不同：一本问「今天该向谁说话」，一本问「这块板上刻谁的名字」，一本问「四这个数目在宇宙里怎么排」。问题不同，四方的格子里装的东西自然不同。"
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "为什么不合成一张表",
+     "html": "<p>合成一张表要替三本书做一次裁决，而裁决的后果落在实物上：圆上写谁的名字、朝哪一方念、方位表填哪一套。裁决可以做，但要写明依据；混着用则是另一种情况——两套掺进同一场操作，方位对应自相矛盾。</p>",
+     "steps": []
+    },
+    {
+     "type": "quiz",
+     "anchor": "两套掺着用的一处",
+     "questions": [
+      {
+       "q": "一张方位表这样填：东方写 Samael 等五人，\n依据写「《七天之书》第 18 章」；南方写 Helion、Heloi、Heli，\n依据写「《Almadel》刻板」；北方依据栏空着，\n表下注「两书互补，取全者」。\n① 问题在哪？\n② 后果会落在什么动作上？\n③ 怎么改才算定下来？",
+       "answer": "① 两套掺进同一张表：东取天使群、南取蜡板神名，\n两套格子里装的不是同一类东西，掺用自相矛盾。\n「两书互补」这个说法本身不成立——\n三本书回答的是不同的问题。\n② 后果落在圆上：写谁的名字、朝哪一方念，\n名字与方向对不上；北方空着，等于那一方没有依据。\n③ 取一套到底并写三行：取哪一套（书名与章号）、\n为什么不取另一套、哪一处是自己补的（元素栏写「不填」）。",
+       "criteria": "① 指出「东取一套、南取另一套」这个掺用，\n并说明两套不是同类东西。\n② 把后果落到具体动作（圆上写谁的名字、朝哪念）。\n③ 三行裁定齐，且交代元素那一栏怎么处理。\n只说「不一致」而说不出掺在哪两行的算部分通过。\n认为两书能拼成一套完整表的按不通过。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "取一套，写下理由"
+    },
+    {
+     "type": "p",
+     "html": "裁定要写成三行，缺一行都不算定下来："
+    },
+    {
+     "type": "ol",
+     "html": "<ol><li>取哪一套：写明书名与章号，例如「取《七天之书》第 18 章的四方天使群」。</li><li>为什么不取另一套：写一句具体的理由，例如「圆上的名字按卷二第 9 章的规则写，与天使群同属一类，不与蜡板神名混用」。</li><li>哪一处是自己补的：文献没给的（例如元素那一栏），写明「不填」或写明按什么补。</li></ol>"
+    },
+    {
+     "type": "p",
+     "html": "第三行最容易被跳过。元素这一栏在三本书里都没有逐格配对，取哪一套都不产生元素；填进去的那一格一定是自己补的，写清补法，下一个实验才不会两套掺用。"
+    },
+    {
+     "type": "note",
+     "tone": "practice",
+     "title": "练习 | 三处原文各抄一行",
+     "html": "<p>2. 打开《Almadel》刻板那一段，抄下东方那一栏的三个神名。</p><p>3. 打开 Agrippa 卷二第 7 章的四重表，找出四元素那一行与四方那一行，抄下它们各自的排列。</p><p>三行抄完，在自己的方位表里标出哪一栏是抄来的、哪一栏是自己补的。</p>",
+     "steps": []
+    },
+    {
+     "type": "quiz",
+     "anchor": "为自己的圆取定一套对应",
+     "questions": [
+      {
+       "q": "给你自己的圆取定一套，写三行：\n① 取哪一套（书名与章号）；\n② 为什么不取另一套，一句具体理由；\n③ 哪一处是自己补的，怎么补或为什么留空。",
+       "answer": "示例：取《七天之书》第 18 章的四方天使群。\n② 不取《Almadel》的蜡板神名，因为圆上的名字按卷二第 9 章\n写造物主的符号与名字，与天使群同属一类，不与蜡板神名混用。\n③ 自己补的一处是元素那栏：三本书都没有逐格配对，\n本次写「不填」，并在记录里注明是缺项。",
+       "criteria": "① 给到书名与章号，例如第 18 章、Almadel 刻板。\n② 理由要具体到一处可比的东西（同类才不混用、圆上规则、\n日时对应），不能只写「更喜欢这一套」。\n③ 必须承认元素那一栏是自补或缺项。\n省掉第③行的算部分通过——这一行最容易被跳过。\n取了元素配法却标成「抄来的」按不通过。"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "related",
+     "html": "",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "resources",
+     "html": "",
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": "implement-consecration",
+   "seq": 7,
+   "title": "对一件道具做圣化",
+   "kind": "实操",
+   "goal": "按选定的一版流程对一件手边的小道具完成圣化，把所念的每一段与它的出处逐条对在流程旁边。",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "圣化把一件做好的东西变成能用的东西，动作序列比净化短，要求却更密：择时、净化、熏香、献出、收存五段各有自己的依据，念的每一句都要能指出原文。手上两本书给的不是同一套流程，中译又常把献出那一句译成「开光」或「加持」。本节先把两版并排看清，再按选定的一版对一件小道具走一遍，每一步旁边写一行出处。"
+    },
+    {
+     "type": "h2",
+     "html": "两版流程，对象与动作都不同"
+    },
+    {
+     "type": "p",
+     "html": "卷二第 8 章处理的是刀、剑、杖、竿一类器具：按行星日与行星时制作，刻上字符，做好之后熏香，念一句 <em>ADONAI, most holy, EL, most strong, deign to bless and to consecrate this wand, and this staff, that they may obtain the necessary virtue</em>，念完把它收在洁净处备用。"
+    },
+    {
+     "type": "p",
+     "html": "《洪诺留宣誓书》处理的是神印（seal）：操作者要洁净、要虔诚，做完之前不食不饮；书写用的血先祝福；然后用琥珀、麝香、沉香、白松香与红松香、乳香、珍珠、焚香熏它，同时向主与诸圣天使祈祷，念的是「求你赐福并圣化你这至圣之名与你的印」那一篇。"
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th></th><th>卷二第 8 章</th><th>《洪诺留宣誓书》</th></tr></thead><tbody><tr><td>对象</td><td>杖、竿、刀剑一类器具</td><td>神印</td></tr><tr><td>操作者准备</td><td>按第 13 章的戒律</td><td>洁净、虔诚，完工前不食不饮</td></tr><tr><td>材料先处理</td><td>刻字符</td><td>书写用的血先祝福</td></tr><tr><td>熏香</td><td>熏香，未列香品</td><td>七味香品并列</td></tr><tr><td>献出那一句</td><td>deign to bless and to consecrate this wand</td><td>bless and consecrate this most holy name and your seal</td></tr><tr><td>收存</td><td>收在洁净处；第 20 章包丝绸</td><td>抄本未及收存</td></tr></tbody></table>"
+    },
+    {
+     "type": "p",
+     "html": "两版的差别落在对象上：一个献给「这根杖」，一个献给「这个名与这个印」。手边的小道具属前者，取卷二那一版为主，熏香那一段借《洪诺留宣誓书》的香品清单，并注明是借来的。"
+    },
+    {
+     "type": "quiz",
+     "anchor": "两版圣化流程的对象与念词",
+     "questions": [
+      {
+       "q": "卷二第 8 章与《洪诺留宣誓书》各有一段献出的话。\n两版的差别落在哪里？",
+       "opts": [
+        "对象不同：一个献给这根杖，一个献给这个名与印",
+        "次序不同：一版先熏香再献出，一版先献出再熏香",
+        "对象相同，只是香品的清单与祈祷的长短不一样",
+        "一版要择时，一版不择时，其余动作完全一致"
+       ],
+       "ans": 0,
+       "why": "第 8 章的念词落在 this wand 上，对象是那件器具。\n宣誓书落在 your seal 上，对象是名与印。\n两版的香品与准备也不同，但差别首先落在对象上。\n手边的小道具属前者，取卷二那一版为主。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "前面四步先做完"
+    },
+    {
+     "type": "p",
+     "html": "圣化不孤立发生。它前面排着三件事，缺一件，献出那一步站不住。"
+    },
+    {
+     "type": "ul",
+     "html": "<ul><li>择时：按上一节的裁定顺序定出日与时，落在与这件道具相合的行星日时里。卷二第 8 章的要求是「按行星日与行星时制作」，圣化跟着同一颗行星走。</li><li>净手：按卷二第 5 章的次序做完，出浴洒身、换洁净衣物。</li><li>净坛：清扫、熏香、洒水三件做完；场地脏，写在道具上的名字等于写在脏地上。</li><li>入圆：按卷二第 9 章的圆法画好圆、定好四向，再从北侧的开口进去。</li></ul>"
+    },
+    {
+     "type": "p",
+     "html": "四件做完，道具才拿进圆里。这一段的次序与实验一相同，区别只在最后多出「取出道具」这一步。"
+    },
+    {
+     "type": "h2",
+     "html": "走一遍：九格"
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th>步</th><th>动作</th><th>念什么</th><th>依据</th></tr></thead><tbody><tr><td>1</td><td>定出日与时，写进记录</td><td>—</td><td>卷二 ch.1、ch.8</td></tr><tr><td>2</td><td>净手，换洁净衣物</td><td>卷二第 5 章那串念词</td><td>卷二 ch.5、ch.6</td></tr><tr><td>3</td><td>净坛：清扫、熏香、洒水</td><td>三首诗篇；对火两段</td><td>卷二 ch.7、ch.10</td></tr><tr><td>4</td><td>入圆，站在中心</td><td>—</td><td>卷二 ch.9</td></tr><tr><td>5</td><td>取出道具，说出它的用途</td><td>一句话，自己写</td><td>自定</td></tr><tr><td>6</td><td>熏香道具</td><td>香品清单照抄，注明借自宣誓书</td><td>卷二 ch.8；宣誓书</td></tr><tr><td>7</td><td>献出</td><td>ADONAI 那一句，原文照念</td><td>卷二 ch.8</td></tr><tr><td>8</td><td>洒水</td><td>水器洒，不手泼</td><td>卷二 ch.11</td></tr><tr><td>9</td><td>包丝绸，与香料同置七日</td><td>四首诗篇（8、71、133、64）</td><td>卷二 ch.20</td></tr></tbody></table>"
+    },
+    {
+     "type": "p",
+     "html": "第 9 格同样必做。第 20 章写得明白：任何器具被正确圣化之后，都该用丝绸包起来收存；丝绸的颜色除黑与灰；包之前要熏香、洒水、念四首诗篇；包好之后与香料同置七日；这块丝此后用来包所有器具。省掉这一格，前面八格拿到的状态没有落下。"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg viewBox=\"0 0 700 270\" role=\"img\" aria-hidden=\"true\">\n  <rect x=\"20\" y=\"40\" width=\"112\" height=\"48\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <rect x=\"152\" y=\"40\" width=\"112\" height=\"48\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <rect x=\"284\" y=\"40\" width=\"112\" height=\"48\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <rect x=\"416\" y=\"40\" width=\"112\" height=\"48\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <rect x=\"548\" y=\"40\" width=\"132\" height=\"48\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <text x=\"76\" y=\"70\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">1 择时</text>\n  <text x=\"208\" y=\"70\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">2 净手</text>\n  <text x=\"340\" y=\"70\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">3 净坛</text>\n  <text x=\"472\" y=\"70\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">4 入圆</text>\n  <text x=\"614\" y=\"70\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">5 取出道具</text>\n  <polygon points=\"136,60 148,64 136,68\" fill=\"currentColor\" opacity=\"0.6\"/>\n  <polygon points=\"268,60 280,64 268,68\" fill=\"currentColor\" opacity=\"0.6\"/>\n  <polygon points=\"400,60 412,64 400,68\" fill=\"currentColor\" opacity=\"0.6\"/>\n  <polygon points=\"532,60 544,64 532,68\" fill=\"currentColor\" opacity=\"0.6\"/>\n  <rect x=\"20\" y=\"140\" width=\"112\" height=\"48\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <rect x=\"152\" y=\"140\" width=\"112\" height=\"48\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <rect x=\"284\" y=\"140\" width=\"112\" height=\"48\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <rect x=\"416\" y=\"140\" width=\"132\" height=\"48\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <text x=\"76\" y=\"170\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">6 熏香</text>\n  <text x=\"208\" y=\"170\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">7 献出</text>\n  <text x=\"340\" y=\"170\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">8 洒水</text>\n  <text x=\"482\" y=\"170\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">9 包存七日</text>\n  <polygon points=\"136,160 148,164 136,168\" fill=\"currentColor\" opacity=\"0.6\"/>\n  <polygon points=\"268,160 280,164 268,168\" fill=\"currentColor\" opacity=\"0.6\"/>\n  <polygon points=\"400,160 412,164 400,168\" fill=\"currentColor\" opacity=\"0.6\"/>\n  <text x=\"20\" y=\"222\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.7\">前四格是容器：容器没备好，第五格起拿出来的东西无处可放</text>\n  <text x=\"20\" y=\"250\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.7\">第九格与第七格同重：没有包裹与静置，献出的状态不落地</text>\n</svg>",
+     "alt": "九格流程排成两行，前五格是择时、净手、净坛、入圆、取出道具，后四格是熏香、献出、洒水与包存"
+    },
+    {
+     "type": "note",
+     "tone": "warn",
+     "title": "两个最容易出错的地方",
+     "html": "<p>第一处是念词。中译把 <em>bless and consecrate</em> 译成「开光」或「加持」，把 <em>obtain the necessary virtue</em> 译成「灵验」。照着中译念，念出来的词与原文对不上，逐句记依据时就指不出这一句在原文的哪一行。做法是：原文照抄，旁边写中译，对不上的词用术语表的说法标注。</p><p>第二处是收存。圣化做完把东西随手放进抽屉，第 20 章那七天的静置与丝绸包裹都没有发生。这一格在记录里要单独占一行，写清包了什么颜色的丝、与哪些香料同置、从哪天到哪天。</p>",
+     "steps": []
+    },
+    {
+     "type": "quiz",
+     "anchor": "圣化做完随手一放的一处",
+     "questions": [
+      {
+       "q": "记录里第 7 格写「念 ADONAI 那一句，献出完成」，\n第 8 格洒水，之后就没有了——道具当场放回抽屉，\n备注写「已圣化，可随时取用」。\n① 漏了哪一格，依据是哪一章？\n② 漏了它，前面拿到的状态为何落不下来？\n③ 补上要写清哪几样？",
+       "answer": "① 漏了第 9 格包存：卷二第 20 章要求用丝绸包起来收存，\n颜色除黑与灰，包前熏香、洒水、念四首诗篇（8、71、133、64），\n包好与香料同置七日。\n② 第 20 章写明正确圣化之后都该这样收存；\n省掉这一格，前一格献出的状态没有落下，\n七日的静置与丝绸包裹都没有发生。\n③ 写清丝的颜色、与哪些香料同置、从哪天到哪天、\n七日后的开封日期。",
+       "criteria": "① 指到第 9 格包存与卷二第 20 章。\n② 说出「献出的状态没有落下」这层关系，不只说「少做一步」。\n③ 至少给到丝的颜色或材质、香料、起止日期、开封日期中的三样。\n只答「还要包起来」而说不出七日静置与颜色的算部分通过。\n把「随时取用」当成已完成的按不通过。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "逐句对依据"
+    },
+    {
+     "type": "p",
+     "html": "这一节交的东西是流程旁边的依据栏。每一格都要能指到章，指不到的那一格回去翻原文。"
+    },
+    {
+     "type": "note",
+     "tone": "practice",
+     "title": "上手做 | 第 1 步 · 选版本并对流程表",
+     "html": "<p>2. 取卷二第 8 章那一版为主，把九格抄成一张空表，依据栏留空。</p><p>3. 熏香那一格注明借自《洪诺留宣誓书》，写清借的是香品清单还是整段祈祷。</p><p>4. 填不出的依据栏留空，标「待查」，不要用别处的章号顶上。</p>",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "practice",
+     "title": "上手做 | 第 2 步 · 走一遍并记念词",
+     "html": "<p>2. 净手、净坛、入圆三件做完，每一步记一行时刻。</p><p>3. 从第 5 格起逐格做，每格念完立刻记一行：念的是哪一段、开头三个词是什么、出自哪一章。</p><p>4. 第 7 格念原文那一句；中译另起一行写，标出与术语表用词不同的地方。</p>",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "practice",
+     "title": "上手做 | 第 3 步 · 包存并核对",
+     "html": "<p>2. 与香料同置，写下起始日期与七日后的开封日期。</p><p>3. 回到空表逐格核依据：九格里能指到章号的写章号，指不到的写「自定」加理由。</p><p>4. 末尾写一行：这次让掉了哪一条（时辰、香品、丝的材质），为什么。</p>",
+     "steps": []
+    },
+    {
+     "type": "quiz",
+     "anchor": "为自己那件道具写一份圣化流程与依据",
+     "questions": [
+      {
+       "q": "拿你选的那件小道具，交出流程表四行：\n① 道具是什么，材质与用途；\n② 九格里哪几格能指到章号；\n③ 哪一格是借来的，借的是什么；\n④ 这次让掉了哪一条，为什么。",
+       "answer": "示例：一枚素银环，材质银，用途是每日操作时戴在手上。\n② 第 1 至 4 格指卷二 ch.1、ch.5、ch.7、ch.9，\n第 7 格 ch.8，第 8 格 ch.11，第 9 格 ch.20；\n第 5 格「说出它的用途」是自定。\n③ 第 6 格熏香借《洪诺留宣誓书》的香品清单，不借整段祈祷。\n④ 让掉的是香品齐全：手上只有乳香与沉香，\n缺琥珀、麝香、白松香三味，记录里写成替代并注明缺项。",
+       "criteria": "① 道具具体，材质与用途都写。\n② 至少五格能指到章号，第 9 格必须在其中。\n③ 写清借的是香品清单还是整段祈祷——只写「借宣誓书」算部分通过。\n④ 让掉的一条要具体到缺哪一样、为什么。\n九格缺第 9 格的算部分通过；\n把中译「开光」当念词的按不通过。"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "related",
+     "html": "",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "resources",
+     "html": "",
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": "closing-and-log",
+   "seq": 8,
+   "title": "收束与记录",
+   "kind": "实操",
+   "goal": "能按次序走完送离、致谢、开圆、清理用具四个收束动作，并写出一条让别人照着就能复现的四栏记录。",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "操作做到最后，文献的说法忽然变少。前面每一格都能指到章号，收束只剩两句现成的话：《七天之书》第 16 章给送离那一句，《大钥匙》卷二第 20 章给器具怎么包、放几天；开圆与记录都没有专章。本节把这四件事的来处逐条标清。"
+    },
+    {
+     "type": "p",
+     "html": "操作没有收束，就停在半路：界还立着，器具还摊着，下一次动同一件东西时，前一次的时辰与次序已经想不起来。收束处理的是这两件事：结束这一场，留下这一场。"
+    },
+    {
+     "type": "h2",
+     "html": "收束的四件事"
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th>动作</th><th>做什么</th><th>依据</th><th>省掉的后果</th></tr></thead><tbody><tr><td>送离</td><td>对刚才在场的东西说一句让它回原处的话</td><td>《七天之书》ch.XVI</td><td>话没说过，这一场没有句末</td></tr><tr><td>致谢</td><td>一句供奉，随后熏香与洒水</td><td>卷二 ch.23（借其结构）</td><td>借来的东西没有还，下次无以为继</td></tr><tr><td>开圆</td><td>擦去圆上的名字与字符，撤界线，从开口退出</td><td>自定</td><td>旧界留在场地，下一次重画时两重界线叠在一起</td></tr><tr><td>清理用具</td><td>其余器具熏香、洒水后收入同一块丝，与香料同置</td><td>卷二 ch.20</td><td>器具散着放回，等于没有收存</td></tr></tbody></table>"
+    },
+    {
+     "type": "p",
+     "html": "四项里只有送离的位置在原文里被锁定：第 16 章先写「然后命令你所愿的，事就成了」，再写「此后这样送离他们」。送离之前还可以下令，送离之后这一场就结束了。其余三项的次序由本课排定，理由是清理要用的香与水还备在场地里，开圆与清理都在同一处完成。"
+    },
+    {
+     "type": "h2",
+     "html": "送离与致谢念什么"
+    },
+    {
+     "type": "p",
+     "html": "送离那一句照原文念："
+    },
+    {
+     "type": "p",
+     "html": "<em>In nomine Patris, et Filii, et Spiritus Sancti, ite in pace ad loca vestra: et pax sit inter nos et vos, parati sitis venire vocati.</em>"
+    },
+    {
+     "type": "p",
+     "html": "英译作「奉父、子、圣灵的名，平安往你们的去处去；愿我们与你们之间有平安；蒙召时预备再来」。这句有三部分：神名、去处（ad loca vestra）、平安（ite in pace、pax sit inter nos et vos）。末一句把这一次的关系留到下一次，念的时候别截在「去吧」上。"
+    },
+    {
+     "type": "p",
+     "html": "中译常丢两样：<em>ite in pace</em> 译成「退去」，丢了「平安」；<em>pax sit inter nos et vos</em> 整句省掉。照中译念，逐句记依据时指不出原文哪一行。"
+    },
+    {
+     "type": "p",
+     "html": "致谢没有与送离配套的专句。卷二第 23 章是献祭章，开头那一句可用：「愿我们以为合宜献上的这份供奉，合你们的心意」，随后「照术之规矩熏香与洒水」。本课借这三段结构（一句话、熏香、洒水），不取血祭部分，记录里注明「借自 ch.23」。"
+    },
+    {
+     "type": "h2",
+     "html": "开圆没有专章"
+    },
+    {
+     "type": "p",
+     "html": "两本书都不写撤界线。卷二第 13 章管的是反面：在场的人不得以任何理由离开自己的位置，直到五角符朝四方展示、请求写在纸卡上递出去为止。它规定的是「什么时候还不能散」，没有规定「怎么散」。"
+    },
+    {
+     "type": "p",
+     "html": "本课把开圆定义成三个动作：擦去圆上的名字与字符（或收起地垫与绳）、撤掉开口处的界线、人从开口退出。依据栏写「自定」，理由是一句：界线的功能在操作期间，操作结束就没有对象；旧界不撤，下一次画圆要在旧界上重画，两重名字叠在一起，刻度会打架。"
+    },
+    {
+     "type": "p",
+     "html": "开圆不能提前：请求没递出、五角符没展示完就开圆，等于动作没走完就宣告结束。第 13 章那条「不得离位」正是它的反面。"
+    },
+    {
+     "type": "h2",
+     "html": "清理与七日的静置"
+    },
+    {
+     "type": "p",
+     "html": "卷二第 20 章的五件事按次序是：取一块丝，颜色除黑与灰；在丝上写那一串名字与字符；熏香；洒水；念四首诗篇（8、71、133、64，对应中文常说的第 8、72、134、65 篇）。做完与香料同置七日。"
+    },
+    {
+     "type": "p",
+     "html": "抄本给了一条替换阶梯：没有丝可用棉，两者都没有可用细麻，条件是最好最细的那种。颜色的限制没有替换条款。"
+    },
+    {
+     "type": "p",
+     "html": "第 20 章末句写明：这块丝此后用来包所有器具。它是这套器具的固定外皮，不只是包装。圣化那一格已经对道具本人做过这串动作，收束时把水器、香炉、杖与刀一并收入同一块丝，日期沿用包存那一天起算。"
+    },
+    {
+     "type": "p",
+     "html": "记录里要留两个日期：包好的、七日后的开封。省掉静置，或静置了没写日期，前面八格拿到的状态就没有落下来。"
+    },
+    {
+     "type": "h2",
+     "html": "记录四栏"
+    },
+    {
+     "type": "p",
+     "html": "记录这一节是本课自定，文献没有记录章。四栏是：时辰、次序、依据、异常。"
+    },
+    {
+     "type": "ul",
+     "html": "<ul><li>时辰：认定的一格、动手的起止，三个值分三处写。</li><li>次序：一行一个动作，动词开头，行号连号。</li><li>依据：章号；自己判断的写「自定」加一句理由。</li><li>异常：这一格与文献不合的地方（替代的材料、缺的香品、做反了又改回来的动作），以及让掉了哪一条判据。</li></ul>"
+    },
+    {
+     "type": "p",
+     "html": "四栏的数目有来历：删掉任一栏，另一个人照着做就缺一样东西——没有时辰复现不出择时，没有次序复现不出动作链，没有依据分不清哪一步可换，没有异常会把这次的替代当成规矩。照片证「做过」，记录证「次序与依据」。"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg viewBox=\"0 0 700 320\" role=\"img\" aria-hidden=\"true\">\n  <rect x=\"20\" y=\"40\" width=\"150\" height=\"52\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <rect x=\"185\" y=\"40\" width=\"150\" height=\"52\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <rect x=\"350\" y=\"40\" width=\"150\" height=\"52\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <rect x=\"515\" y=\"40\" width=\"165\" height=\"52\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <text x=\"95\" y=\"72\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">送离</text>\n  <text x=\"260\" y=\"72\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">致谢</text>\n  <text x=\"425\" y=\"72\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">开圆</text>\n  <text x=\"597\" y=\"72\" font-size=\"16\" fill=\"currentColor\" text-anchor=\"middle\">清理用具</text>\n  <polygon points=\"170,62 183,66 170,70\" fill=\"currentColor\" opacity=\"0.6\"/>\n  <polygon points=\"335,62 348,66 335,70\" fill=\"currentColor\" opacity=\"0.6\"/>\n  <polygon points=\"500,62 513,66 500,70\" fill=\"currentColor\" opacity=\"0.6\"/>\n  <text x=\"95\" y=\"116\" font-size=\"14\" fill=\"currentColor\" opacity=\"0.75\" text-anchor=\"middle\">Heptameron ch.XVI</text>\n  <text x=\"260\" y=\"116\" font-size=\"14\" fill=\"currentColor\" opacity=\"0.75\" text-anchor=\"middle\">借 ch.23 的结构</text>\n  <text x=\"425\" y=\"116\" font-size=\"14\" fill=\"currentColor\" opacity=\"0.75\" text-anchor=\"middle\">自定</text>\n  <text x=\"597\" y=\"116\" font-size=\"14\" fill=\"currentColor\" opacity=\"0.75\" text-anchor=\"middle\">卷二 ch.20</text>\n  <line x1=\"20\" y1=\"150\" x2=\"680\" y2=\"150\" stroke=\"currentColor\" opacity=\"0.3\"/>\n  <rect x=\"20\" y=\"176\" width=\"155\" height=\"46\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.45\"/>\n  <rect x=\"190\" y=\"176\" width=\"155\" height=\"46\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.45\"/>\n  <rect x=\"360\" y=\"176\" width=\"155\" height=\"46\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.45\"/>\n  <rect x=\"530\" y=\"176\" width=\"150\" height=\"46\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.45\"/>\n  <text x=\"97\" y=\"204\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">时辰</text>\n  <text x=\"267\" y=\"204\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">次序</text>\n  <text x=\"437\" y=\"204\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">依据</text>\n  <text x=\"605\" y=\"204\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">异常</text>\n  <text x=\"20\" y=\"252\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.7\">四栏各自管一样东西：复现择时、复现动作链、分辨可换与不可换、留住这一次的替代</text>\n  <text x=\"20\" y=\"280\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.7\">照片与记录分工：照片证「做过」，记录证「按什么次序、凭什么」</text>\n  <text x=\"20\" y=\"308\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.7\">清理用具这一项在七日静置之后才算落地，记录里要写两个日期</text>\n</svg>",
+     "alt": "上方四个收束动作从左到右排开，下方是记录的四栏，每个动作旁标出它的依据是原文还是本课自定"
+    },
+    {
+     "type": "quiz",
+     "anchor": "收束四项动作各自的依据",
+     "questions": [
+      {
+       "q": "送离、致谢、开圆、清理用具四项，\n哪一项在原文里位置被锁定，依据又各是谁？",
+       "opts": [
+        "送离锁在命令之后，依据是《七天之书》第十六章",
+        "致谢锁在开圆之后，依据是卷二第二十三章的原句",
+        "开圆有专章可依，依据是卷二第十三章的离位条款",
+        "清理用具依卷二第二十章，位置也由该章锁定"
+       ],
+       "ans": 0,
+       "why": "第 16 章先写「然后命令你所愿的，事就成了」，\n再写「此后这样送离他们」——送离之前还能下令，之后这一场结束。\n致谢借 ch.23 的结构、位置本课排定；\n开圆本课自定，ch.13 管的是不得离位，是它的反面；\n清理用具依 ch.20，位置同样由本课排定。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "走一遍，把记录补齐"
+    },
+    {
+     "type": "note",
+     "tone": "practice",
+     "title": "上手做 | 第 1 步 · 走完四个动作",
+     "html": "<p>场地与器具按前几节备好，操作做到圣化包存那一格之后接着走。</p><p>2. 念供奉那句，随后熏香一次、洒水一次，记时刻。</p><p>3. 开圆：擦去圆上的名字与字符，撤开口处的界线，从开口退出。</p><p>4. 清理用具：其余器具熏香、洒水后收入同一块丝，与香料同置；七日从包存那天算，不从头算。</p>",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "practice",
+     "title": "上手做 | 第 2 步 · 写成四栏记录",
+     "html": "<p>2. 从择时起逐行写，一行一个动作，四栏不缺。</p><p>3. 每一格指不到章号的写「自定」加一句理由，理由写到具体条件。</p><p>4. 异常栏写这一次的替代、缺项与让掉的判据；确实没有就写「无」。</p>",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "practice",
+     "title": "上手做 | 第 3 步 · 三条复核",
+     "html": "<p>2. 行号是否连号、每行是否四栏。</p><p>3. 另找一个人读这份记录，问他能不能照着算出同一格、做出同一串动作；他答不上来的那一行，就是还缺东西的那一行。</p>",
+     "steps": []
+    },
+    {
+     "type": "quiz",
+     "anchor": "把一条只有照片的记录补成四栏",
+     "questions": [
+      {
+       "q": "手上只有一张照片：圆画好了、香炉点着。\n把它补成四栏记录，哪种补法站得住？",
+       "opts": [
+        "照片证做过，据此补时辰、次序与依据三栏",
+        "照片就是证据，四栏改成时间、地点、照片、备注",
+        "先补次序，其余三栏可以留空，反正事后补的",
+        "照片抵异常栏，写「见照片」，其余照抄教程原文"
+       ],
+       "ans": 0,
+       "why": "四栏各管一样东西：时辰复现择时、次序复现动作链、\n依据分辨可换与不可换、异常留住这一次的替代。\n照片只证「做过」，不证次序与依据，顶不了任何一栏。\n异常栏确实没有也仍要写，写「无」。"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "anchor": "做完就收摊的一处",
+     "questions": [
+      {
+       "q": "一次操作末尾，记录里只有一行「17:40 全部结束，收拾干净」。\n问起来说：送离没念，致谢省了，圆上名字擦了但开口没撤，\n水器与香炉直接放回箱子，丝没包。\n① 这串动作错在哪几处？\n② 哪一处后果最重，为什么？\n③ 下次怎么避免？",
+       "answer": "① 送离没念——第 16 章那一句是这一场的句末；\n致谢省了，借来的东西没有还；\n开圆只做一半，开口界线没撤，旧界留在场地；\n清理用具没按 ch.20 收进同一块丝、没与香料同置七日。\n② 送离与包存两处最重：前者让这一场停在半路，\n后者让献出的状态没有落下，七日静置根本没发生。\n③ 按四件事的顺序走一遍并逐项记时刻；\n记录里每项单独占一行，让另一个人照着能复现同一场。",
+       "criteria": "① 至少指出三处（送离、致谢、开圆只做一半、未包存）。\n② 说清「为什么重」，落到具体那一格，不只说「不严谨」。\n③ 给出可执行的做法（逐项记时刻、一项一行、找人复核）。\n只说「收尾没做好」的按不通过。\n把擦名字当成开圆全部动作的算部分通过。"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "anchor": "写一条能照着复现的记录",
+     "questions": [
+      {
+       "q": "把你自己那次操作写成一条记录，四栏齐：\n① 时辰栏写哪三个值；\n② 次序栏每行怎么起头；\n③ 依据栏指不到章号的写什么；\n④ 异常栏写什么，确实没有时写什么。",
+       "answer": "示例：时辰栏三处写——认定的一格（周四第一时）、\n开始动手 06:40、结束 08:05。\n② 次序栏一行一个动作，动词开头、行号连号。\n③ 依据栏能指到章的写章号（卷二 ch.9、ch.20），\n自己判断的写「自定」加一句理由。\n④ 异常栏写这一次的替代与让掉的判据：丝降级为棉，\n香品缺三味；确实没有就写「无」。",
+       "criteria": "① 三个值分三处，缺一处算部分通过。\n② 动词开头、一行一个动作、行号连号，三条都要对。\n③ 「自定」加理由，理由要写到具体条件，不是「凭经验」。\n④ 写替代与让掉的判据；无则写「无」，不能整栏不写。\n四栏缺一栏的按不通过。"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "related",
+     "html": "",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "resources",
+     "html": "",
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": "exp-2-full-ritual",
+   "seq": 9,
+   "title": "实验二：一场完整操作",
+   "kind": "实验",
+   "goal": "按认定的时辰把净手净坛、画圆定方位、道具圣化、收束与记录五段串成一次完整操作，交出别人照着就能复现的记录。",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "前面各节分别练过一段，实验一跑通了前半场。这一场把五段接成一次操作，从认定时辰起，到记录收口止。验收只看一样东西：这份记录能不能让另一个人在同一格时辰里，把同一串动作重做一遍，并且知道他哪里换了材料、哪里让掉了一条判据。环节各自做对、串起来次序乱，是这一场最常见的失败方式。"
+    },
+    {
+     "type": "h2",
+     "html": "五段与固定的接缝"
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th>段</th><th>做什么</th><th>依据</th><th>与上一段的接缝</th></tr></thead><tbody><tr><td>一、择时认定</td><td>定出日、时、月相三项判据，写下一格</td><td>卷二 ch.1；《七天之书》ch.II、ch.IX</td><td>认定放在动手当天、当格之前</td></tr><tr><td>二、净手净坛</td><td>洗身、洒身、换衣；清扫、熏香、洒水</td><td>卷二 ch.5、ch.6、ch.7、ch.10、ch.11</td><td>认定完立刻净手，起止落在选定那一格里</td></tr><tr><td>三、画圆定方位</td><td>钉中心、取半径、三重界线、定四向</td><td>卷二 ch.9；《七天之书》ch.I</td><td>场地洒水做完才落笔</td></tr><tr><td>四、道具圣化</td><td>取道具、熏香、献出、洒水、包存</td><td>卷二 ch.8、ch.11、ch.20</td><td>人已入圆，道具从圆外取入</td></tr><tr><td>五、收束与记录</td><td>送离、致谢、开圆、清理；四栏记录</td><td>卷二 ch.13、ch.20、ch.23；《七天之书》ch.XVI</td><td>包存在送离之前，七日从当日算起；记录从认定那一行补到结束</td></tr></tbody></table>"
+    },
+    {
+     "type": "p",
+     "html": "五段之间的接缝比每一段内部更容易出错。段内做错，当场看得出来；接缝错了，整场走完也不显形，要等记录对不上才发现。"
+    },
+    {
+     "type": "h2",
+     "html": "串起来最容易乱的三处"
+    },
+    {
+     "type": "p",
+     "html": "第一处是时辰。认定那一格有起止，日间时随日出日落伸缩，一格可能只有五十五分钟。这场操作含择时等待，从净手到包存通常超过一格。可行的做法是把认定放在动手当天、当格之前，认定完立刻动手；跨过一格时，在记录里写清「跨入第 n+1 时」，并说明这一步为什么不能拆到下一次。"
+    },
+    {
+     "type": "p",
+     "html": "第二处是道具进场的时点。道具要在净坛与画圆之后、人入圆之后从圆外取入，取入之前它一直是场外的普通物件。把它在净手阶段就摆在圆里，等于让它跟着场地一起被洒水，第 8 章那一格「取出道具」就消失了。"
+    },
+    {
+     "type": "p",
+     "html": "第三处是包存与收束的先后。第 20 章的包丝发生在圆内、送离之前；七日静置横跨这一段之后，开封在场外。把包丝排到开圆之后，等于撤了界再回来处理器具；把开封日期漏掉，这一格就没有结束。"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg viewBox=\"0 0 700 330\" role=\"img\" aria-hidden=\"true\">\n  <rect x=\"20\" y=\"46\" width=\"120\" height=\"50\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <rect x=\"160\" y=\"46\" width=\"120\" height=\"50\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <rect x=\"300\" y=\"46\" width=\"120\" height=\"50\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <rect x=\"440\" y=\"46\" width=\"120\" height=\"50\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <rect x=\"580\" y=\"46\" width=\"100\" height=\"50\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <text x=\"80\" y=\"76\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">择时认定</text>\n  <text x=\"220\" y=\"76\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">净手净坛</text>\n  <text x=\"360\" y=\"76\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">画圆定方位</text>\n  <text x=\"500\" y=\"76\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">道具圣化</text>\n  <text x=\"630\" y=\"76\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">收束记录</text>\n  <polygon points=\"140,68 156,72 140,76\" fill=\"currentColor\" opacity=\"0.6\"/>\n  <polygon points=\"280,68 296,72 280,76\" fill=\"currentColor\" opacity=\"0.6\"/>\n  <polygon points=\"420,68 436,72 420,76\" fill=\"currentColor\" opacity=\"0.6\"/>\n  <polygon points=\"560,68 576,72 560,76\" fill=\"currentColor\" opacity=\"0.6\"/>\n  <circle cx=\"148\" cy=\"120\" r=\"4\" fill=\"currentColor\" opacity=\"0.7\"/>\n  <circle cx=\"288\" cy=\"120\" r=\"4\" fill=\"currentColor\" opacity=\"0.7\"/>\n  <circle cx=\"428\" cy=\"120\" r=\"4\" fill=\"currentColor\" opacity=\"0.7\"/>\n  <circle cx=\"568\" cy=\"120\" r=\"4\" fill=\"currentColor\" opacity=\"0.7\"/>\n  <text x=\"148\" y=\"146\" font-size=\"13\" fill=\"currentColor\" opacity=\"0.7\" text-anchor=\"middle\">开始动手</text>\n  <text x=\"288\" y=\"146\" font-size=\"13\" fill=\"currentColor\" opacity=\"0.7\" text-anchor=\"middle\">洒水完</text>\n  <text x=\"428\" y=\"146\" font-size=\"13\" fill=\"currentColor\" opacity=\"0.7\" text-anchor=\"middle\">入圆后</text>\n  <text x=\"568\" y=\"146\" font-size=\"13\" fill=\"currentColor\" opacity=\"0.7\" text-anchor=\"middle\">包存后</text>\n  <line x1=\"20\" y1=\"176\" x2=\"680\" y2=\"176\" stroke=\"currentColor\" opacity=\"0.3\"/>\n  <text x=\"20\" y=\"208\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.8\">易错点一：认定的一格与动手的钟点跨了格，记录里要写「跨入第 n+1 时」</text>\n  <text x=\"20\" y=\"236\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.8\">易错点二：道具在净手阶段就摆进圆里，第 8 章的「取出」这一格消失</text>\n  <text x=\"20\" y=\"264\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.8\">易错点三：先撤界再包存，或包好了没写开封日期</text>\n  <text x=\"20\" y=\"300\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.7\">每一处接缝都要落一个时刻，记录行才排得出来</text>\n</svg>",
+     "alt": "五段操作排成一条折线，每段之间标出接缝上的一个时刻，下方标出跨格与道具进场两处易错点"
+    },
+    {
+     "type": "h2",
+     "html": "允许的替代与不能省的动作"
+    },
+    {
+     "type": "p",
+     "html": "材料按手边条件替换，每一项在记录里注明替代了什么、依据哪一章允许。"
+    },
+    {
+     "type": "ul",
+     "html": "<ul><li>场地用自家房间，不必去四路交叉或林边（卷二 ch.7 允许，条件是先净化）。</li><li>洗身用淋浴或水盆；洒身另用水器，这一格不并进洗浴。</li><li>熏香用炭片或电热熏香器；先对火说话、再投香的次序不换。</li><li>画圆用粉笔、绳与地垫；中心与半径的关系不换。</li><li>丝若没有，按第 20 章抄本注的阶梯用棉或细麻；颜色除黑与灰这一条不换。</li><li>香品用手边能凑的两三味，注明缺哪几味；对火与投香的次序不换。</li></ul>"
+    },
+    {
+     "type": "p",
+     "html": "不能省的动作只有一类判据：被别的步骤消费的产出。盐的祝圣被洒水消费，洒水被净坛与圆消费，方位读数被圆上的名字与朝向消费，献出那一句被包存的七日消费。这些环节去掉一格，后面用到它的那一格就落空。整段跳过的动作不算替代，记录里写成「这一格没做」比写成「做过」有用。"
+    },
+    {
+     "type": "h2",
+     "html": "记录要能复现"
+    },
+    {
+     "type": "p",
+     "html": "一份记录能不能复现，看三条。"
+    },
+    {
+     "type": "ul",
+     "html": "<ul><li>换一个人按它能不能算出同一格：日出日落、行星时长度、月相三项读数齐，且认定的那一格有起止。</li><li>换一个人按它能不能做出同一串动作：行号连号，一行一个动作，动词开头，四栏不缺。</li><li>换一个人按它能不能分清哪些是规矩、哪些是这次的权宜：依据栏有章号或「自定」，异常栏写了替代与让掉的判据。</li></ul>"
+    },
+    {
+     "type": "p",
+     "html": "第三条最容易被漏。替代本身不错，漏写替代才是错：下一个人会把这一次的权宜当成规矩照抄。"
+    },
+    {
+     "type": "h2",
+     "html": "交什么"
+    },
+    {
+     "type": "p",
+     "html": "五份任务按次序做，每做完一份先自己核一遍。"
+    },
+    {
+     "type": "ul",
+     "html": "<ul><li>[实验说明与卡壳顺序](../lab/0009-exp-2-full-ritual/README.md) | 载体、材料、允许的替代与卡壳顺序</li><li>[任务一：把时辰认定下来并排开五段](../lab/0009-exp-2-full-ritual/task-1-择时与排程.md)</li><li>[任务二：净手净坛与画圆定方位](../lab/0009-exp-2-full-ritual/task-2-净与圆.md)</li><li>[任务三：道具圣化与包存](../lab/0009-exp-2-full-ritual/task-3-圣化与包存.md)</li><li>[任务四：收束与四栏记录](../lab/0009-exp-2-full-ritual/task-4-收束与记录.md)</li><li>[任务五：复现性复核与自评](../lab/0009-exp-2-full-ritual/task-5-复现与自评.md)</li><li>[验收标准](../lab/0009-exp-2-full-ritual/验收标准.md) | 五条，每条能指到具体的东西</li></ul>"
+    },
+    {
+     "type": "h2",
+     "html": "卡住时回哪一节"
+    },
+    {
+     "type": "ul",
+     "html": "<ul><li>时辰挑不出来或跨了格：回《挑一个可用时辰》的裁定顺序，再回本节的「最容易乱的三处」。</li><li>洒身并进了洗浴：回《净手与净坛的次序》的六步台账。</li><li>方位没有读数：回《魔法圆与四方位》的定北三法，补读数重定一次。</li><li>两套方位对应掺着用：回《方位与元素的对应》的三行裁定。</li><li>献出那一句对不上原文：回《对一件道具做圣化》的两版对照表。</li><li>收束动作记不住依据：回《收束与记录》的四项表，逐项看哪个有原文、哪个是本课自定。</li></ul>"
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "related",
+     "html": "",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "note",
+     "title": "resources",
+     "html": "",
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": "simplify-rules",
+   "seq": 10,
+   "title": "哪些能简化，哪些不能省",
+   "kind": "概念",
+   "goal": "能对一次简化后的操作说出省了哪几步、凭哪一条允许替换、以及省掉之后哪一格的风险变大。",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "不想每次都摆满一整套，是这门课走到最后必然出现的念头。简化本身有对有错，错法有两种，方向相反：一种把「麻烦了」当理由整段跳过，一种把可换的细节当成骨架，每次照摆却说不清为什么。区分两者靠判据，不靠感觉。本节先把两栏列出来，再给四条判据，最后拿自己实验二那次逐行标一遍。"
+    },
+    {
+     "type": "h2",
+     "html": "不能省的十条"
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th>环节</th><th>依据</th><th>省掉之后哪一格落空</th></tr></thead><tbody><tr><td>净化在圣化之前</td><td>卷二 ch.5、ch.8</td><td>写在道具上的名字落在没净过的场地上</td></tr><tr><td>人先净、场地后净</td><td>卷二 ch.5、ch.7</td><td>场地净了人还脏，进圆的人带着杂染</td></tr><tr><td>洒身独立一格，用处理过的水</td><td>卷二 ch.5</td><td>洗身与洒身并成一格，次序信息丢失</td></tr><tr><td>净坛三件：清扫、熏香、洒水</td><td>卷二 ch.7</td><td>洒水落在没扫过的地上</td></tr><tr><td>熏香三步：新火、对火说话、投香</td><td>卷二 ch.10</td><td>香投在没被说过话的火上</td></tr><tr><td>圆心与半径、四向有读数</td><td>卷二 ch.9</td><td>圆上的名字与朝向失去基准</td></tr><tr><td>方位取一套到底</td><td>《方位与元素的对应》的裁定</td><td>两套对应掺用，念的名字与站的方向对不上</td></tr><tr><td>献出那一句念原文</td><td>卷二 ch.8</td><td>逐句记依据时指不到原文哪一行</td></tr><tr><td>包存：非黑非灰的丝、熏香洒水、四首诗篇、与香料同置七日</td><td>卷二 ch.20</td><td>献出的状态没有落下</td></tr><tr><td>收束四项与四栏记录</td><td>《七天之书》ch.XVI；卷二 ch.13、ch.20；记录为本课自定</td><td>这一场没有结束，下一次复现不出来</td></tr></tbody></table>"
+    },
+    {
+     "type": "p",
+     "html": "十条里有九条能指到章号；第十条里混着本课定的部分（开圆的三个动作、记录的四栏），那部分理由写得出，章号写不出。这个区分要留在记录里。"
+    },
+    {
+     "type": "h2",
+     "html": "看起来重要其实能省"
+    },
+    {
+     "type": "table",
+     "html": "<table><thead><tr><th>项</th><th>凭什么能省</th><th>能省到什么程度</th></tr></thead><tbody><tr><td>场地档次</td><td>卷二 ch.7 明许自家房间，条件是先净化</td><td>不必去四路交叉或林边</td></tr><tr><td>器具材质</td><td>卷二 ch.9 正文与校注两读相差一倍，尺寸本身不是骨架</td><td>剑与黑柄刀可换粉笔与绳，比例缩小，实数写进记录</td></tr><tr><td>圆的层数</td><td>卷二 ch.9 只见于个别抄本，Sl.1307 与 Sl.3847 另有版本，层数各本不一</td><td>可减为一重，但名字改写在何处、方位刻度怎么留要写明</td></tr><tr><td>丝的材质</td><td>卷二 ch.20 抄本注给了阶梯：无丝用棉，再不行用细麻</td><td>材质可降级，颜色除黑与灰不可换</td></tr><tr><td>香品清单</td><td>卷二 ch.10 规定的是熏香与次序，香品属配方层（Agrippa 卷一 ch.44 按行星分列）</td><td>用手边两三味，注明缺哪几味</td></tr><tr><td>诗篇篇目</td><td>卷二 ch.20 的四首在抄本间不一致，VSG 334 另给一组</td><td>篇目可换，「念」这一动作不可省</td></tr><tr><td>伴从与分工</td><td>《七天之书》ch.IX 的仆从各持一物，是给多人操作写的</td><td>单人可省，器具事前已祝圣不可省</td></tr><tr><td>守望者取哪一套</td><td>《方位与元素的对应》已裁定一套</td><td>换套可以，掺用不行</td></tr><tr><td>记录的表格式样</td><td>记录栏位是本课定的</td><td>格式随意，四栏不可缺</td></tr></tbody></table>"
+    },
+    {
+     "type": "p",
+     "html": "这九项有一个共同点：文献自己给了替代阶梯，或者抄本之间本来就不一致。抄本不一致的地方，说明那一处不属这套操作的骨架；抄本一致的地方才属骨架。"
+    },
+    {
+     "type": "h2",
+     "html": "判据：凭什么算能省"
+    },
+    {
+     "type": "p",
+     "html": "四条判据按顺序问，答完就有结论。"
+    },
+    {
+     "type": "ol",
+     "html": "<ol><li>有没有替换条款。文献明写「无丝可用棉」「自家房间亦可」「篇目另有抄本」的，可换。没有条款又找不到异文的，不动。</li><li>这一步的产出有没有被后面消费。祝圣过的盐被投水消费，那份水被洒水消费；方位读数被圆上的名字消费；献出那一句被七日的包存消费。被消费的环节不能省，省了后面那一格就落空。</li><li>次序有没有被锁在唯一位置。洒身锁在洗浴之后、取盐之前；熏香三步锁死先后；送离锁在命令之后。做反了，后续补不回来。</li><li>减了有没有留痕。凡简化，记录里写成「替代」并写清依据；写成「略过」的，等于这一格没做。</li></ol>"
+    },
+    {
+     "type": "p",
+     "html": "四条里前三条判「能不能」，第四条判「算不算数」。一处简化即使满足第一条，没写进记录，下一次就会被当成没做。"
+    },
+    {
+     "type": "svg",
+     "svg": "<svg viewBox=\"0 0 700 360\" role=\"img\" aria-hidden=\"true\">\n  <rect x=\"30\" y=\"30\" width=\"200\" height=\"52\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <text x=\"130\" y=\"62\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">① 有替换条款吗</text>\n  <rect x=\"250\" y=\"30\" width=\"200\" height=\"52\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <text x=\"350\" y=\"62\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">② 产出被消费吗</text>\n  <rect x=\"470\" y=\"30\" width=\"200\" height=\"52\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <text x=\"570\" y=\"62\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">③ 次序被锁死吗</text>\n  <polygon points=\"232,52 248,56 232,60\" fill=\"currentColor\" opacity=\"0.6\"/>\n  <polygon points=\"452,52 468,56 452,60\" fill=\"currentColor\" opacity=\"0.6\"/>\n  <text x=\"130\" y=\"108\" font-size=\"14\" fill=\"currentColor\" opacity=\"0.75\" text-anchor=\"middle\">无 → 不可省</text>\n  <text x=\"350\" y=\"108\" font-size=\"14\" fill=\"currentColor\" opacity=\"0.75\" text-anchor=\"middle\">是 → 不可省</text>\n  <text x=\"570\" y=\"108\" font-size=\"14\" fill=\"currentColor\" opacity=\"0.75\" text-anchor=\"middle\">是 → 不可省</text>\n  <line x1=\"570\" y1=\"120\" x2=\"570\" y2=\"160\" stroke=\"currentColor\" opacity=\"0.4\"/>\n  <polygon points=\"566,152 574,152 570,162\" fill=\"currentColor\" opacity=\"0.6\"/>\n  <rect x=\"440\" y=\"170\" width=\"260\" height=\"52\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" opacity=\"0.5\"/>\n  <text x=\"570\" y=\"202\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">三问皆过 → 可省，须留痕</text>\n  <line x1=\"30\" y1=\"230\" x2=\"670\" y2=\"230\" stroke=\"currentColor\" opacity=\"0.3\"/>\n  <text x=\"30\" y=\"260\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.8\">第四问单独管「算不算数」：替代有没有写进记录的依据栏与异常栏</text>\n  <text x=\"30\" y=\"288\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.8\">例：丝换成棉过三问，写成「未做」则这一格作废</text>\n  <text x=\"30\" y=\"316\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.7\">例：香品换两三味过三问；洒身并进洗浴在第二问就停下</text>\n  <text x=\"30\" y=\"344\" font-size=\"15\" fill=\"currentColor\" opacity=\"0.7\">答不上某一问时按保守一侧处理：当作不可省</text>\n</svg>",
+     "alt": "三个问题依次串成判定链，先问有没有替换条款，再问产出有没有被消费，最后问次序是否锁定，任一步答否即落进不可省，三问皆过才可省"
+    },
+    {
+     "type": "h2",
+     "html": "三种假简化"
+    },
+    {
+     "type": "p",
+     "html": "第一种以「麻烦」为由。判据表里没有「麻烦」这一项，它既不是替换条款，也不改变消费关系，说出来只是把理由换了个说法。"
+    },
+    {
+     "type": "p",
+     "html": "第二种把两步并一步。洒身并进洗浴、投香并进点火、开圆并进清理，并入之后动作还在，次序信息没了。次序在记录里是要单独占一行的那一类信息，合并即丢失。"
+    },
+    {
+     "type": "p",
+     "html": "第三种把替代写成略过。用棉代替丝是替代，记录写「丝不够，用棉，据 ch.20 抄本注」；写「这一格略过」，读记录的人只能认为那一格没做。两种情况对下一次的影响不同：前者可以复现，后者要重做。"
+    },
+    {
+     "type": "quiz",
+     "anchor": "两栏的划分与各自的依据",
+     "questions": [
+      {
+       "q": "可省与不可省两栏的分界，靠的是什么？",
+       "opts": [
+        "文献给了替换条款或抄本有异文的，可省；都没有的不动",
+        "能指到章号的可省，指不到章号的一律算骨架不许动",
+        "费时间的可省，费材料的不可省，按成本高低来排",
+        "常用的可省，少见的不可省，按在一场里的使用频率定"
+       ],
+       "ans": 0,
+       "why": "九项可省的共同点是文献自己给了替代阶梯，\n或者抄本之间本来就不一致（丝换棉、圆减重、篇目另有抄本）。\n抄本一致的地方才属骨架。\n指不指得到章号不是判据——第十条里开圆与四栏记录\n就是有理由、没章号的那一类。"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "anchor": "把一处假简化改成有依据的简化",
+     "questions": [
+      {
+       "q": "记录里写着「丝不够，这一格略过」。\n改写成哪种说法站得住？",
+       "opts": [
+        "丝不够，用棉，据 ch.20 注；颜色仍除黑灰",
+        "丝不够，用棉，颜色改成灰的，反正也看不出",
+        "丝不够，这一格略过，下次补上用丝的流程",
+        "丝不够，改用最细的麻，颜色与静置都可省"
+       ],
+       "ans": 0,
+       "why": "ch.20 的替换阶梯是无丝用棉、再不行用细麻，\n条件是最好最细的那种；颜色的限制没有替换条款。\n写「略过」等于这一格没做，写「用棉加依据」才是替代，\n下一次可以复现。"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "anchor": "把「麻烦」当理由的一处简化",
+     "questions": [
+      {
+       "q": "有人这样简化：\n「洒身并进洗浴，反正都是用水；\n投香并进点火，一次做完省事；\n开圆并进清理，都是收尾。理由：太麻烦。」\n① 三处合并各丢了什么？\n② 「麻烦」为什么不算判据？\n③ 哪一处连替换条款都过不了？",
+       "answer": "① 洒身并进洗浴：洗身与洒身并成一格，次序信息丢失；\n投香并进点火：香投在没被说过话的火上，三步先后没了；\n开圆并进清理：撤界线与擦名字被并掉，旧界留在场地。\n② 判据表里没有麻烦这一项：它既不是替换条款，\n也不改变消费关系，说出来只是把理由换了个说法。\n③ 三处都在第二问就停：洒身的产出要被后面消费，\n次序又锁在洗浴之后、取盐之前，合并不了。",
+       "criteria": "① 三处各说清丢了什么（次序信息、对火那段话、旧界未撤）。\n② 说清「麻烦」不是替换条款、也不改变消费关系。\n③ 指出至少一处卡在第二问或第三问。\n只说「不能合并」而说不出丢什么的算部分通过。\n把「省时间」当依据的按不通过。"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "html": "对照自己那次操作"
+    },
+    {
+     "type": "p",
+     "html": "拿实验二的记录逐行标，标完这张表就是这一节的交付物。"
+    },
+    {
+     "type": "note",
+     "tone": "practice",
+     "title": "上手做 | 第 1 步 · 逐行标骨架",
+     "html": "<p>2. 标「可换」的，旁边写依据条款（章号或抄本异文）。</p><p>3. 写不出依据的，改标「骨架」。</p>",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "practice",
+     "title": "上手做 | 第 2 步 · 真做一处简化",
+     "html": "<p>2. 重写那一格：动作、依据、异常三栏都写。</p><p>3. 写清风险落在哪一格：圆减重之后名字写在哪、香品减项之后哪一段没熏到。</p>",
+     "steps": []
+    },
+    {
+     "type": "note",
+     "tone": "practice",
+     "title": "练习 | 第 3 步 · 删掉依据栏读一遍",
+     "html": "<p>2. 问他能不能照做；答不上来，说明那一行的依据不是可省的细节。</p><p>3. 把这两句话记在自评里：哪一行遮住就读不通，哪一行遮住仍读得通。</p>",
+     "steps": []
+    },
+    {
+     "type": "quiz",
+     "anchor": "为一次简化说明省了什么、风险在哪",
+     "questions": [
+      {
+       "q": "挑你记录里真做过的一处简化，写三行：\n① 省了什么，依据是哪一条条款或异文；\n② 风险落在哪一格；\n③ 记录里怎么留痕。",
+       "answer": "示例：圆由三重减为一重，依据是卷二第 9 章的重数只见于个别抄本，\nSl.1307 与 Sl.3847 另有版本，层数各本不一。\n② 风险落在名字与刻度上：中圈那九项没地方写，\n四向刻度只剩一圈，得写明改写在何处。\n③ 依据栏写「据 ch.9 抄本异文减为一重」，\n异常栏写「中圈九项改写在内圈内侧」。",
+       "criteria": "① 依据具体到条款或异文，不能只写「简化了一下」。\n② 风险落到具体一格（名字写哪、刻度怎么留、哪段没熏到）。\n③ 留痕写成「替代」加依据，不能写成「略过」。\n第③行缺的算部分通过——没留痕的简化不算数。\n把四栏记录整栏省掉的按不通过。"
+      }
+     ]
     },
     {
      "type": "note",

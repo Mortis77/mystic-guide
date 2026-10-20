@@ -58,3 +58,36 @@ python scripts/export_content.py "C:/Users/Mors/StudyMate" "docs/content"
 ## 许可
 
 课程文字来自个人学习档案，随仓库一并开源，仅供学习与个人研究使用。
+
+## 版本号规则
+
+本项目按语义化版本（SemVer）走：`MAJOR.MINOR.PATCH`
+
+- **MAJOR**：不兼容的改动——改了本地存储格式、旧数据读不出来、接口变了
+- **MINOR**：新增功能——接一个新工具、开一个新板块
+- **PATCH**：修 bug、改文案、调样式
+
+**课程内容更新不升版本。** 内容在 `docs/content/` 里，App 启动时动态加载；加课、补题库、改课件都只改内容，不该让用户重装 APK。要发内容更新就重跑导出脚本、提交，不必动版本号。
+
+当前版本见 `docs/version.js`。发版流程：
+
+```bash
+python scripts/stamp_version.py 1.6.0     # 只在这三种情况改版本号
+# 内容更新则跳过这一步，直接导出
+python scripts/export_content.py "C:/Users/Mors/StudyMate" "docs/content"
+python scripts/archive_release.py <apk> 1.6.0 "这次改了什么"
+```
+## 测试期版本策略（0.x）
+
+当前处于测试期，显示版本用 `0.x.y`；`1.0.0` 留给正式版。
+
+安卓只认 `versionCode`，不认显示版本号，所以两者分开：
+
+- 显示版本（`versionName`）：0.x，给人看
+- 装机序号（`versionCode`）：独立递增，确保新版能覆盖旧版安装
+
+```bash
+python scripts/stamp_version.py 0.9.0    # versionCode 自动 +1
+```
+
+已发出过的 1.x 版本号保留（历史不改），从 0.8.0 起回到测试期序列。

@@ -3,43 +3,113 @@
  "subjects": [
   {
    "id": "sympathetic-magic",
-   "name": "交感巫术与日常小术法",
-   "goal": "以《金枝》里的交感原理为骨架，把顺势与接触两条线弄清楚；再学会三类日常小术法（护身与净宅、决断与占卜、财运与机运）的做法，会用即可、不追原理。每天一个微单元，两",
+   "name": "交感巫术",
+   "goal": "跟《金枝》走一遍交感巫术的原理：顺势与接触两支、巫术与宗教之分、禁忌与王、替罪羊、树神与图腾。不追全书，只把这条底层思路弄清楚，并能在遇到一个民间说法时判断它属",
    "status": "进行中",
-   "ready_units": 25,
-   "total_units": 25,
+   "ready_units": 12,
+   "total_units": 12,
    "file": "sympathetic-magic.json",
-   "size_kb": 129.3
+   "size_kb": 64.9
   },
   {
    "id": "occult-foundations",
    "name": "西方仪式魔法通识",
    "goal": "先把这套体系的世界观立住——世界的结构、世界灵魂与隐秘德行、四元素与天体支配，以及这套世界观怎么接回操作；再把符咒、魔杖、仪式三条实践线共用的底座一次立起来：行",
-   "status": "暂停",
-   "ready_units": 2,
+   "status": "进行中",
+   "ready_units": 14,
    "total_units": 14,
    "file": "occult-foundations.json",
-   "size_kb": 53.5
+   "size_kb": 260.5
   },
   {
    "id": "sigil-talisman-magic",
    "name": "符咒：符印与护符",
    "goal": "按《所罗门大钥匙》卷一的行星符印画出一枚合格的木星图版，并独立走完一枚护符的完整链条：出处核对、材料与墨、制作、圣化、归档。择时窗口由「西方仪式魔法通识」提供，",
-   "status": "暂停",
-   "ready_units": 3,
+   "status": "进行中",
+   "ready_units": 15,
    "total_units": 15,
    "file": "sigil-talisman-magic.json",
-   "size_kb": 51.7
+   "size_kb": 206.1
   },
   {
    "id": "ritual-practice",
    "name": "日常仪式",
    "goal": "从零学会一套可独立执行的简单仪式：净化与净手净坛、画圆与定方位、道具圣化、按择时组合成一次完整操作，并留下记录。只做净化、圣化与日常仪式，不含蜡烛魔法与召唤交涉",
-   "status": "暂停",
-   "ready_units": 2,
+   "status": "进行中",
+   "ready_units": 10,
    "total_units": 10,
    "file": "ritual-practice.json",
-   "size_kb": 53.7
+   "size_kb": 162.1
+  },
+  {
+   "id": "wand-craft",
+   "name": "魔杖制作",
+   "goal": "按文献规则独立做出一根可用的魔杖：形制选长杖或短杖、木种按行星对应挑、长度与杖帽按出处定、刻字与圣化走完整流程，并归档全部步骤。不追考据深度，到「做得出来、说得",
+   "status": "进行中",
+   "ready_units": 13,
+   "total_units": 13,
+   "file": "wand-craft.json",
+   "size_kb": 147.2
+  },
+  {
+   "id": "alchemy",
+   "name": "炼金术：工序与象征",
+   "goal": "把炼金术当一套双重文本读通——同一批工序、色阶与图像，既有实验室读法，也有精神转化的读法；能说清三原质、四个色阶、十二道工序与绿狮／国王王后／rebis 这套象",
+   "status": "进行中",
+   "ready_units": 14,
+   "total_units": 14,
+   "file": "alchemy.json",
+   "size_kb": 136.4
+  },
+  {
+   "id": "beings",
+   "name": "存在的类型：天使、精灵与亡者",
+   "goal": "补上现有几门课共同缺的那一问——「召来的是什么」。把四类存在的分界立住（神／天使／精灵／亡者），再逐类填细节：伪狄奥尼修斯的三阶九品与「以职务命名」的原则、Ag",
+   "status": "进行中",
+   "ready_units": 12,
+   "total_units": 12,
+   "file": "beings.json",
+   "size_kb": 152.9
+  },
+  {
+   "id": "daily-craft",
+   "name": "日常小术法",
+   "goal": "十三个能马上上手的小术法：护身与净宅、决断与占卜、财运与机运。会用就行，做法写清楚，原理不展开。",
+   "status": "进行中",
+   "ready_units": 13,
+   "total_units": 13,
+   "file": "daily-craft.json",
+   "size_kb": 64.6
+  },
+  {
+   "id": "death-underworld",
+   "name": "死亡与冥界",
+   "goal": "把「死亡」当文献问题读一遍：各文化的冥界描述（希腊、埃及、犹太、中国）、生命之树下三层与「下降」、魂与魄的多重结构、死后路径的记载、祖灵与纪念、通灵说法的文本边",
+   "status": "进行中",
+   "ready_units": 14,
+   "total_units": 14,
+   "file": "death-underworld.json",
+   "size_kb": 157.3
+  },
+  {
+   "id": "inner-work",
+   "name": "内在工作：观想与内殿",
+   "goal": "补上现有六门课共同缺的那一层——外部动作（净坛、画圆、做杖、画符）都练过，里面的空间却一直是空的。这门课把内在工作拆成可测的动作：先量呼吸与注意力的基线，再建一",
+   "status": "进行中",
+   "ready_units": 14,
+   "total_units": 14,
+   "file": "inner-work.json",
+   "size_kb": 190.6
+  },
+  {
+   "id": "kabbalah-tree",
+   "name": "卡巴拉：生命之树与四世界",
+   "goal": "把生命之树从一张看不懂的海报，变成一份自己做得出来、查得下去的表：先读通无限者与十道质点的关系、三柱与深渊、四界与四字圣名；再动手画树、给质点建档案、把十道质点",
+   "status": "进行中",
+   "ready_units": 16,
+   "total_units": 16,
+   "file": "kabbalah-tree.json",
+   "size_kb": 182.8
   }
  ]
 }

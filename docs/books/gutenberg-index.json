@@ -1,0 +1,162 @@
+[
+ {
+  "id": "goetia-en",
+  "title": "所罗门的小钥匙（Goetia，英译）",
+  "category": "所罗门系",
+  "gid": 72679,
+  "file": "goetia-en.html",
+  "kb": 121.0
+ },
+ {
+  "id": "kybalion",
+  "title": "凯巴莱恩（赫尔墨斯主义七原则）",
+  "category": "赫尔墨斯主义",
+  "gid": 14209,
+  "file": "kybalion.html",
+  "kb": 203.0
+ },
+ {
+  "id": "kabbalah-doctrines",
+  "title": "卡巴拉：教义、发展与文献",
+  "category": "卡巴拉",
+  "gid": 69243,
+  "file": "kabbalah-doctrines.html",
+  "kb": 327.9
+ },
+ {
+  "id": "alchemy-symbolism",
+  "title": "炼金术与秘术的隐秘象征",
+  "category": "炼金术",
+  "gid": 27755,
+  "file": "alchemy-symbolism.html",
+  "kb": 671.0
+ },
+ {
+  "id": "alchemy-ancient-modern",
+  "title": "炼金术：古今对照",
+  "category": "炼金术",
+  "gid": 43240,
+  "file": "alchemy-ancient-modern.html",
+  "kb": 259.4
+ },
+ {
+  "id": "alchemystical-philosophers",
+  "title": "炼金哲人列传",
+  "category": "炼金术",
+  "gid": 68687,
+  "file": "alchemystical-philosophers.html",
+  "kb": 582.5
+ },
+ {
+  "id": "tarot-key",
+  "title": "塔罗图解（占卜之幔）",
+  "category": "塔罗与占卜",
+  "gid": 43548,
+  "file": "tarot-key.html",
+  "kb": 215.4
+ },
+ {
+  "id": "ptolemy-tetrabiblos",
+  "title": "托勒密《四书》（占星经典）",
+  "category": "占星",
+  "gid": 70850,
+  "file": "ptolemy-tetrabiblos.html",
+  "kb": 508.2
+ },
+ {
+  "id": "astrology-horoscope",
+  "title": "占星：如何制作与解读自己的星盘",
+  "category": "占星",
+  "gid": 46963,
+  "file": "astrology-horoscope.html",
+  "kb": 202.7
+ },
+ {
+  "id": "influence-of-stars",
+  "title": "星辰的影响",
+  "category": "占星",
+  "gid": 42889,
+  "file": "influence-of-stars.html",
+  "kb": 275.5
+ },
+ {
+  "id": "daemonologie",
+  "title": "恶魔学（詹姆斯一世）",
+  "category": "猎巫与魔鬼学",
+  "gid": 25929,
+  "file": "daemonologie.html",
+  "kb": 149.9
+ },
+ {
+  "id": "wonders-invisible-world",
+  "title": "不可见世界的奇事",
+  "category": "猎巫与魔鬼学",
+  "gid": 28513,
+  "file": "wonders-invisible-world.html",
+  "kb": 477.5
+ },
+ {
+  "id": "salem-witchcraft",
+  "title": "塞勒姆巫术案",
+  "category": "猎巫与魔鬼学",
+  "gid": 17845,
+  "file": "salem-witchcraft.html",
+  "kb": 1756.8
+ },
+ {
+  "id": "witch-warlock-magician",
+  "title": "女巫、术士与魔法师",
+  "category": "猎巫与魔鬼学",
+  "gid": 38763,
+  "file": "witch-warlock-magician.html",
+  "kb": 677.3
+ },
+ {
+  "id": "rosicrucian-mysteries",
+  "title": "玫瑰十字会秘义",
+  "category": "秘密社团",
+  "gid": 29855,
+  "file": "rosicrucian-mysteries.html",
+  "kb": 259.3
+ },
+ {
+  "id": "rosie-cross",
+  "title": "玫瑰十字的奥秘",
+  "category": "秘密社团",
+  "gid": 35350,
+  "file": "rosie-cross.html",
+  "kb": 258.5
+ },
+ {
+  "id": "morals-and-dogma",
+  "title": "道德与教条（苏格兰礼共济会）",
+  "category": "秘密社团",
+  "gid": 19447,
+  "file": "morals-and-dogma.html",
+  "kb": 2587.8
+ },
+ {
+  "id": "freemasonry-symbolism",
+  "title": "共济会的象征体系",
+  "category": "秘密社团",
+  "gid": 11937,
+  "file": "freemasonry-symbolism.html",
+  "kb": 611.8
+ },
+ {
+  "id": "popular-delusions",
+  "title": "大众妄念史（含炼金、占星、巫术）",
+  "category": "神话与人类学",
+  "gid": 24518,
+  "file": "popular-delusions.html",
+  "kb": 1615.1
+ },
+ {
+  "id": "magic-of-jewels",
+  "title": "宝石的魔法与科学",
+  "category": "象征与器物",
+  "gid": 57980,
+  "file": "magic-of-jewels.html",
+  "kb": 623.5
+ }
+]

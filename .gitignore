@@ -13,3 +13,7 @@ Thumbs.db
 .idea/
 *.iml
 .vscode/
+
+# 本地工具链
+.toolchain/
+.data/
