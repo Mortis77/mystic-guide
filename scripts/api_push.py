@@ -14,6 +14,7 @@ REPO = "Mortis77/mystic-guide"
 TOKEN = sys.argv[1]
 MSG = sys.argv[2]
 ROOT = Path(sys.argv[3]) if len(sys.argv) > 3 else Path.cwd()
+BATCH = int(sys.argv[4]) if len(sys.argv) > 4 else 0
 
 # 扫描整个工作区，按下面的规则排除
 SKIP_DIRS = {".git", ".toolchain", ".data", "node_modules", "build", ".gradle", "__pycache__",
@@ -76,14 +77,20 @@ def main():
         local_sha = hashlib.sha1(b"blob %d\0" % len(content) + content).hexdigest()
         if remote.get(rel) == local_sha:
             continue
-        blob = api("/git/blobs", method="POST", data=json.dumps({
-            "content": base64.b64encode(content).decode(),
-            "encoding": "base64",
-        }).encode())
+        payload = json.dumps({"content": base64.b64encode(content).decode(), "encoding": "base64"}).encode()
+        try:
+            blob = api("/git/blobs", method="POST", data=payload)
+        except Exception:
+            import time as _t
+            _t.sleep(3)
+            blob = api("/git/blobs", method="POST", data=payload)
         tree_entries.append({"path": rel, "mode": "100644", "type": "blob", "sha": blob["sha"]})
         changed.append(rel)
         if len(changed) % 25 == 0:
             print(f"  ... {len(changed)} 个已上传")
+        if BATCH and len(changed) >= BATCH:
+            print(f"  达到单批上限 {BATCH}，本轮只提交这些")
+            break
 
     if not tree_entries:
         print("nothing to commit")
