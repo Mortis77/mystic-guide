@@ -11,8 +11,8 @@ android {
         applicationId = "ai.mysticguide"
         minSdk = 24
         targetSdk = 34
-        versionCode = 10200
-        versionName = "1.2.0"
+        versionCode = 10400
+        versionName = "1.4.0"
     }
 
     buildTypes {
