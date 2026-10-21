@@ -194,3 +194,19 @@ html[data-theme="dark"] .btn { color: #211c0b; }
 .dl-bar[hidden] { display: none; }
 .dl-fill { height: 100%; width: 0; background: var(--gold); transition: width .2s; }
 .dl-bar span { display: none; }
+
+/* 表单控件兜底：不给的话浏览器用默认黑字，暗色主题下看不见 */
+:root, html, body { color-scheme: dark; }
+html[data-theme="light"] { color-scheme: light; }
+button, input, select, textarea, optgroup, option {
+  color: inherit;
+  font-family: inherit;
+}
+input, select, textarea { background: var(--card-bg); }
+.btn { color: var(--text); }
+.btn.ghost { color: var(--text-dim); border: 1px solid var(--line); background: transparent; }
+.btn.ghost:hover { color: var(--text); }
+.b-btn { color: var(--text); }
+.tab { color: var(--text-dim); }
+.tab.active { color: var(--gold-soft); }
+.opt { color: var(--text); }

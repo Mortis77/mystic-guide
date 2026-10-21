@@ -91,3 +91,24 @@ python scripts/stamp_version.py 0.9.0    # versionCode 自动 +1
 ```
 
 已发出过的 1.x 版本号保留（历史不改），从 0.8.0 起回到测试期序列。
+
+## 构建与发布（重要）
+
+**只用本地构建，CI 的安卓构建已停用。**
+
+原因：GitHub Actions 每次跑都会**随机生成一个 debug 签名密钥**，签出来的包和本地包签名不同，装过一方的手机装不上另一方（报「签名冲突」）。
+
+- 签名密钥：`.data/keys/witch-notebook.jks`（不入库，备份在 `E:\魔女手札\witch-notebook.jks`）
+- 换机器时把它放回同一位置，签名必须一脉相承
+- 停用的 workflow 在 `ci/disabled/android.yml`，要恢复必须先改成用同一把密钥
+
+**发布流程**：
+
+```bash
+python scripts/stamp_version.py 0.24.0
+# 构建（见上）
+python scripts/archive_release.py <apk> 0.24.0 "这次改了什么"
+# 手动传到 GitHub Release，tag 用 v0.24.0
+```
+
+`pages.yml` 保留——在线读书籍靠它。

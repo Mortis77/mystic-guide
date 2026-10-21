@@ -197,6 +197,7 @@
           body.appendChild(co); break;
         }
         case 'quiz':
+          if (!(b.questions || []).length) break;   // 空题块不渲染，免得留个空白
           (b.questions || []).forEach((q, i) => {
             const node = renderQuiz(q, i);
             node.addEventListener('answered', () => { answered++; if (answered >= quizTotal) showFinish(v, sid, uid); });
@@ -218,6 +219,31 @@
   function renderQuiz(q, index) {
     const box = el('div', 'quiz');
     box.innerHTML = `<div class="q-index">第 ${index + 1} 题</div><div class="q-text">${esc(q.q)}</div>`;
+    /* 开放题（没有选项、有参考答案）：让用户先自己写，再展开对照 */
+    const isOpen = !(q.opts && q.opts.length) && (q.answer || q.criteria);
+    if (isOpen) {
+      const ta = document.createElement('textarea');
+      ta.rows = 3;
+      ta.placeholder = '先自己写一遍，写不出来也先想一下再看答案';
+      ta.style.cssText = 'width:100%;box-sizing:border-box;margin-top:10px;padding:11px;' +
+        'background:var(--bg);border:1px solid var(--line);border-radius:10px;' +
+        'color:var(--text);font-family:inherit;font-size:15px;line-height:1.7';
+      box.appendChild(ta);
+      const reveal = el('button', 'btn ghost', '看参考答案');
+      reveal.style.cssText = 'margin-top:10px;width:100%';
+      box.appendChild(reveal);
+      reveal.addEventListener('click', () => {
+        if (box.dataset.done) return;
+        box.dataset.done = '1';
+        ta.disabled = true;
+        reveal.remove();
+        if (q.answer) box.appendChild(el('div', 'why', '<b>参考答案</b><br>' + esc(q.answer).replace(/\n/g, '<br>')));
+        if (q.criteria) box.appendChild(el('div', 'why', '<b>判分要点</b><br>' + esc(q.criteria).replace(/\n/g, '<br>')));
+        box.dispatchEvent(new CustomEvent('answered'));
+      });
+      return box;
+    }
+
     const opts = el('div');
     (q.opts || []).forEach((text, i) => {
       const b = el('button', 'opt', esc(text));
@@ -231,6 +257,19 @@
       opts.appendChild(b);
     });
     box.appendChild(opts);
+
+    /* 兜底：万一某题没有选项也没参考答案，也要能答完，不能卡住进度 */
+    if (!(q.opts && q.opts.length)) {
+      const skip = el('button', 'btn ghost', '这题没有标准答案，想过了');
+      skip.style.cssText = 'margin-top:10px;width:100%';
+      skip.addEventListener('click', () => {
+        if (box.dataset.done) return;
+        box.dataset.done = '1';
+        skip.remove();
+        box.dispatchEvent(new CustomEvent('answered'));
+      });
+      box.appendChild(skip);
+    }
     return box;
   }
 
@@ -349,28 +388,6 @@
       v.appendChild(card);
     }
 
-    (booksData.categories || []).forEach((cat) => {
-      const h = el('div', 'cat-head');
-      h.innerHTML = `<h3>${esc(cat.name)}</h3><span>${cat.count} 本</span>`;
-      v.appendChild(h);
-      const card = el('div', 'card');
-      cat.books.forEach((b) => {
-        const isHtml = b.kind === 'html';
-        const row = el('div', 'book');
-        row.innerHTML = `<div class="b-main"><div class="b-title">${esc(b.title)}</div>
-          <div class="b-meta">${b.size_mb} MB${isHtml ? ' · 内置' : ''}</div></div>`;
-        const btn = el('button', 'b-btn', isHtml ? '阅读' : '下载');
-        btn.addEventListener('click', async () => {
-          if (isHtml) { window.open(b.file, '_blank'); return; }
-          if (!b.url) { toast('这本书还没上架'); return; }
-          btn.disabled = true; btn.textContent = '0%';
-          try { await downloadWithProgress(b.url, btn); } catch (e) { toast('下载失败：' + e.message); btn.disabled = false; btn.textContent = '下载'; progressBar(false); }
-        });
-        row.appendChild(btn);
-        card.appendChild(row);
-      });
-      v.appendChild(card);
-    });
   }
 
   async function downloadWithProgress(url, btn) {
@@ -552,16 +569,33 @@
     v.appendChild(up);
     up.querySelector('#upBtn').addEventListener('click', async () => {
       const o = up.querySelector('#upOut');
-      o.textContent = '正在看…';
+      const cur = window.MG_UPDATE.localVersion;
+      o.innerHTML = `当前 v${esc(cur)} · 正在查最新版…`;
       try {
         const r = await window.MG_UPDATE.check();
-        if (!r.hasUpdate) { o.textContent = '已经是最新的了'; return; }
-        o.innerHTML = `有新版本（${r.apkSize} MB），点下面按钮直接装`;
+        if (!r.hasUpdate) {
+          o.innerHTML = `当前 v${esc(cur)} · 线上最新 v${esc(r.latest)}<br><span style="color:var(--gold-soft)">已是最新</span>`;
+          return;
+        }
+        o.innerHTML = `当前 v${esc(cur)} → 新版 <b style="color:var(--gold-soft)">v${esc(r.latest)}</b>（${esc(r.apkSize)} MB）`;
         const b = el('button', 'btn', '下载并安装');
         b.style.marginTop = '10px';
-        b.addEventListener('click', async () => { b.disabled = true; b.textContent = '正在下载，别关这个页面…'; await window.MG_UPDATE.install(r.apkUrl); b.textContent = '已开始'; });
+        b.addEventListener('click', async () => {
+          b.disabled = true;
+          b.textContent = '正在下载…';
+          o.innerHTML += '<br><span style="color:var(--text-dim)">下载中，进度看手机通知栏</span>';
+          try {
+            await window.MG_UPDATE.install(r.apkUrl);
+            b.textContent = '已交给系统安装';
+          } catch (e) {
+            b.textContent = '下载失败';
+            o.innerHTML += `<br><span style="color:var(--err)">${esc(e.message)}</span>`;
+          }
+        });
         o.appendChild(document.createElement('br')); o.appendChild(b);
-      } catch (e) { o.textContent = e.message; }
+      } catch (e) {
+        o.innerHTML = `当前 v${esc(cur)}<br><span style="color:var(--err)">查不到：${esc(e.message)}</span>`;
+      }
     });
 
     const reset = el('div', 'card');
@@ -579,8 +613,14 @@
   }
 
   /* 路由 */
-  function go(r) {
+  function go(r, fromPop) {
     route = r;
+    if (!fromPop) {
+      try {
+        const key = r.name + '|' + (r.sid || '') + '|' + (r.uid || '') + '|' + (r.tid || '');
+        if (history.state !== key) history.pushState({ k: key, r: r }, '');
+      } catch (e) {}
+    }
     const tabs = { today: 1, courses: 1, books: 1, tools: 1, me: 1 };
     if (tabs[r.name]) {
       $('#tabbar').hidden = false;
@@ -653,13 +693,29 @@
 
   async function main() {
     applyTheme();
-    $('#backBtn').addEventListener('click', () => go({ name: 'today' }));
+    $('#backBtn').addEventListener('click', () => {
+      const r = route || {};
+      if (r.name === 'tool') { go({ name: 'tools' }); return; }
+      if (r.name === 'lesson' || r.name === 'course') { go({ name: 'courses' }); return; }
+      go({ name: 'today' });
+    });
     document.querySelectorAll('.tab').forEach((t) => t.addEventListener('click', () => go({ name: t.dataset.tab })));
     await boot();
     go({ name: 'today' });
     if (!state.guided) showGuide();
     if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
   }
+
+  window.addEventListener('popstate', (e) => {
+    const st = e.state;
+    if (st && st.r) { go(st.r, true); return; }
+    // 没有历史记录时，退到上一个合理层级
+    const r = route || {};
+    if (r.name === 'tool') go({ name: 'tools' }, true);
+    else if (r.name === 'lesson' || r.name === 'course') go({ name: 'courses' }, true);
+    else if (!['today'].includes(r.name)) go({ name: 'today' }, true);
+    else { try { window.AndroidApp && window.AndroidApp.exit(); } catch (_) {} }
+  });
 
   window.MG_APP = { TOOL_VIEWS, go, render, toast, hexCard, esc };
   document.addEventListener('DOMContentLoaded', main);

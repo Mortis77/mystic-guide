@@ -11,8 +11,8 @@ android {
         applicationId = "ai.mysticguide"
         minSdk = 24
         targetSdk = 34
-        versionCode = 10707
-        versionName = "0.14.0"
+        versionCode = 10716
+        versionName = "0.23.0"
     }
 
     signingConfigs {
