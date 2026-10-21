@@ -93,7 +93,7 @@ class MainActivity : AppCompatActivity() {
             val dir = getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS)
             if (dir != null && !dir.exists()) dir.mkdirs()
             val req = DownloadManager.Request(Uri.parse(url))
-                .setTitle("神秘指南更新")
+                .setTitle("魔女手札更新")
                 .setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED)
                 .setDestinationInExternalFilesDir(this, Environment.DIRECTORY_DOWNLOADS, "mystic-guide-update.apk")
                 .setMimeType("application/vnd.android.package-archive")

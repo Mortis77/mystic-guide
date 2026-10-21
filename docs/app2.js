@@ -1,4 +1,4 @@
-/* 神秘指南 2.0 */
+/* 魔女手札 2.0 */
 (() => {
   'use strict';
   const LS_KEY = 'mystic-guide-v1';
@@ -401,7 +401,7 @@
 
   /* 工具 */
   const TOOLS = [
-    ['bazi', '八字排盘'], ['ziwei', '紫微斗数'], ['moon', '月相'], ['huangli', '黄历'], ['hours', '行星时'],
+    ['bazi', '八字排盘'], ['ziwei', '紫微斗数'], ['aigua', 'AI 解卦'], ['moon', '月相'], ['huangli', '黄历'], ['hours', '行星时'],
     ['week', '七日择日'], ['pick', '择时助手'], ['corr', '行星对应'], ['meihua', '梅花易数'],
     ['liuyao', '六爻'], ['calendar', '万年历'], ['compass', '罗盘'], ['ruling', '立极尺'],
   ];
@@ -606,7 +606,7 @@
     const pages = [
       {
         icon: '◆',
-        title: '神秘指南',
+        title: '魔女手札',
         body: '这里放的是成体系的微课：每天两三分钟，一节讲清一件事。<br><br>不用先学什么，打开就能从第一节开始。',
       },
       {

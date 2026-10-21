@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""把某个版本的 APK 与源码快照归档到 E:\\神秘指南。
+"""把某个版本的 APK 与源码快照归档到 E:\\魔女手札。
 
 用法：
   python archive_release.py <apk路径> <版本号> [说明]
@@ -11,7 +11,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-ARCHIVE = Path("E:/神秘指南")
+ARCHIVE = Path("E:/魔女手札")
 APK_DIR = ARCHIVE / "apk"
 SRC_DIR = ARCHIVE / "source"
 MANIFEST = ARCHIVE / "versions.json"
@@ -30,7 +30,7 @@ def load_manifest():
             return json.loads(MANIFEST.read_text(encoding="utf-8"))
         except Exception:
             pass
-    return {"project": "神秘指南", "versions": []}
+    return {"project": "魔女手札", "versions": []}
 
 
 def save_manifest(m):
@@ -72,7 +72,7 @@ def main():
         print(f"APK 不存在：{apk_path}")
         sys.exit(1)
 
-    dst_apk = APK_DIR / f"神秘指南-v{version}.apk"
+    dst_apk = APK_DIR / f"魔女手札-v{version}.apk"
     shutil.copy2(apk_path, dst_apk)
 
     src = snapshot(version)

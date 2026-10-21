@@ -26,7 +26,7 @@
       method: 'POST',
       headers: headers(token),
       body: JSON.stringify({
-        description: '神秘指南 学习进度',
+        description: '魔女手札 学习进度',
         public: false,
         files: { [FILE]: { content: JSON.stringify(payload, null, 1) } },
       }),
@@ -83,7 +83,7 @@
     const blob = new Blob([JSON.stringify(state, null, 1)], { type: 'application/json' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
-    a.download = `神秘指南-进度-${new Date().toISOString().slice(0, 10)}.json`;
+    a.download = `魔女手札-进度-${new Date().toISOString().slice(0, 10)}.json`;
     a.click();
     setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   }

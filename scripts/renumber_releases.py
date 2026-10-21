@@ -10,7 +10,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-ARCHIVE = Path("E:/神秘指南")
+ARCHIVE = Path("E:/魔女手札")
 SRC_ROOT = ARCHIVE / "source"
 APK_DIR = ARCHIVE / "apk"
 PROJ = Path("C:/dsh-test/mystic-guide")
@@ -72,7 +72,7 @@ def main():
                            cwd=str(work / "android"), env=env, capture_output=True, text=True, errors="ignore")
         apk = work / "android" / "app" / "build" / "outputs" / "apk" / "debug" / "app-debug.apk"
         if apk.exists():
-            dst = APK_DIR / f"神秘指南-v{new}.apk"
+            dst = APK_DIR / f"魔女手札-v{new}.apk"
             shutil.copy2(apk, dst)
             print(f"[{old} -> {new}] ok  {dst.stat().st_size//1024}KB  code={CODE[new]}")
         else:
